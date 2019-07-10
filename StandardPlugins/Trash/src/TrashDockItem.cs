@@ -166,7 +166,6 @@ namespace Trash
 			// intentionally dont inherit
 			MenuList list = new MenuList ();
 			
-			list.SetContainerTitle (MenuListContainer.CustomOne, Catalog.GetString ("Restore Files"));
 			
 			FileEnumerator enumerator = OwnedFile.EnumerateChildren ("standard::type,standard::name", FileQueryInfoFlags.NofollowSymlinks, null);
 			List<File> files = new List<File> ();
@@ -192,7 +191,7 @@ namespace Trash
 			*/
 			foreach (File _f in files.OrderByDescending (f => f.QueryInfo<string> ("trash::deletion-date")).Take (5)) {
 				File f = _f;
-				MenuItem item = new IconMenuItem (f.Basename, f.Icon (), (o, a) => RestoreFile (f));
+				MenuItem item = new IconMenuItem (f.Basename, f.Icon ());
 				item.Mnemonic = null;
 				list[MenuListContainer.CustomOne].Add (item);
 			}
