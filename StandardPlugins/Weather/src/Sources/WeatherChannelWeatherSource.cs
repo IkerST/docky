@@ -65,7 +65,7 @@ namespace WeatherDocklet
 
 		protected override string FeedUrl {
 			get {
-				return "http://xoap.weather.com/weather/local/" +
+				return "http://wxdata.weather.com/weather/local/" +
 					WeatherController.EncodedCurrentLocation +
 					"?cc=*&dayf=10&prod=xoap&par=1097943453&link=xoap&key=306225326138d0bd&unit=s";
 			}
@@ -73,14 +73,14 @@ namespace WeatherDocklet
 		
 		protected override string ForecastUrl {
 			get {
-				return "http://www.weather.com/outlook/travel/businesstraveler/wxdetail/" +
+				return "https://weather.com/weather/today/l/" +
 					WeatherController.EncodedCurrentLocation + "?dayNum=";
 			}
 		}
 		
 		protected override string SearchUrl {
 			get {
-				return "http://xoap.weather.com/search/search?where=";
+				return "http://wxdata.weather.com/search/search?where=";
 			}
 		}
 		
@@ -212,7 +212,7 @@ namespace WeatherDocklet
 		
 		protected override void ShowRadar (string location)
 		{
-			DockServices.System.Open ("http://www.weather.com/outlook/travel/businesstraveler/map/" + location);
+			DockServices.System.Open ("https://weather.com/weather/radar/interactive/l/" + WeatherController.EncodedCurrentLocation);
 		}
 		
 		public override void ShowForecast (int day)

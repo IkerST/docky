@@ -86,7 +86,6 @@ namespace WeatherDocklet
 			
 			Sources = new Dictionary<string, AbstractWeatherSource> ();
 			
-			Sources.Add (GoogleWeatherSource.GetInstance ().Name, GoogleWeatherSource.GetInstance ());
 			Sources.Add (WeatherChannelWeatherSource.GetInstance ().Name, WeatherChannelWeatherSource.GetInstance ());
 			Sources.Add (WunderWeatherSource.GetInstance ().Name, WunderWeatherSource.GetInstance ());
 			
