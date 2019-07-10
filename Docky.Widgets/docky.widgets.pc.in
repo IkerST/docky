@@ -1,0 +1,5 @@
+Name: Docky.Widgets
+Description: Docky widgets.
+Version: @ABI_VERSION@
+
+Libs: -r:@expanded_libdir@/@PACKAGE@/Docky.Widgets.dll

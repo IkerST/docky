@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="100"
+   height="120"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="menu.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/daniel/elementary/Docky2/menu_experiment.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata123">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="706"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="2.3128285"
+     inkscape:cx="-51.607189"
+     inkscape:cy="59.267341"
+     inkscape:window-x="79"
+     inkscape:window-y="51"
+     inkscape:current-layer="svg2"
+     borderlayer="false"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="false"
+     showborder="false"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2383"
+       visible="true"
+       enabled="true"
+       empspacing="5"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 60 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="100 : 60 : 1"
+       inkscape:persp3d-origin="50 : 40 : 1"
+       id="perspective9" />
+  </defs>
+  <path
+     style="opacity:0.80000000000000004;fill:#141414;fill-opacity:1;stroke:#b4b4b4;stroke-width:1.00000011999999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;color:#000000;fill-rule:nonzero;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     id="path3233"
+     d="m 6.5000001,0.5 c -3.324,0 -6.00000004,2.6760001 -6.00000004,6 l 0,87 c 0,3.324 2.67600004,6 6.00000004,6 L 40,99.5 l 10,11 10,-11 33.5,0 c 3.324,0 6,-2.676 6,-6 l 0,-87 c 0,-3.324 -2.675996,-6 -6,-6 l -86.9999999,0 z"
+     sodipodi:nodetypes="cccccccccccc" />
+  <path
+     sodipodi:type="inkscape:offset"
+     inkscape:radius="-0.86474204"
+     inkscape:original="M 6.5 0.5 C 3.176 0.5 0.5 3.1760001 0.5 6.5 L 0.5 93.5 C 0.5 96.824 3.176 99.5 6.5 99.5 L 40 99.5 L 50 110.5 L 60 99.5 L 93.5 99.5 C 96.824 99.5 99.5 96.824 99.5 93.5 L 99.5 6.5 C 99.5 3.176 96.824004 0.5 93.5 0.5 L 6.5 0.5 z "
+     style="opacity:0.40000000000000002;color:#000000;fill:none;fill-opacity:0.94117647000000004;fill-rule:nonzero;stroke:#000000;stroke-width:1.00000011999999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     id="path2908"
+     d="M 6.5,1.375 C 3.6401095,1.375 1.375,3.6401096 1.375,6.5 l 0,87 c 0,2.859891 2.2651094,5.125 5.125,5.125 l 33.5,0 a 0.86482851,0.86482851 0 0 1 0.625,0.28125 L 50,109.21875 59.375,98.90625 A 0.86482851,0.86482851 0 0 1 60,98.625 l 33.5,0 c 2.859891,0 5.125,-2.265109 5.125,-5.125 l 0,-87 c 0,-2.8598912 -2.265105,-5.125 -5.125,-5.125 l -87,0 z" />
+</svg>

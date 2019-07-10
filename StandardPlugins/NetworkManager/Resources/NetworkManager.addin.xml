@@ -1,0 +1,25 @@
+<Addin 
+	id="NetworkManager"
+	namespace="Docky"
+	version="1.0"
+	isroot="false"
+	defaultEnabled="false"
+	name="Network Manager"
+	description="Manage your networks!"
+	author="Chris Szikszoy, Jason Smith"
+	icon="nm-device-wired"
+>
+ 
+ 	<Dependencies>
+		<Addin id="Items" version="1.0" />
+	</Dependencies>
+ 
+	<Runtime>
+		<Import assembly="NetworkManager.dll"/>
+	</Runtime>
+	
+	<Extension path="/Docky/ItemProvider">
+		<ItemProvider type="NetworkManagerDocklet.NetworkManagerItemProvider" />
+	</Extension>	
+
+</Addin>

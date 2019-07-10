@@ -1,0 +1,30 @@
+<Addin 
+	id="GMail"
+	namespace="Docky"
+	version="1.0"
+	isroot="false"
+	defaultEnabled="false"
+	name="Gmail"
+	description="Check Gmail"
+	author="Robert Dyer"
+	icon="gmail"
+>
+ 
+ 	<Dependencies>
+		<Addin id="Items" version="1.0" />
+		<Addin id="Widgets" version="1.0" />
+	</Dependencies>
+ 
+	<Runtime>
+		<Import assembly="GMail.dll"/>
+	</Runtime>
+	
+	<Extension path="/Docky/ItemProvider">
+		<ItemProvider type="GMail.GMailItemProvider" />
+	</Extension>	
+
+	<Extension path="/Docky/Configuration">
+		<Configuration type="GMail.GMailConfigDialog" />
+	</Extension>
+
+</Addin>

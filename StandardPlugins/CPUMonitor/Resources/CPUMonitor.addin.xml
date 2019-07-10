@@ -1,0 +1,25 @@
+<Addin 
+	id="CPUMonitor"
+	namespace="Docky"
+	version="1.0"
+	isroot="false"
+	defaultEnabled="false"
+	name="CPU Monitor"
+	description="Keep an eye on that CPU. And when it gets out of line..."
+	author="Jason Smith"
+	icon="system"
+>
+ 
+ 	<Dependencies>
+		<Addin id="Items" version="1.0" />
+	</Dependencies>
+ 
+	<Runtime>
+		<Import assembly="CPUMonitor.dll"/>
+	</Runtime>
+	
+	<Extension path="/Docky/ItemProvider">
+		<ItemProvider type="CPUMonitor.CPUMonitorItemProvider" />
+	</Extension>	
+
+</Addin>

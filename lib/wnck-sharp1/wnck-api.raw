@@ -1,0 +1,1164 @@
+<?xml version="1.0"?>
+<api>
+  <!--
+
+        This file was automatically generated.
+        Please DO NOT MODIFY THIS FILE, modify .metadata files instead.
+
+-->
+  <namespace name="Wnck" library="wnck-1">
+    <enum name="ClientType" cname="WnckClientType" gtype="wnck_client_type_get_type" type="enum">
+      <member cname="WNCK_CLIENT_TYPE_APPLICATION" name="Application" value="1" />
+      <member cname="WNCK_CLIENT_TYPE_PAGER" name="Pager" value="2" />
+    </enum>
+    <enum name="MotionDirection" cname="WnckMotionDirection" gtype="wnck_motion_direction_get_type" type="enum">
+      <member cname="WNCK_MOTION_UP" name="Up" value="-1" />
+      <member cname="WNCK_MOTION_DOWN" name="Down" value="-2" />
+      <member cname="WNCK_MOTION_LEFT" name="Left" value="-3" />
+      <member cname="WNCK_MOTION_RIGHT" name="Right" value="-4" />
+    </enum>
+    <enum name="PagerDisplayMode" cname="WnckPagerDisplayMode" gtype="wnck_pager_display_mode_get_type" type="enum">
+      <member cname="WNCK_PAGER_DISPLAY_NAME" name="Name" />
+      <member cname="WNCK_PAGER_DISPLAY_CONTENT" name="Content" />
+    </enum>
+    <enum name="TasklistGroupingType" cname="WnckTasklistGroupingType" gtype="wnck_tasklist_grouping_type_get_type" type="enum">
+      <member cname="WNCK_TASKLIST_NEVER_GROUP" name="NeverGroup" />
+      <member cname="WNCK_TASKLIST_AUTO_GROUP" name="AutoGroup" />
+      <member cname="WNCK_TASKLIST_ALWAYS_GROUP" name="AlwaysGroup" />
+    </enum>
+    <enum name="WindowActions" cname="WnckWindowActions" gtype="wnck_window_actions_get_type" type="flags">
+      <member cname="WNCK_WINDOW_ACTION_MOVE" name="Move" value="1 &lt;&lt; 0" />
+      <member cname="WNCK_WINDOW_ACTION_RESIZE" name="Resize" value="1 &lt;&lt; 1" />
+      <member cname="WNCK_WINDOW_ACTION_SHADE" name="Shade" value="1 &lt;&lt; 2" />
+      <member cname="WNCK_WINDOW_ACTION_STICK" name="Stick" value="1 &lt;&lt; 3" />
+      <member cname="WNCK_WINDOW_ACTION_MAXIMIZE_HORIZONTALLY" name="MaximizeHorizontally" value="1 &lt;&lt; 4" />
+      <member cname="WNCK_WINDOW_ACTION_MAXIMIZE_VERTICALLY" name="MaximizeVertically" value="1 &lt;&lt; 5" />
+      <member cname="WNCK_WINDOW_ACTION_CHANGE_WORKSPACE" name="ChangeWorkspace" value="1 &lt;&lt; 6" />
+      <member cname="WNCK_WINDOW_ACTION_CLOSE" name="Close" value="1 &lt;&lt; 7" />
+      <member cname="WNCK_WINDOW_ACTION_UNMAXIMIZE_HORIZONTALLY" name="UnmaximizeHorizontally" value="1 &lt;&lt; 8" />
+      <member cname="WNCK_WINDOW_ACTION_UNMAXIMIZE_VERTICALLY" name="UnmaximizeVertically" value="1 &lt;&lt; 9" />
+      <member cname="WNCK_WINDOW_ACTION_UNSHADE" name="Unshade" value="1 &lt;&lt; 10" />
+      <member cname="WNCK_WINDOW_ACTION_UNSTICK" name="Unstick" value="1 &lt;&lt; 11" />
+      <member cname="WNCK_WINDOW_ACTION_MINIMIZE" name="Minimize" value="1 &lt;&lt; 12" />
+      <member cname="WNCK_WINDOW_ACTION_UNMINIMIZE" name="Unminimize" value="1 &lt;&lt; 13" />
+      <member cname="WNCK_WINDOW_ACTION_MAXIMIZE" name="Maximize" value="1 &lt;&lt; 14" />
+      <member cname="WNCK_WINDOW_ACTION_UNMAXIMIZE" name="Unmaximize" value="1 &lt;&lt; 15" />
+      <member cname="WNCK_WINDOW_ACTION_FULLSCREEN" name="Fullscreen" value="1 &lt;&lt; 16" />
+      <member cname="WNCK_WINDOW_ACTION_ABOVE" name="Above" value="1 &lt;&lt; 17" />
+      <member cname="WNCK_WINDOW_ACTION_BELOW" name="Below" value="1 &lt;&lt; 18" />
+    </enum>
+    <enum name="WindowGravity" cname="WnckWindowGravity" gtype="wnck_window_gravity_get_type" type="enum">
+      <member cname="WNCK_WINDOW_GRAVITY_CURRENT" name="Current" />
+      <member cname="WNCK_WINDOW_GRAVITY_NORTHWEST" name="Northwest" value="1" />
+      <member cname="WNCK_WINDOW_GRAVITY_NORTH" name="North" value="2" />
+      <member cname="WNCK_WINDOW_GRAVITY_NORTHEAST" name="Northeast" value="3" />
+      <member cname="WNCK_WINDOW_GRAVITY_WEST" name="West" value="4" />
+      <member cname="WNCK_WINDOW_GRAVITY_CENTER" name="Center" value="5" />
+      <member cname="WNCK_WINDOW_GRAVITY_EAST" name="East" value="6" />
+      <member cname="WNCK_WINDOW_GRAVITY_SOUTHWEST" name="Southwest" value="7" />
+      <member cname="WNCK_WINDOW_GRAVITY_SOUTH" name="South" value="8" />
+      <member cname="WNCK_WINDOW_GRAVITY_SOUTHEAST" name="Southeast" value="9" />
+      <member cname="WNCK_WINDOW_GRAVITY_STATIC" name="Static" value="10" />
+    </enum>
+    <enum name="WindowMoveResizeMask" cname="WnckWindowMoveResizeMask" gtype="wnck_window_move_resize_mask_get_type" type="flags">
+      <member cname="WNCK_WINDOW_CHANGE_X" name="X" value="1 &lt;&lt; 0" />
+      <member cname="WNCK_WINDOW_CHANGE_Y" name="Y" value="1 &lt;&lt; 1" />
+      <member cname="WNCK_WINDOW_CHANGE_WIDTH" name="Width" value="1 &lt;&lt; 2" />
+      <member cname="WNCK_WINDOW_CHANGE_HEIGHT" name="Height" value="1 &lt;&lt; 3" />
+    </enum>
+    <enum name="WindowState" cname="WnckWindowState" gtype="wnck_window_state_get_type" type="flags">
+      <member cname="WNCK_WINDOW_STATE_MINIMIZED" name="Minimized" value="1 &lt;&lt; 0" />
+      <member cname="WNCK_WINDOW_STATE_MAXIMIZED_HORIZONTALLY" name="MaximizedHorizontally" value="1 &lt;&lt; 1" />
+      <member cname="WNCK_WINDOW_STATE_MAXIMIZED_VERTICALLY" name="MaximizedVertically" value="1 &lt;&lt; 2" />
+      <member cname="WNCK_WINDOW_STATE_SHADED" name="Shaded" value="1 &lt;&lt; 3" />
+      <member cname="WNCK_WINDOW_STATE_SKIP_PAGER" name="SkipPager" value="1 &lt;&lt; 4" />
+      <member cname="WNCK_WINDOW_STATE_SKIP_TASKLIST" name="SkipTasklist" value="1 &lt;&lt; 5" />
+      <member cname="WNCK_WINDOW_STATE_STICKY" name="Sticky" value="1 &lt;&lt; 6" />
+      <member cname="WNCK_WINDOW_STATE_HIDDEN" name="Hidden" value="1 &lt;&lt; 7" />
+      <member cname="WNCK_WINDOW_STATE_FULLSCREEN" name="Fullscreen" value="1 &lt;&lt; 8" />
+      <member cname="WNCK_WINDOW_STATE_DEMANDS_ATTENTION" name="DemandsAttention" value="1 &lt;&lt; 9" />
+      <member cname="WNCK_WINDOW_STATE_URGENT" name="Urgent" value="1 &lt;&lt; 10" />
+      <member cname="WNCK_WINDOW_STATE_ABOVE" name="Above" value="1 &lt;&lt; 11" />
+      <member cname="WNCK_WINDOW_STATE_BELOW" name="Below" value="1 &lt;&lt; 12" />
+    </enum>
+    <enum name="WindowType" cname="WnckWindowType" gtype="wnck_window_type_get_type" type="enum">
+      <member cname="WNCK_WINDOW_NORMAL" name="Normal" />
+      <member cname="WNCK_WINDOW_DESKTOP" name="Desktop" />
+      <member cname="WNCK_WINDOW_DOCK" name="Dock" />
+      <member cname="WNCK_WINDOW_DIALOG" name="Dialog" />
+      <member cname="WNCK_WINDOW_TOOLBAR" name="Toolbar" />
+      <member cname="WNCK_WINDOW_MENU" name="Menu" />
+      <member cname="WNCK_WINDOW_UTILITY" name="Utility" />
+      <member cname="WNCK_WINDOW_SPLASHSCREEN" name="Splashscreen" />
+    </enum>
+    <enum name="LayoutCorner" cname="_WnckLayoutCorner" type="enum">
+      <member cname="WNCK_LAYOUT_CORNER_TOPLEFT" name="Topleft" />
+      <member cname="WNCK_LAYOUT_CORNER_TOPRIGHT" name="Topright" />
+      <member cname="WNCK_LAYOUT_CORNER_BOTTOMRIGHT" name="Bottomright" />
+      <member cname="WNCK_LAYOUT_CORNER_BOTTOMLEFT" name="Bottomleft" />
+    </enum>
+    <enum name="LayoutOrientation" cname="_WnckLayoutOrientation" type="enum">
+      <member cname="WNCK_LAYOUT_ORIENTATION_HORIZONTAL" name="Horizontal" />
+      <member cname="WNCK_LAYOUT_ORIENTATION_VERTICAL" name="Vertical" />
+    </enum>
+    <callback name="LoadIconFunction" cname="WnckLoadIconFunction">
+      <return-type type="GdkPixbuf*" />
+      <parameters>
+        <parameter type="const-char*" name="icon_name" />
+        <parameter type="int" name="size" />
+        <parameter type="unsigned-int" name="flags" />
+        <parameter type="void*" name="data" />
+      </parameters>
+    </callback>
+    <object name="ActionMenu" cname="WnckActionMenu" parent="GtkMenu">
+      <field name="Priv" cname="priv" type="WnckActionMenuPrivate*" />
+      <property name="Window" cname="window" type="gpointer" readable="true" writeable="true" construct-only="true" />
+      <virtual_method name="Pad1" cname="pad1">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad2" cname="pad2">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad3" cname="pad3">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad4" cname="pad4">
+        <return-type type="void" />
+      </virtual_method>
+      <method name="GetType" cname="wnck_action_menu_get_type" shared="true">
+        <return-type type="GType" />
+      </method>
+      <constructor cname="wnck_action_menu_new">
+        <parameters>
+          <parameter type="WnckWindow*" name="window" />
+        </parameters>
+      </constructor>
+    </object>
+    <object name="Application" cname="WnckApplication" parent="GObject">
+      <field name="Priv" cname="priv" type="WnckApplicationPrivate*" />
+      <signal name="NameChanged" cname="name_changed" when="LAST" field_name="name_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckApplication*" name="app" />
+        </parameters>
+      </signal>
+      <signal name="IconChanged" cname="icon_changed" when="LAST" field_name="icon_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckApplication*" name="app" />
+        </parameters>
+      </signal>
+      <virtual_method name="Pad1" cname="pad1">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad2" cname="pad2">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad3" cname="pad3">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad4" cname="pad4">
+        <return-type type="void" />
+      </virtual_method>
+      <method name="Get" cname="wnck_application_get" shared="true">
+        <return-type type="WnckApplication*" />
+        <parameters>
+          <parameter type="gulong" name="xwindow" />
+        </parameters>
+      </method>
+      <method name="GetIcon" cname="wnck_application_get_icon">
+        <return-type type="GdkPixbuf*" />
+      </method>
+      <method name="GetIconIsFallback" cname="wnck_application_get_icon_is_fallback">
+        <return-type type="gboolean" />
+      </method>
+      <method name="GetIconName" cname="wnck_application_get_icon_name">
+        <return-type type="const-char*" />
+      </method>
+      <method name="GetMiniIcon" cname="wnck_application_get_mini_icon">
+        <return-type type="GdkPixbuf*" />
+      </method>
+      <method name="GetNWindows" cname="wnck_application_get_n_windows">
+        <return-type type="int" />
+      </method>
+      <method name="GetName" cname="wnck_application_get_name">
+        <return-type type="const-char*" />
+      </method>
+      <method name="GetPid" cname="wnck_application_get_pid">
+        <return-type type="int" />
+      </method>
+      <method name="GetStartupId" cname="wnck_application_get_startup_id">
+        <return-type type="const-char*" />
+      </method>
+      <method name="GetType" cname="wnck_application_get_type" shared="true">
+        <return-type type="GType" />
+      </method>
+      <method name="GetWindows" cname="wnck_application_get_windows">
+        <return-type type="GList*" />
+      </method>
+      <method name="GetXid" cname="wnck_application_get_xid">
+        <return-type type="gulong" />
+      </method>
+    </object>
+    <object name="ClassGroup" cname="WnckClassGroup" parent="GObject">
+      <field name="Priv" cname="priv" type="WnckClassGroupPrivate*" />
+      <signal name="NameChanged" cname="name_changed" when="LAST" field_name="name_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckApplication*" name="app" />
+        </parameters>
+      </signal>
+      <signal name="IconChanged" cname="icon_changed" when="LAST" field_name="icon_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckApplication*" name="app" />
+        </parameters>
+      </signal>
+      <virtual_method name="Pad1" cname="pad1">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad2" cname="pad2">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad3" cname="pad3">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad4" cname="pad4">
+        <return-type type="void" />
+      </virtual_method>
+      <method name="Get" cname="wnck_class_group_get" shared="true">
+        <return-type type="WnckClassGroup*" />
+        <parameters>
+          <parameter type="const-char*" name="res_class" />
+        </parameters>
+      </method>
+      <method name="GetIcon" cname="wnck_class_group_get_icon">
+        <return-type type="GdkPixbuf*" />
+      </method>
+      <method name="GetMiniIcon" cname="wnck_class_group_get_mini_icon">
+        <return-type type="GdkPixbuf*" />
+      </method>
+      <method name="GetName" cname="wnck_class_group_get_name">
+        <return-type type="const-char*" />
+      </method>
+      <method name="GetResClass" cname="wnck_class_group_get_res_class">
+        <return-type type="const-char*" />
+      </method>
+      <method name="GetType" cname="wnck_class_group_get_type" shared="true">
+        <return-type type="GType" />
+      </method>
+      <method name="GetWindows" cname="wnck_class_group_get_windows">
+        <return-type type="GList*" />
+      </method>
+    </object>
+    <object name="Pager" cname="WnckPager" parent="GtkContainer">
+      <field name="Priv" cname="priv" type="WnckPagerPrivate*" />
+      <virtual_method name="Pad1" cname="pad1">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad2" cname="pad2">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad3" cname="pad3">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad4" cname="pad4">
+        <return-type type="void" />
+      </virtual_method>
+      <method name="GetType" cname="wnck_pager_get_type" shared="true">
+        <return-type type="GType" />
+      </method>
+      <constructor cname="wnck_pager_new">
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+        </parameters>
+      </constructor>
+      <method name="SetDisplayMode" cname="wnck_pager_set_display_mode">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckPagerDisplayMode" name="mode" />
+        </parameters>
+      </method>
+      <method name="SetNRows" cname="wnck_pager_set_n_rows">
+        <return-type type="gboolean" />
+        <parameters>
+          <parameter type="int" name="n_rows" />
+        </parameters>
+      </method>
+      <method name="SetOrientation" cname="wnck_pager_set_orientation">
+        <return-type type="gboolean" />
+        <parameters>
+          <parameter type="GtkOrientation" name="orientation" />
+        </parameters>
+      </method>
+      <method name="SetScreen" cname="wnck_pager_set_screen" deprecated="1">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+        </parameters>
+      </method>
+      <method name="SetShadowType" cname="wnck_pager_set_shadow_type">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="GtkShadowType" name="shadow_type" />
+        </parameters>
+      </method>
+      <method name="SetShowAll" cname="wnck_pager_set_show_all">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="gboolean" name="show_all_workspaces" />
+        </parameters>
+      </method>
+    </object>
+    <object name="Screen" cname="WnckScreen" parent="GObject">
+      <field name="Priv" cname="priv" type="WnckScreenPrivate*" />
+      <signal name="ActiveWindowChanged" cname="active_window_changed" when="LAST" field_name="active_window_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+          <parameter type="WnckWindow*" name="previous_window" />
+        </parameters>
+      </signal>
+      <signal name="ActiveWorkspaceChanged" cname="active_workspace_changed" when="LAST" field_name="active_workspace_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+          <parameter type="WnckWorkspace*" name="previous_workspace" />
+        </parameters>
+      </signal>
+      <signal name="WindowStackingChanged" cname="window_stacking_changed" when="LAST" field_name="window_stacking_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+        </parameters>
+      </signal>
+      <signal name="WindowOpened" cname="window_opened" when="LAST" field_name="window_opened">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+          <parameter type="WnckWindow*" name="window" />
+        </parameters>
+      </signal>
+      <signal name="WindowClosed" cname="window_closed" when="LAST" field_name="window_closed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+          <parameter type="WnckWindow*" name="window" />
+        </parameters>
+      </signal>
+      <signal name="WorkspaceCreated" cname="workspace_created" when="LAST" field_name="workspace_created">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+          <parameter type="WnckWorkspace*" name="space" />
+        </parameters>
+      </signal>
+      <signal name="WorkspaceDestroyed" cname="workspace_destroyed" when="LAST" field_name="workspace_destroyed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+          <parameter type="WnckWorkspace*" name="space" />
+        </parameters>
+      </signal>
+      <signal name="ApplicationOpened" cname="application_opened" when="LAST" field_name="application_opened">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+          <parameter type="WnckApplication*" name="app" />
+        </parameters>
+      </signal>
+      <signal name="ApplicationClosed" cname="application_closed" when="LAST" field_name="application_closed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+          <parameter type="WnckApplication*" name="app" />
+        </parameters>
+      </signal>
+      <signal name="ClassGroupOpened" cname="class_group_opened" when="LAST" field_name="class_group_opened">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+          <parameter type="WnckClassGroup*" name="class_group" />
+        </parameters>
+      </signal>
+      <signal name="ClassGroupClosed" cname="class_group_closed" when="LAST" field_name="class_group_closed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+          <parameter type="WnckClassGroup*" name="class_group" />
+        </parameters>
+      </signal>
+      <signal name="BackgroundChanged" cname="background_changed" when="LAST" field_name="background_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+        </parameters>
+      </signal>
+      <signal name="ShowingDesktopChanged" cname="showing_desktop_changed" when="LAST" field_name="showing_desktop_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+        </parameters>
+      </signal>
+      <signal name="ViewportsChanged" cname="viewports_changed" when="LAST" field_name="viewports_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+        </parameters>
+      </signal>
+      <signal name="WindowManagerChanged" cname="window_manager_changed" when="LAST" field_name="window_manager_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+        </parameters>
+      </signal>
+      <virtual_method name="Pad2" cname="pad2">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad3" cname="pad3">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad4" cname="pad4">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad5" cname="pad5">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad6" cname="pad6">
+        <return-type type="void" />
+      </virtual_method>
+      <method name="CalcWorkspaceLayout" cname="wnck_screen_calc_workspace_layout" deprecated="1">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="int" name="num_workspaces" />
+          <parameter type="int" name="space_index" />
+          <parameter type="WnckWorkspaceLayout*" name="layout" />
+        </parameters>
+      </method>
+      <method name="ChangeWorkspaceCount" cname="wnck_screen_change_workspace_count">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="int" name="count" />
+        </parameters>
+      </method>
+      <method name="ForceUpdate" cname="wnck_screen_force_update">
+        <return-type type="void" />
+      </method>
+      <method name="FreeWorkspaceLayout" cname="wnck_screen_free_workspace_layout" deprecated="1" shared="true">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckWorkspaceLayout*" name="layout" />
+        </parameters>
+      </method>
+      <method name="Get" cname="wnck_screen_get" shared="true">
+        <return-type type="WnckScreen*" />
+        <parameters>
+          <parameter type="int" name="index" />
+        </parameters>
+      </method>
+      <method name="GetActiveWindow" cname="wnck_screen_get_active_window">
+        <return-type type="WnckWindow*" />
+      </method>
+      <method name="GetActiveWorkspace" cname="wnck_screen_get_active_workspace">
+        <return-type type="WnckWorkspace*" />
+      </method>
+      <method name="GetBackgroundPixmap" cname="wnck_screen_get_background_pixmap">
+        <return-type type="gulong" />
+      </method>
+      <method name="GetDefault" cname="wnck_screen_get_default" shared="true">
+        <return-type type="WnckScreen*" />
+      </method>
+      <method name="GetForRoot" cname="wnck_screen_get_for_root" shared="true">
+        <return-type type="WnckScreen*" />
+        <parameters>
+          <parameter type="gulong" name="root_window_id" />
+        </parameters>
+      </method>
+      <method name="GetHeight" cname="wnck_screen_get_height">
+        <return-type type="int" />
+      </method>
+      <method name="GetNumber" cname="wnck_screen_get_number">
+        <return-type type="int" />
+      </method>
+      <method name="GetPreviouslyActiveWindow" cname="wnck_screen_get_previously_active_window">
+        <return-type type="WnckWindow*" />
+      </method>
+      <method name="GetShowingDesktop" cname="wnck_screen_get_showing_desktop">
+        <return-type type="gboolean" />
+      </method>
+      <method name="GetType" cname="wnck_screen_get_type" shared="true">
+        <return-type type="GType" />
+      </method>
+      <method name="GetWidth" cname="wnck_screen_get_width">
+        <return-type type="int" />
+      </method>
+      <method name="GetWindowManagerName" cname="wnck_screen_get_window_manager_name">
+        <return-type type="const-char*" />
+      </method>
+      <method name="GetWindows" cname="wnck_screen_get_windows">
+        <return-type type="GList*" />
+      </method>
+      <method name="GetWindowsStacked" cname="wnck_screen_get_windows_stacked">
+        <return-type type="GList*" />
+      </method>
+      <method name="GetWorkspace" cname="wnck_screen_get_workspace">
+        <return-type type="WnckWorkspace*" />
+        <parameters>
+          <parameter type="int" name="workspace" />
+        </parameters>
+      </method>
+      <method name="GetWorkspaceCount" cname="wnck_screen_get_workspace_count">
+        <return-type type="int" />
+      </method>
+      <method name="GetWorkspaceIndex" cname="wnck_screen_get_workspace_index" deprecated="1">
+        <return-type type="int" />
+        <parameters>
+          <parameter type="WnckWorkspace*" name="space" />
+        </parameters>
+      </method>
+      <method name="GetWorkspaceNeighbor" cname="wnck_screen_get_workspace_neighbor" deprecated="1">
+        <return-type type="WnckWorkspace*" />
+        <parameters>
+          <parameter type="WnckWorkspace*" name="space" />
+          <parameter type="WnckMotionDirection" name="direction" />
+        </parameters>
+      </method>
+      <method name="GetWorkspaces" cname="wnck_screen_get_workspaces">
+        <return-type type="GList*" />
+      </method>
+      <method name="MoveViewport" cname="wnck_screen_move_viewport">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="int" name="x" />
+          <parameter type="int" name="y" />
+        </parameters>
+      </method>
+      <method name="NetWmSupports" cname="wnck_screen_net_wm_supports">
+        <return-type type="gboolean" />
+        <parameters>
+          <parameter type="const-char*" name="atom" />
+        </parameters>
+      </method>
+      <method name="ReleaseWorkspaceLayout" cname="wnck_screen_release_workspace_layout">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="int" name="current_token" />
+        </parameters>
+      </method>
+      <method name="ToggleShowingDesktop" cname="wnck_screen_toggle_showing_desktop">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="gboolean" name="show" />
+        </parameters>
+      </method>
+      <method name="TrySetWorkspaceLayout" cname="wnck_screen_try_set_workspace_layout">
+        <return-type type="int" />
+        <parameters>
+          <parameter type="int" name="current_token" />
+          <parameter type="int" name="rows" />
+          <parameter type="int" name="columns" />
+        </parameters>
+      </method>
+    </object>
+    <object name="Selector" cname="WnckSelector" parent="GtkMenuBar">
+      <field name="Priv" cname="priv" type="WnckSelectorPrivate*" />
+      <virtual_method name="Pad1" cname="pad1">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad2" cname="pad2">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad3" cname="pad3">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad4" cname="pad4">
+        <return-type type="void" />
+      </virtual_method>
+      <method name="GetType" cname="wnck_selector_get_type" shared="true">
+        <return-type type="GType" />
+      </method>
+      <constructor cname="wnck_selector_new" />
+    </object>
+    <object name="Tasklist" cname="WnckTasklist" parent="GtkContainer">
+      <field name="Priv" cname="priv" type="WnckTasklistPrivate*" />
+      <virtual_method name="Pad1" cname="pad1">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad2" cname="pad2">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad3" cname="pad3">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad4" cname="pad4">
+        <return-type type="void" />
+      </virtual_method>
+      <method name="GetMinimumHeight" cname="wnck_tasklist_get_minimum_height" deprecated="1">
+        <return-type type="gint" />
+      </method>
+      <method name="GetMinimumWidth" cname="wnck_tasklist_get_minimum_width" deprecated="1">
+        <return-type type="gint" />
+      </method>
+      <method name="GetSizeHintList" cname="wnck_tasklist_get_size_hint_list">
+        <return-type type="const-int*" />
+        <parameters>
+          <parameter type="int*" name="n_elements" />
+        </parameters>
+      </method>
+      <method name="GetType" cname="wnck_tasklist_get_type" shared="true">
+        <return-type type="GType" />
+      </method>
+      <constructor cname="wnck_tasklist_new">
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+        </parameters>
+      </constructor>
+      <method name="SetButtonRelief" cname="wnck_tasklist_set_button_relief">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="GtkReliefStyle" name="relief" />
+        </parameters>
+      </method>
+      <method name="SetGrouping" cname="wnck_tasklist_set_grouping">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckTasklistGroupingType" name="grouping" />
+        </parameters>
+      </method>
+      <method name="SetGroupingLimit" cname="wnck_tasklist_set_grouping_limit">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="gint" name="limit" />
+        </parameters>
+      </method>
+      <method name="SetIconLoader" cname="wnck_tasklist_set_icon_loader">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckLoadIconFunction" name="load_icon_func" />
+          <parameter type="void*" name="data" />
+          <parameter type="GDestroyNotify" name="free_data_func" />
+        </parameters>
+      </method>
+      <method name="SetIncludeAllWorkspaces" cname="wnck_tasklist_set_include_all_workspaces">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="gboolean" name="include_all_workspaces" />
+        </parameters>
+      </method>
+      <method name="SetMinimumHeight" cname="wnck_tasklist_set_minimum_height" deprecated="1">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="gint" name="size" />
+        </parameters>
+      </method>
+      <method name="SetMinimumWidth" cname="wnck_tasklist_set_minimum_width" deprecated="1">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="gint" name="size" />
+        </parameters>
+      </method>
+      <method name="SetScreen" cname="wnck_tasklist_set_screen" deprecated="1">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckScreen*" name="screen" />
+        </parameters>
+      </method>
+      <method name="SetSwitchWorkspaceOnUnminimize" cname="wnck_tasklist_set_switch_workspace_on_unminimize">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="gboolean" name="switch_workspace_on_unminimize" />
+        </parameters>
+      </method>
+    </object>
+    <object name="Window" cname="WnckWindow" parent="GObject">
+      <field name="Priv" cname="priv" type="WnckWindowPrivate*" />
+      <signal name="NameChanged" cname="name_changed" when="LAST" field_name="name_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckWindow*" name="window" />
+        </parameters>
+      </signal>
+      <signal name="StateChanged" cname="state_changed" when="LAST" field_name="state_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckWindow*" name="window" />
+          <parameter type="WnckWindowState" name="changed_mask" />
+          <parameter type="WnckWindowState" name="new_state" />
+        </parameters>
+      </signal>
+      <signal name="WorkspaceChanged" cname="workspace_changed" when="LAST" field_name="workspace_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckWindow*" name="window" />
+        </parameters>
+      </signal>
+      <signal name="IconChanged" cname="icon_changed" when="LAST" field_name="icon_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckWindow*" name="window" />
+        </parameters>
+      </signal>
+      <signal name="ActionsChanged" cname="actions_changed" when="LAST" field_name="actions_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckWindow*" name="window" />
+          <parameter type="WnckWindowActions" name="changed_mask" />
+          <parameter type="WnckWindowActions" name="new_actions" />
+        </parameters>
+      </signal>
+      <signal name="GeometryChanged" cname="geometry_changed" when="LAST" field_name="geometry_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckWindow*" name="window" />
+        </parameters>
+      </signal>
+      <virtual_method name="Pad1" cname="pad1">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad2" cname="pad2">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad3" cname="pad3">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad4" cname="pad4">
+        <return-type type="void" />
+      </virtual_method>
+      <method name="Activate" cname="wnck_window_activate">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="guint32" name="timestamp" />
+        </parameters>
+      </method>
+      <method name="ActivateTransient" cname="wnck_window_activate_transient">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="guint32" name="timestamp" />
+        </parameters>
+      </method>
+      <method name="Close" cname="wnck_window_close">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="guint32" name="timestamp" />
+        </parameters>
+      </method>
+      <method name="Get" cname="wnck_window_get" shared="true">
+        <return-type type="WnckWindow*" />
+        <parameters>
+          <parameter type="gulong" name="xwindow" />
+        </parameters>
+      </method>
+      <method name="GetActions" cname="wnck_window_get_actions">
+        <return-type type="WnckWindowActions" />
+      </method>
+      <method name="GetApplication" cname="wnck_window_get_application">
+        <return-type type="WnckApplication*" />
+      </method>
+      <method name="GetClassGroup" cname="wnck_window_get_class_group">
+        <return-type type="WnckClassGroup*" />
+      </method>
+      <method name="GetClientWindowGeometry" cname="wnck_window_get_client_window_geometry">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="int*" name="xp" />
+          <parameter type="int*" name="yp" />
+          <parameter type="int*" name="widthp" />
+          <parameter type="int*" name="heightp" />
+        </parameters>
+      </method>
+      <method name="GetGeometry" cname="wnck_window_get_geometry">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="int*" name="xp" />
+          <parameter type="int*" name="yp" />
+          <parameter type="int*" name="widthp" />
+          <parameter type="int*" name="heightp" />
+        </parameters>
+      </method>
+      <method name="GetGroupLeader" cname="wnck_window_get_group_leader">
+        <return-type type="gulong" />
+      </method>
+      <method name="GetIcon" cname="wnck_window_get_icon">
+        <return-type type="GdkPixbuf*" />
+      </method>
+      <method name="GetIconIsFallback" cname="wnck_window_get_icon_is_fallback">
+        <return-type type="gboolean" />
+      </method>
+      <method name="GetIconName" cname="wnck_window_get_icon_name">
+        <return-type type="const-char*" />
+      </method>
+      <method name="GetMiniIcon" cname="wnck_window_get_mini_icon">
+        <return-type type="GdkPixbuf*" />
+      </method>
+      <method name="GetName" cname="wnck_window_get_name">
+        <return-type type="const-char*" />
+      </method>
+      <method name="GetPid" cname="wnck_window_get_pid">
+        <return-type type="int" />
+      </method>
+      <method name="GetScreen" cname="wnck_window_get_screen">
+        <return-type type="WnckScreen*" />
+      </method>
+      <method name="GetSessionId" cname="wnck_window_get_session_id">
+        <return-type type="const-char*" />
+      </method>
+      <method name="GetSessionIdUtf8" cname="wnck_window_get_session_id_utf8">
+        <return-type type="const-char*" />
+      </method>
+      <method name="GetSortOrder" cname="wnck_window_get_sort_order">
+        <return-type type="gint" />
+      </method>
+      <method name="GetState" cname="wnck_window_get_state">
+        <return-type type="WnckWindowState" />
+      </method>
+      <method name="GetTransient" cname="wnck_window_get_transient">
+        <return-type type="WnckWindow*" />
+      </method>
+      <method name="GetType" cname="wnck_window_get_type" shared="true">
+        <return-type type="GType" />
+      </method>
+      <method name="GetWindowType" cname="wnck_window_get_window_type">
+        <return-type type="WnckWindowType" />
+      </method>
+      <method name="GetWorkspace" cname="wnck_window_get_workspace">
+        <return-type type="WnckWorkspace*" />
+      </method>
+      <method name="GetXid" cname="wnck_window_get_xid">
+        <return-type type="gulong" />
+      </method>
+      <method name="HasIconName" cname="wnck_window_has_icon_name">
+        <return-type type="gboolean" />
+      </method>
+      <method name="HasName" cname="wnck_window_has_name">
+        <return-type type="gboolean" />
+      </method>
+      <method name="IsAbove" cname="wnck_window_is_above">
+        <return-type type="gboolean" />
+      </method>
+      <method name="IsActive" cname="wnck_window_is_active">
+        <return-type type="gboolean" />
+      </method>
+      <method name="IsBelow" cname="wnck_window_is_below">
+        <return-type type="gboolean" />
+      </method>
+      <method name="IsFullscreen" cname="wnck_window_is_fullscreen">
+        <return-type type="gboolean" />
+      </method>
+      <method name="IsInViewport" cname="wnck_window_is_in_viewport">
+        <return-type type="gboolean" />
+        <parameters>
+          <parameter type="WnckWorkspace*" name="workspace" />
+        </parameters>
+      </method>
+      <method name="IsMaximized" cname="wnck_window_is_maximized">
+        <return-type type="gboolean" />
+      </method>
+      <method name="IsMaximizedHorizontally" cname="wnck_window_is_maximized_horizontally">
+        <return-type type="gboolean" />
+      </method>
+      <method name="IsMaximizedVertically" cname="wnck_window_is_maximized_vertically">
+        <return-type type="gboolean" />
+      </method>
+      <method name="IsMinimized" cname="wnck_window_is_minimized">
+        <return-type type="gboolean" />
+      </method>
+      <method name="IsMostRecentlyActivated" cname="wnck_window_is_most_recently_activated">
+        <return-type type="gboolean" />
+      </method>
+      <method name="IsOnWorkspace" cname="wnck_window_is_on_workspace">
+        <return-type type="gboolean" />
+        <parameters>
+          <parameter type="WnckWorkspace*" name="workspace" />
+        </parameters>
+      </method>
+      <method name="IsPinned" cname="wnck_window_is_pinned">
+        <return-type type="gboolean" />
+      </method>
+      <method name="IsShaded" cname="wnck_window_is_shaded">
+        <return-type type="gboolean" />
+      </method>
+      <method name="IsSkipPager" cname="wnck_window_is_skip_pager">
+        <return-type type="gboolean" />
+      </method>
+      <method name="IsSkipTasklist" cname="wnck_window_is_skip_tasklist">
+        <return-type type="gboolean" />
+      </method>
+      <method name="IsSticky" cname="wnck_window_is_sticky">
+        <return-type type="gboolean" />
+      </method>
+      <method name="IsVisibleOnWorkspace" cname="wnck_window_is_visible_on_workspace">
+        <return-type type="gboolean" />
+        <parameters>
+          <parameter type="WnckWorkspace*" name="workspace" />
+        </parameters>
+      </method>
+      <method name="KeyboardMove" cname="wnck_window_keyboard_move">
+        <return-type type="void" />
+      </method>
+      <method name="KeyboardSize" cname="wnck_window_keyboard_size">
+        <return-type type="void" />
+      </method>
+      <method name="MakeAbove" cname="wnck_window_make_above">
+        <return-type type="void" />
+      </method>
+      <method name="MakeBelow" cname="wnck_window_make_below">
+        <return-type type="void" />
+      </method>
+      <method name="Maximize" cname="wnck_window_maximize">
+        <return-type type="void" />
+      </method>
+      <method name="MaximizeHorizontally" cname="wnck_window_maximize_horizontally">
+        <return-type type="void" />
+      </method>
+      <method name="MaximizeVertically" cname="wnck_window_maximize_vertically">
+        <return-type type="void" />
+      </method>
+      <method name="Minimize" cname="wnck_window_minimize">
+        <return-type type="void" />
+      </method>
+      <method name="MoveToWorkspace" cname="wnck_window_move_to_workspace">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckWorkspace*" name="space" />
+        </parameters>
+      </method>
+      <method name="NeedsAttention" cname="wnck_window_needs_attention">
+        <return-type type="gboolean" />
+      </method>
+      <method name="OrTransientNeedsAttention" cname="wnck_window_or_transient_needs_attention">
+        <return-type type="gboolean" />
+      </method>
+      <method name="Pin" cname="wnck_window_pin">
+        <return-type type="void" />
+      </method>
+      <method name="SetFullscreen" cname="wnck_window_set_fullscreen">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="gboolean" name="fullscreen" />
+        </parameters>
+      </method>
+      <method name="SetGeometry" cname="wnck_window_set_geometry">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckWindowGravity" name="gravity" />
+          <parameter type="WnckWindowMoveResizeMask" name="geometry_mask" />
+          <parameter type="int" name="x" />
+          <parameter type="int" name="y" />
+          <parameter type="int" name="width" />
+          <parameter type="int" name="height" />
+        </parameters>
+      </method>
+      <method name="SetIconGeometry" cname="wnck_window_set_icon_geometry">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="int" name="x" />
+          <parameter type="int" name="y" />
+          <parameter type="int" name="width" />
+          <parameter type="int" name="height" />
+        </parameters>
+      </method>
+      <method name="SetSkipPager" cname="wnck_window_set_skip_pager">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="gboolean" name="skip" />
+        </parameters>
+      </method>
+      <method name="SetSkipTasklist" cname="wnck_window_set_skip_tasklist">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="gboolean" name="skip" />
+        </parameters>
+      </method>
+      <method name="SetSortOrder" cname="wnck_window_set_sort_order">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="gint" name="order" />
+        </parameters>
+      </method>
+      <method name="SetWindowType" cname="wnck_window_set_window_type">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckWindowType" name="wintype" />
+        </parameters>
+      </method>
+      <method name="Shade" cname="wnck_window_shade">
+        <return-type type="void" />
+      </method>
+      <method name="Stick" cname="wnck_window_stick">
+        <return-type type="void" />
+      </method>
+      <method name="TransientIsMostRecentlyActivated" cname="wnck_window_transient_is_most_recently_activated">
+        <return-type type="gboolean" />
+      </method>
+      <method name="UnmakeAbove" cname="wnck_window_unmake_above">
+        <return-type type="void" />
+      </method>
+      <method name="UnmakeBelow" cname="wnck_window_unmake_below">
+        <return-type type="void" />
+      </method>
+      <method name="Unmaximize" cname="wnck_window_unmaximize">
+        <return-type type="void" />
+      </method>
+      <method name="UnmaximizeHorizontally" cname="wnck_window_unmaximize_horizontally">
+        <return-type type="void" />
+      </method>
+      <method name="UnmaximizeVertically" cname="wnck_window_unmaximize_vertically">
+        <return-type type="void" />
+      </method>
+      <method name="Unminimize" cname="wnck_window_unminimize">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="guint32" name="timestamp" />
+        </parameters>
+      </method>
+      <method name="Unpin" cname="wnck_window_unpin">
+        <return-type type="void" />
+      </method>
+      <method name="Unshade" cname="wnck_window_unshade">
+        <return-type type="void" />
+      </method>
+      <method name="Unstick" cname="wnck_window_unstick">
+        <return-type type="void" />
+      </method>
+    </object>
+    <object name="Workspace" cname="WnckWorkspace" parent="GObject">
+      <field name="Priv" cname="priv" type="WnckWorkspacePrivate*" />
+      <signal name="NameChanged" cname="name_changed" when="LAST" field_name="name_changed">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckWorkspace*" name="space" />
+        </parameters>
+      </signal>
+      <virtual_method name="Pad1" cname="pad1">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad2" cname="pad2">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad3" cname="pad3">
+        <return-type type="void" />
+      </virtual_method>
+      <virtual_method name="Pad4" cname="pad4">
+        <return-type type="void" />
+      </virtual_method>
+      <method name="Activate" cname="wnck_workspace_activate">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="guint32" name="timestamp" />
+        </parameters>
+      </method>
+      <method name="ChangeName" cname="wnck_workspace_change_name">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="const-char*" name="name" />
+        </parameters>
+      </method>
+      <method name="GetHeight" cname="wnck_workspace_get_height">
+        <return-type type="int" />
+      </method>
+      <method name="GetLayoutColumn" cname="wnck_workspace_get_layout_column">
+        <return-type type="int" />
+      </method>
+      <method name="GetLayoutRow" cname="wnck_workspace_get_layout_row">
+        <return-type type="int" />
+      </method>
+      <method name="GetName" cname="wnck_workspace_get_name">
+        <return-type type="const-char*" />
+      </method>
+      <method name="GetNeighbor" cname="wnck_workspace_get_neighbor">
+        <return-type type="WnckWorkspace*" />
+        <parameters>
+          <parameter type="WnckMotionDirection" name="direction" />
+        </parameters>
+      </method>
+      <method name="GetNumber" cname="wnck_workspace_get_number">
+        <return-type type="int" />
+      </method>
+      <method name="GetScreen" cname="wnck_workspace_get_screen">
+        <return-type type="WnckScreen*" />
+      </method>
+      <method name="GetType" cname="wnck_workspace_get_type" shared="true">
+        <return-type type="GType" />
+      </method>
+      <method name="GetViewportX" cname="wnck_workspace_get_viewport_x">
+        <return-type type="int" />
+      </method>
+      <method name="GetViewportY" cname="wnck_workspace_get_viewport_y">
+        <return-type type="int" />
+      </method>
+      <method name="GetWidth" cname="wnck_workspace_get_width">
+        <return-type type="int" />
+      </method>
+      <method name="IsVirtual" cname="wnck_workspace_is_virtual">
+        <return-type type="gboolean" />
+      </method>
+    </object>
+    <struct name="ResourceUsage" cname="WnckResourceUsage">
+      <field name="TotalBytesEstimate" cname="total_bytes_estimate" type="gulong" />
+      <field name="PixmapBytes" cname="pixmap_bytes" type="gulong" />
+      <field name="NPixmaps" cname="n_pixmaps" type="unsigned int" />
+      <field name="NWindows" cname="n_windows" type="unsigned int" />
+      <field name="NGcs" cname="n_gcs" type="unsigned int" />
+      <field name="NPictures" cname="n_pictures" type="unsigned int" />
+      <field name="NGlyphsets" cname="n_glyphsets" type="unsigned int" />
+      <field name="NFonts" cname="n_fonts" type="unsigned int" />
+      <field name="NColormapEntries" cname="n_colormap_entries" type="unsigned int" />
+      <field name="NPassiveGrabs" cname="n_passive_grabs" type="unsigned int" />
+      <field name="NCursors" cname="n_cursors" type="unsigned int" />
+      <field name="NOther" cname="n_other" type="unsigned int" />
+      <field name="Pad1" cname="pad1" type="unsigned int" access="private" />
+      <field name="Pad2" cname="pad2" type="unsigned int" access="private" />
+      <field name="Pad3" cname="pad3" type="unsigned int" access="private" />
+      <field name="Pad4" cname="pad4" type="unsigned int" access="private" />
+      <field name="Pad5" cname="pad5" type="unsigned int" access="private" />
+      <field name="Pad6" cname="pad6" type="unsigned long" access="private" />
+      <field name="Pad7" cname="pad7" type="unsigned long" access="private" />
+      <field name="Pad8" cname="pad8" type="unsigned long" access="private" />
+      <field name="Pad9" cname="pad9" type="unsigned long" access="private" />
+    </struct>
+    <struct name="WorkspaceLayout" cname="WnckWorkspaceLayout" deprecated="1">
+      <field name="Rows" cname="rows" type="int" />
+      <field name="Cols" cname="cols" type="int" />
+      <field name="Grid" cname="grid" type="int*" />
+      <field name="GridArea" cname="grid_area" type="int" />
+      <field name="CurrentRow" cname="current_row" type="int" />
+      <field name="CurrentCol" cname="current_col" type="int" />
+    </struct>
+    <class name="Global" cname="WnckGlobal">
+      <method name="CreateWindowActionMenu" cname="wnck_create_window_action_menu" deprecated="1" shared="true">
+        <return-type type="GtkWidget*" />
+        <parameters>
+          <parameter type="WnckWindow*" name="window" />
+        </parameters>
+      </method>
+      <method name="GtkWindowSetDockType" cname="wnck_gtk_window_set_dock_type" deprecated="1" shared="true">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="GtkWindow*" name="window" />
+        </parameters>
+      </method>
+      <method name="PidReadResourceUsage" cname="wnck_pid_read_resource_usage" shared="true">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="GdkDisplay*" name="gdk_display" />
+          <parameter type="gulong" name="pid" />
+          <parameter type="WnckResourceUsage*" name="usage" />
+        </parameters>
+      </method>
+      <method name="SetClientType" cname="wnck_set_client_type" shared="true">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="WnckClientType" name="ewmh_sourceindication_client_type" />
+        </parameters>
+      </method>
+      <method name="XidReadResourceUsage" cname="wnck_xid_read_resource_usage" shared="true">
+        <return-type type="void" />
+        <parameters>
+          <parameter type="GdkDisplay*" name="gdk_display" />
+          <parameter type="gulong" name="xid" />
+          <parameter type="WnckResourceUsage*" name="usage" />
+        </parameters>
+      </method>
+    </class>
+  </namespace>
+</api>

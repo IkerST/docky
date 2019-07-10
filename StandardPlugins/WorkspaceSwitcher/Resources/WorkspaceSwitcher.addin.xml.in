@@ -1,0 +1,25 @@
+<Addin 
+	id="WorkspaceSwitcher"
+	namespace="Docky"
+	version="1.0"
+	isroot="false"
+	defaultEnabled="false"
+	name="Workspace Switcher"
+	description="Switch between your Desks"
+	author="Rico Tzschichholz"
+	icon="workspace-switcher"
+>
+ 
+ 	<Dependencies>
+		<Addin id="Items" version="1.0" />
+	</Dependencies>
+ 
+	<Runtime>
+		<Import assembly="WorkspaceSwitcher.dll"/>
+	</Runtime>
+	
+	<Extension path="/Docky/ItemProvider">
+		<ItemProvider type="WorkspaceSwitcher.WorkspaceSwitcherItemProvider" />
+	</Extension>	
+
+</Addin>

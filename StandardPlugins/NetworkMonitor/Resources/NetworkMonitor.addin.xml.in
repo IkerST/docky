@@ -1,0 +1,23 @@
+<Addin 
+	id="NetworkMonitor"
+	namespace="Docky"
+	version="1.0"
+	isroot="false"
+	defaultEnabled="false"
+	name="Network Monitor"
+	description="Monitor your network usage"
+	author="Florian Dorn, Rico Tzschichholz, Robert Dyer"
+	icon="system"
+>
+ 	<Dependencies>
+		<Addin id="Items" version="1.0" />
+	</Dependencies>
+	
+	<Runtime>
+		<Import assembly="NetworkMonitor.dll"/>
+	</Runtime>
+	
+	<Extension path="/Docky/ItemProvider">
+		<ItemProvider type="NetworkMonitorDocklet.NetworkMonitorItemProvider" />
+	</Extension>
+</Addin>

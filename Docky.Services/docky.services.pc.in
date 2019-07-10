@@ -1,0 +1,5 @@
+Name: Docky.Services
+Description: Docky services.
+Version: @ABI_VERSION@
+
+Libs: -r:@expanded_libdir@/@PACKAGE@/Docky.Services.dll

@@ -1,0 +1,25 @@
+<Addin 
+	id="BatteryMonitor"
+	namespace="Docky"
+	version="1.0"
+	isroot="false"
+	defaultEnabled="false"
+	name="Battery Monitor"
+	description="Monitor your battery."
+	author="Jason Smith, Robert Dyer"
+	icon="battery"
+>
+ 
+ 	<Dependencies>
+		<Addin id="Items" version="1.0" />
+	</Dependencies>
+ 
+	<Runtime>
+		<Import assembly="BatteryMonitor.dll"/>
+	</Runtime>
+	
+	<Extension path="/Docky/ItemProvider">
+		<ItemProvider type="BatteryMonitor.BatteryMonitorItemProvider" />
+	</Extension>	
+
+</Addin>

@@ -1,0 +1,14 @@
+#!/bin/sh
+
+SCRIPT_PATH=`dirname $0`
+SCRIPT_PATH=`cd $SCRIPT_PATH; pwd`
+
+if [ "x$SCRIPT_PATH" = "x@abs_srcdir@/bin/Debug" ] ||
+   [ "x$SCRIPT_PATH" = "x@abs_srcdir@" ] ; then
+    echo "*** Running uninstalled ***"
+    DOCKY_EXE="@abs_srcdir@/bin/Debug/Docky.exe"
+else
+    DOCKY_EXE="@expanded_libdir@/@PACKAGE@/Docky.exe"
+fi
+
+exec mono @MONO_DEBUG_ARGS@ "$DOCKY_EXE" @DOCKY_DEBUG_ARGS@ "$@"

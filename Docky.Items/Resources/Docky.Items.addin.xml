@@ -1,0 +1,9 @@
+<Addin id="Items" namespace="Docky" version="1.0" isroot="true">
+	<Runtime>
+		<Import assembly="Docky.Items.dll"/>
+	</Runtime>
+
+	<ExtensionPoint path="/Docky/ItemProvider">
+		<ExtensionNode name="ItemProvider" objectType="Docky.Items.AbstractDockItemProvider"/>
+	</ExtensionPoint>
+</Addin>

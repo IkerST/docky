@@ -1,0 +1,24 @@
+<Addin 
+	id="Desktop"
+	namespace="Docky"
+	version="1.0"
+	isroot="false"
+	defaultEnabled="false"
+	name="Desktop"
+	description="Show, Tile or Cascade your Desktop"
+	author="Rico Tzschichholz, Robert Dyer"
+	icon="show-desktop.svg@"
+>
+
+ 	<Dependencies>
+		<Addin id="Items" version="1.0" />
+	</Dependencies>
+
+	<Runtime>
+		<Import assembly="Desktop.dll" />
+	</Runtime>
+
+	<Extension path="/Docky/ItemProvider">
+		<ItemProvider type="Desktop.DesktopItemProvider" />
+	</Extension>
+</Addin>

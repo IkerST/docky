@@ -1,0 +1,1550 @@
+# Belarusian translation for docky
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the docky package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: docky\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-06-17 13:49+0200\n"
+"PO-Revision-Date: 2015-01-19 13:33+0000\n"
+"Last-Translator: Arsień Šachalevič <semen.shah@gmail.com>\n"
+"Language-Team: Belarusian <be@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Launchpad-Export-Date: 2015-09-02 08:48+0000\n"
+"X-Generator: Launchpad (build 17706)\n"
+
+#: ../data/docky.desktop.in.h:1
+msgid "The finest dock no money can buy."
+msgstr "Самы лепшы док, якi не купiш за грошы"
+
+#: ../data/docky.schemas.in.h:1
+msgid "A list of plugins that are active on this dock."
+msgstr "Спіс надбудоў, якія выкарыстоўваюцца на гэтай панэлі"
+
+#: ../data/docky.schemas.in.h:2
+msgid "Analog clock theme"
+msgstr "Тэма з аналагавым гадзіннікам"
+
+#: ../data/docky.schemas.in.h:3
+msgid "Clear finished timers"
+msgstr "Скінуць завершаныя таймеры"
+
+#: ../data/docky.schemas.in.h:4
+msgid "Currently selected item"
+msgstr "Абраны элемент"
+
+#: ../data/docky.schemas.in.h:5
+msgid "Dismiss a stopped timer when clicked"
+msgstr "Скінуць спынены таймер па пстрычцы мышы."
+
+#: ../data/docky.schemas.in.h:6
+msgid "Do not change this!"
+msgstr "Не змяняйце гэта!"
+
+#: ../data/docky.schemas.in.h:7
+msgid "Dock icon size"
+msgstr "Памер значкак панэлі"
+
+#: ../data/docky.schemas.in.h:8
+msgid "Dock is 3d"
+msgstr "Панэль у 3D"
+
+#: ../data/docky.schemas.in.h:9
+msgid "Dock manages all windows"
+msgstr "Панэль кіруе ўсімі вокнамі"
+
+#: ../data/docky.schemas.in.h:10
+msgid "Dock zooms"
+msgstr "Маштабаванне панэлі"
+
+#: ../data/docky.schemas.in.h:11
+msgid "Dock's hiding mode"
+msgstr "Рэжым ўтойвання панэлі"
+
+#: ../data/docky.schemas.in.h:12
+msgid "Docky item command to execute"
+msgstr "Выкананая каманда элемента Docky"
+
+#: ../data/docky.schemas.in.h:13
+msgid "Docky item hover text"
+msgstr "Тэкст падказкі элемента Docky"
+
+#: ../data/docky.schemas.in.h:14
+msgid "Docky item hue"
+msgstr "Адценне элемента Docky"
+
+#: ../data/docky.schemas.in.h:15
+msgid "Enable checks for compositing"
+msgstr "Ўключэнне праверкі на сумяшчальнасць"
+
+#: ../data/docky.schemas.in.h:16
+msgid "Fade when hiding"
+msgstr "Зацяненне падчас ўтойвання"
+
+#: ../data/docky.schemas.in.h:17
+msgid "GMail labels to check"
+msgstr "Адзнакі для праверкі GMail"
+
+#: ../data/docky.schemas.in.h:18
+msgid "GMail username"
+msgstr "Імя карыстальніка GMail"
+
+#: ../data/docky.schemas.in.h:19
+msgid "Hot-area padding"
+msgstr "Актыўная вобласць запаўнення"
+
+#: ../data/docky.schemas.in.h:20
+msgid ""
+"How long the urgent indicator glow animation is (in seconds), 0 to disable, "
+"or -1 for infinite."
+msgstr ""
+"Час анімацыі ззяння тэрміновага індыкатара (у секундах), 0 - выключаны, -1 - "
+"неабмежавана."
+
+#: ../data/docky.schemas.in.h:21
+msgid "How long to wait (ms) before unhiding"
+msgstr "Затрымка перад паказам панэлі (у мс)"
+
+#: ../data/docky.schemas.in.h:22
+msgid "How long to wait (ms) to update after a window switch"
+msgstr "Час чакання абнаўлення (у мс) пасля змены акна"
+
+#: ../data/docky.schemas.in.h:23
+msgid "How many recent clipboard selections to show."
+msgstr "Колькі паказваць нядаўніх элементаў выбару ў буферы."
+
+#: ../data/docky.schemas.in.h:24
+msgid ""
+"How much to shift the color of the urgent indicator. The value can be from -"
+"180 to 180."
+msgstr ""
+"На колькі змяніць колер індыкатара \"тэрмінова\". Значэнне можа быць ад -180 "
+"да 180."
+
+#: ../data/docky.schemas.in.h:25
+msgid "How often (in mins) to check for new mail."
+msgstr "Як часта правяраць пошту (у хвілінах)."
+
+#: ../data/docky.schemas.in.h:26
+msgid "How often to check"
+msgstr "Як часта правяраць"
+
+#: ../data/docky.schemas.in.h:27
+msgid "How often to check for new weather information."
+msgstr "Як часта правяраць прагноз надвор'я."
+
+#: ../data/docky.schemas.in.h:28
+msgid "How often to poll (in ms) for new clipboard data."
+msgstr "Як часта правяраць буфер на новыя дадзеныя (у мін.)."
+
+#: ../data/docky.schemas.in.h:29
+msgid ""
+"If fading when hiding, this is the opacity the dock fades to. 1 is solid, 0 "
+"is invisible."
+msgstr ""
+"Празрыстасць панэлі падчас паступовага знікнення. 1 - суцэльная, 2 - "
+"нябачная."
+
+#: ../data/docky.schemas.in.h:30
+msgid ""
+"If false, Docky will not show hover texts for launchers (but still show for "
+"plugins)."
+msgstr ""
+"Калі не, Docky не будзе паказваць падказкі для значак пад паказальнікам (але "
+"паказваць для модуляў)."
+
+#: ../data/docky.schemas.in.h:31
+msgid "If false, finished timers will reset instead of dismiss."
+msgstr "Калі не, завершаныя таймеры будуць перазапускацца, а не абнуляецца."
+
+#: ../data/docky.schemas.in.h:32
+msgid ""
+"If false, prevents dropping items onto the dock to add them to the dock."
+msgstr "Калі не, блакуецца даданне элементаў да панэлі перацягваннем."
+
+#: ../data/docky.schemas.in.h:33
+msgid "If scrolling wraps"
+msgstr "Пры згортванні"
+
+#: ../data/docky.schemas.in.h:34
+msgid ""
+"If the 'Pin to Dock' option should show in the menu of items, allowing you "
+"to add it permanently to the dock."
+msgstr ""
+"Калі параметр «Замацаваць на панэлі» будзе ў меню элементаў, дазволіць "
+"дадаваць элементы ў панэлі."
+
+#: ../data/docky.schemas.in.h:35
+msgid "If the dock is a panel"
+msgstr "Калі док з'яўляецца панэллю"
+
+#: ../data/docky.schemas.in.h:36
+msgid ""
+"If true, Docky will check for compositing and warn if it is not available."
+msgstr ""
+"Калі пры праверцы сумяшчальнасці немагчымая, Docky, паведаміць пра гэта."
+
+#: ../data/docky.schemas.in.h:37
+msgid ""
+"If true, Docky will only show windows on the currently active desktop."
+msgstr "Калі так, Docky будзе паказваць вокны толькі на актыўнай стальніцы."
+
+#: ../data/docky.schemas.in.h:38
+msgid "If true, all new timers will automatically start."
+msgstr "Калі так, усе новыя таймеры будуць запускацца аўтаматычна."
+
+#: ../data/docky.schemas.in.h:39
+msgid ""
+"If true, any windows without launchers will show on this dock. Exactly 1 "
+"dock must have this set to true."
+msgstr ""
+"Калі так, усе вокны без значак будуць паказвацца на гэтай панэлі. Па меншай "
+"ступені, адна панэль мусіць мець значэнне «так»."
+
+#: ../data/docky.schemas.in.h:40
+msgid ""
+"If true, items with more than one window have two indicator dots instead of "
+"just one dot."
+msgstr ""
+"Калі так, элементы, якія маюць больш аднаго акна, будуць пазначацца двума "
+"кропкамі замест адной."
+
+#: ../data/docky.schemas.in.h:41
+msgid "If true, locks all items on all docks so they can't be dragged."
+msgstr "Калі так, усе элементы на ўсіх панэлях блакуюцца ад перацягвання."
+
+#: ../data/docky.schemas.in.h:42
+msgid ""
+"If true, output from the helpers will be redirected to show in Docky's "
+"output."
+msgstr "Калі так, вывад прыкладанняў перанакіроўваецца на вывад Docky."
+
+#: ../data/docky.schemas.in.h:43
+msgid "If true, scrolling one direction through all workspaces is possible."
+msgstr "Дазволіць прагортку праз усе стальніцы ў адным кірунку."
+
+#: ../data/docky.schemas.in.h:44
+msgid "If true, show the digital clock otherwise show the analog clock."
+msgstr "Калі так, будзе паказвацца лічбавы гадзіннік замест аналагавага."
+
+#: ../data/docky.schemas.in.h:45
+msgid "If true, shows a notify message for new unread mail."
+msgstr "Калі так, будуць паказвацца абвесткі пра не прачытаныя лісты."
+
+#: ../data/docky.schemas.in.h:46
+msgid "If true, shows the Docky item on the dock managing windows."
+msgstr "Калі так, будзе паказаны значок Docky на панэлі кіравання вокнамі."
+
+#: ../data/docky.schemas.in.h:47
+msgid "If true, shows time in 24-hr format."
+msgstr "Калі так, час будзе паказвацца ў 24-гадзіннікавым фармаце."
+
+#: ../data/docky.schemas.in.h:48
+msgid "If true, the Docky item popup menu shows the Quit option."
+msgstr "Калі так, кантэкстнае меню Docky будзе ўтрымліваць пункт \"Выхад\"."
+
+#: ../data/docky.schemas.in.h:49
+msgid "If true, the Docky item popup menu shows the Settings option."
+msgstr ""
+"Калі так, кантэкстнае меню Docky будзе ўтрымліваць пункт «Параметры»."
+
+#: ../data/docky.schemas.in.h:50
+msgid "If true, the date should show on the digital clock."
+msgstr "Калі так, лічбавы гадзіннік будзе паказваць дату."
+
+#: ../data/docky.schemas.in.h:51
+msgid "If true, the dock is drawn as a 3d dock."
+msgstr "Калі так, панэль будзе ў рэжыме 3D."
+
+#: ../data/docky.schemas.in.h:52
+msgid ""
+"If true, the dock is in panel mode and will extend to fill the entire screen "
+"edge."
+msgstr "Калі так, панэль будзе пашырацца на ўсю шырыню экрана."
+
+#: ../data/docky.schemas.in.h:53
+msgid "If true, the dock will zoom when hovered."
+msgstr "Калі так, панэль будзе пашырацца пад паказальнікам."
+
+#: ../data/docky.schemas.in.h:54
+msgid ""
+"If true, this is the first time Docky has run. Internal use only - Do not "
+"change!"
+msgstr ""
+"Калі так, гэта першы запуск Docky. Толькі для ўнутранага карыстання: Не "
+"змяняйце гэтае значэнне!"
+
+#: ../data/docky.schemas.in.h:55
+msgid "If true, timers will disappear when they time out."
+msgstr "Калі так, таймеры будзе знікаць, калі час выйшаў."
+
+#: ../data/docky.schemas.in.h:56
+msgid ""
+"If true, tracks the mouse selection clipboard. If false, tracks the "
+"secondary clipboard."
+msgstr ""
+"Калі так, у буферы будуць адсочвацца варыянты выбару мышшу. Калі няма, будзе "
+"адсочвацца другасны буфер."
+
+#: ../data/docky.schemas.in.h:57
+msgid "If true, use metric units when showing weather."
+msgstr "Калі так, прагноз надвор'я будзе ў метрычных адзінках."
+
+#: ../data/docky.schemas.in.h:58
+msgid ""
+"If true, when the dock hides it will fade away instead of sliding off screen."
+msgstr ""
+"Калі так, панэль паступова будзе знікаць замест слізгацення за край экрана."
+
+#: ../data/docky.schemas.in.h:59
+msgid ""
+"If true, when there is new unread mail Docky will show the indicator dot."
+msgstr ""
+"Калі так, Docky будзе паказваць індыкатарную кропку, калі ё прачытаныя лісты."
+
+#: ../data/docky.schemas.in.h:60
+msgid "If true, will try to show the most recent document on the dock."
+msgstr "Калі так, на панэлі будуць паказвацца нядаўнія дакументы."
+
+#: ../data/docky.schemas.in.h:61
+msgid "Indicate when items have more than one window"
+msgstr "Паказваць, калі элемент мае некалькі вокнаў"
+
+#: ../data/docky.schemas.in.h:62
+msgid "Last time checked"
+msgstr "Час апошняй праверкі"
+
+#: ../data/docky.schemas.in.h:63
+msgid "Left click command"
+msgstr "Каманда пры пстрычцы левай кнопкай"
+
+#: ../data/docky.schemas.in.h:64
+msgid "List of NPR stations to display."
+msgstr "Спіс NPR-станцый да паказу."
+
+#: ../data/docky.schemas.in.h:65
+msgid "List of active docks"
+msgstr "Спіс актыўных докаў"
+
+#: ../data/docky.schemas.in.h:66
+msgid "List of custom GMail labels to check in addition to the inbox."
+msgstr "Спіс нетыповых метак GMail для праверкі на даданне ва «ўваходныя»."
+
+#: ../data/docky.schemas.in.h:67
+msgid "List of launchers"
+msgstr "Спіс кнопак запуску"
+
+#: ../data/docky.schemas.in.h:68
+msgid "Max Entries"
+msgstr "Макс. колькасць запісаў"
+
+#: ../data/docky.schemas.in.h:69
+msgid "NPR stations"
+msgstr "NPR-радыёстанцыі"
+
+#: ../data/docky.schemas.in.h:70
+msgid "New timer length"
+msgstr "Тэрмін дзеяння новага таймера"
+
+#: ../data/docky.schemas.in.h:71
+msgid "Number of recent docs"
+msgstr "Колькасць нядаўніх дакументаў"
+
+#: ../data/docky.schemas.in.h:72
+msgid "Opacity to fade to"
+msgstr "Празрыстасць, да якой «знікаць»"
+
+#: ../data/docky.schemas.in.h:73
+msgid "Plugins on this dock"
+msgstr "Модулі на гэтай панэлі"
+
+#: ../data/docky.schemas.in.h:74
+msgid "Prevent adding items by drops"
+msgstr "Забараніць даданне элементаў перацягваннем"
+
+#: ../data/docky.schemas.in.h:75
+msgid "Redirect helper output to Docky's output"
+msgstr "Перанакіраваць вывад дадаткаў да высновы Docky"
+
+#: ../data/docky.schemas.in.h:76
+msgid "Set the color of the Docky icon. 0 means use the GTK+ theme color."
+msgstr "Колер значка Docky. Значэнне 0 - выкарыстоўваць колер тэмы GTK +."
+
+#: ../data/docky.schemas.in.h:77
+msgid "Show 'Pin to Dock' for items"
+msgstr "Паказваць пункт «Замацаваць на панэлі»"
+
+#: ../data/docky.schemas.in.h:78
+msgid "Show Quit in Docky item menu"
+msgstr "Паказваць пункт меню Docky на \"Выхад\""
+
+#: ../data/docky.schemas.in.h:79
+msgid "Show Settings in Docky item menu"
+msgstr "Паказваць пункт меню Docky «Наладкі»"
+
+#: ../data/docky.schemas.in.h:80
+msgid "Show a notify for unread mail"
+msgstr "Паказваць абвесткі пра не прачытаныя лісты"
+
+#: ../data/docky.schemas.in.h:81
+msgid "Show date"
+msgstr "Паказваць дату"
+
+#: ../data/docky.schemas.in.h:82
+msgid "Show hover text labels for launchers"
+msgstr "Паказваць падказкі для кнопак запуску"
+
+#: ../data/docky.schemas.in.h:83
+msgid "Show indicator dot for unread mail"
+msgstr "Паказваць кропку, калі ёсць непрачытаныя лісты"
+
+#: ../data/docky.schemas.in.h:84
+msgid "Show most recent doc"
+msgstr "Паказваць найноўшыя дакументы"
+
+#: ../data/docky.schemas.in.h:85
+msgid "Show the Docky item"
+msgstr "Паказваць значку «Docky»"
+
+#: ../data/docky.schemas.in.h:86
+msgid "Show the digital clock"
+msgstr "Паказваць лічбавы гадзіннік"
+
+#: ../data/docky.schemas.in.h:87
+msgid "Show windows from only current desktop"
+msgstr "Паказваць вокны толькі з бягучай стальніцы"
+
+#: ../data/docky.schemas.in.h:88
+msgid "Sorts the items on the dock"
+msgstr "Сартуе элементы на панэлі"
+
+#: ../data/docky.schemas.in.h:89
+msgid "Start all new timers"
+msgstr "Запусціць ўсе новыя таймеры"
+
+#: ../data/docky.schemas.in.h:90
+msgid "Stop items from dragging"
+msgstr "Прыпыніць перацягванне элементаў"
+
+#: ../data/docky.schemas.in.h:91
+msgid "The GMail username to check."
+msgstr "Імя карыстача GMail для праверкі пошты."
+
+#: ../data/docky.schemas.in.h:92
+msgid ""
+"The command to execute when left-clicking the Docky item or \"\" for default "
+"behavior (which opens the configuration dialog)."
+msgstr ""
+"Каманда, якая будзе выконвацца пры пстрычцы левай кнопкай мышы на элеменце "
+"Docky, або \"\" для тыповых паводзінаў (гэта значыць, адкрыць дыялог налады)."
+
+#: ../data/docky.schemas.in.h:93
+msgid "The current theme"
+msgstr "Бягучая тэма"
+
+#: ../data/docky.schemas.in.h:94
+msgid "The currently selected item in the session manager menu."
+msgstr "Абраны элемент меню мэнэджара сеансу"
+
+#: ../data/docky.schemas.in.h:95
+msgid "The default time (in secs) for any new timers."
+msgstr "Тыповы час (у сек.) Для новых таймераў."
+
+#: ../data/docky.schemas.in.h:96
+msgid ""
+"The dock's hide mode. Possible values are: None, Autohide, Intellihide, "
+"UniversalIntellihide"
+msgstr ""
+"Рэжым ўтойвання панэлі. Магчымыя значэння: «Нічога», «Аўта-ўтойванне», "
+"«Разумнае ўтойванне» і «Пазбягаць вокнаў»"
+
+#: ../data/docky.schemas.in.h:97
+msgid "The dock's position"
+msgstr "Размяшчэнне панэлі"
+
+#: ../data/docky.schemas.in.h:98
+msgid ""
+"The dock's position on the screen. Possible values are: Bottom, Top, Left, "
+"Right"
+msgstr ""
+"Размяшчэнне панэлі на экране. Магчымыя значэнні: «Унізе», «Наверсе», "
+"«Налева» і «Направа»"
+
+#: ../data/docky.schemas.in.h:99
+msgid "The dock's zoom size (if enabled), as a percent."
+msgstr "Маштабаванне панэлі (калі уключаны), ў адсотках."
+
+#: ../data/docky.schemas.in.h:100
+msgid "The last time Docky checked GMail for messages."
+msgstr "Час апошняй праверкі GMail на новыя лісты."
+
+#: ../data/docky.schemas.in.h:101
+msgid "The list of weather locations to check."
+msgstr "Спіс адрэсаў для праверкі прагнозу надвор'я."
+
+#: ../data/docky.schemas.in.h:102
+msgid "The name of the current Docky theme."
+msgstr "Назва бягучай тэмы Docky."
+
+#: ../data/docky.schemas.in.h:103
+msgid "The name of the weather source to get weather information from."
+msgstr "Назва крыніцы прагнозу надвор'я для атрымання звестак аб надвор'і."
+
+#: ../data/docky.schemas.in.h:104
+msgid ""
+"The number of extra pixels to pad the hover area on the top of the dock."
+msgstr ""
+"Колькасць дадатковых пікселяў для дадатку вобласці навядзення ў пачатку "
+"панэлі."
+
+#: ../data/docky.schemas.in.h:105
+msgid "The number of most recent documents to show."
+msgstr "Колькасць нядаўніх дакументаў да паказу."
+
+#: ../data/docky.schemas.in.h:106
+msgid "The size of icons on the dock."
+msgstr "Памер значак на панэлі."
+
+#: ../data/docky.schemas.in.h:107
+msgid "The text to show when hovering the Docky item."
+msgstr "Тэкст для паказу пад паказальнікам на элеменце ў Docky."
+
+#: ../data/docky.schemas.in.h:108
+msgid "The theme for the analog clock."
+msgstr "Тэма аналагавага гадзінніка."
+
+#: ../data/docky.schemas.in.h:109
+msgid "The weather source"
+msgstr "Крыніца прагнозу надвор'я."
+
+#: ../data/docky.schemas.in.h:110
+msgid ""
+"This is the command to execute when left clicking on the CPU docklet item."
+msgstr ""
+"Гэтая каманда будзе выконвацца пры пстрычцы левай кнопкай мышы на CPU-"
+"доклеце."
+
+#: ../data/docky.schemas.in.h:111
+msgid "This is the list of all the launchers on this dock."
+msgstr "Спіс усіх значак запуску на гэтай панэлі."
+
+#: ../data/docky.schemas.in.h:112
+msgid "This is the monitor the dock exists on."
+msgstr "Манітор, на якім размешчаная панэль."
+
+#: ../data/docky.schemas.in.h:113
+msgid ""
+"This is the time (in milliseconds) to wait before unhiding a hidden dock "
+"when the cursor moves over it."
+msgstr ""
+"Час чакання з'яўлення схаванай панэлі пад паказальнікам мышы (у "
+"мілісекундах)."
+
+#: ../data/docky.schemas.in.h:114
+msgid ""
+"This is the time (in milliseconds) to wait to determine if a window switch "
+"causes a (un)hide."
+msgstr ""
+"Час чакання пераключэння акна, які прыводзіць да з'яўлення або знікнення "
+"панэлі (у мілісекундах)."
+
+#: ../data/docky.schemas.in.h:115
+msgid "This lists all the currently active (displayed) docks, by name."
+msgstr "Спіс усіх актыўных на дадзены момант (паказаных) панэляў, па назве."
+
+#: ../data/docky.schemas.in.h:116
+msgid "Timer Delay"
+msgstr "Затрымка таймера"
+
+#: ../data/docky.schemas.in.h:117
+msgid "Track Mouse Selections"
+msgstr "Адсочваць выбар мышшу"
+
+#: ../data/docky.schemas.in.h:118
+msgid "Urgent indicator color shift"
+msgstr "Змены колеру індыкатара \"тэрмінова\""
+
+#: ../data/docky.schemas.in.h:119
+msgid "Urgent indicator glow animation time (in seconds)"
+msgstr "Час ззяння індыкатара \"тэрмінова\" (у секундах)"
+
+#: ../data/docky.schemas.in.h:120
+msgid "Use 24-hr time"
+msgstr "24-гадзінны час"
+
+#: ../data/docky.schemas.in.h:121
+msgid "Use metric units"
+msgstr "Выкарыстоўваць метрычную сістэму"
+
+#: ../data/docky.schemas.in.h:122
+msgid "Used to sort the items on the dock."
+msgstr "Выкарыстоўваецца для сартавання элементаў на панэлі."
+
+#: ../data/docky.schemas.in.h:123
+msgid "Weather locations"
+msgstr "Адрасы для прагнозу надвор'я"
+
+#: ../data/docky.schemas.in.h:124
+msgid "Which monitor the dock is on"
+msgstr "Манітор, на якім размешчаная панэль"
+
+#: ../data/docky.schemas.in.h:125
+msgid "Zoom size"
+msgstr "Памер павелічэння"
+
+#: ../Docky/Docky/ConfigurationWindow.cs:270
+msgid "Search Docklets..."
+msgstr "Пошук даклетаў..."
+
+#: ../Docky/Docky/ConfigurationWindow.cs:287
+msgid "Search Helpers..."
+msgstr "Пошук дадаткаў..."
+
+#: ../Docky/Docky/ConfigurationWindow.cs:364
+msgid "Click on any dock to configure."
+msgstr "Націсніце на панэль для яе налады."
+
+#: ../Docky/Docky/ConfigurationWindow.cs:365
+msgid "Drag any dock to reposition."
+msgstr "Перацягніце панэль, каб змяніць яе размяшчэнне."
+
+#: ../Docky/Docky/ConfigurationWindow.cs:386
+msgid "Helpers require DockManager be installed."
+msgstr "Дадаткі патрабуюць устаноўленага DockManager."
+
+#: ../Docky/Docky/ConfigurationWindow.cs:458
+msgid "Delete the currently selected dock?"
+msgstr "Выдаліць гэтую панэль?"
+
+#: ../Docky/Docky/ConfigurationWindow.cs:460
+msgid ""
+"If you choose to delete the dock, all settings\n"
+"for the deleted dock will be permanently lost."
+msgstr ""
+"Калі вы выдаліце панэль, усё яе налады\n"
+"назаўжды будуць страчаныя."
+
+#: ../Docky/Docky/ConfigurationWindow.cs:467
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:457
+msgid "_Delete Dock"
+msgstr "_Выдаліць Панэль"
+
+#: ../Docky/Docky/ConfigurationWindow.cs:583
+#: ../Docky/Docky/ConfigurationWindow.cs:603
+msgid "_Select"
+msgstr "_Абраць"
+
+#: ../Docky/Docky/ConfigurationWindow.cs:586
+#: ../Docky/Docky/ConfigurationWindow.cs:606
+msgid ".tar Archives"
+msgstr "Архівы .tar"
+
+#: ../Docky/Docky/DockletTile.cs:49
+msgid "Author"
+msgstr "Аўтар"
+
+#: ../Docky/Docky/DockletTile.cs:84
+msgid "Move this docklet up on the selected dock"
+msgstr "Перамясціць даклет вышэй на абранай панэлі"
+
+#: ../Docky/Docky/DockletTile.cs:85
+msgid "Move this docklet down on the selected dock"
+msgstr "Перамясціць даклет ніжэй на абранай панэлі"
+
+#: ../Docky/Docky/DockletTile.cs:89
+msgid "Move this docklet left on the selected dock"
+msgstr "Перамясціць даклет леваруч на абранай панэлі"
+
+#: ../Docky/Docky/DockletTile.cs:90
+msgid "Move this docklet right on the selected dock"
+msgstr "Перамясціць даклет праваруч на абранай панэлі"
+
+#: ../Docky/Docky/DockletTile.cs:92
+msgid "Configure this docklet"
+msgstr "Наладзіць гэты даклет"
+
+#: ../Docky/Docky/DockletTile.cs:93
+msgid "About this docklet"
+msgstr "Пра гэты даклет"
+
+#: ../Docky/Docky/DockletTile.cs:94
+msgid "Add this docklet to the selected dock"
+msgstr "Дадаць гэты даклет да абранай панэлі"
+
+#: ../Docky/Docky/DockletTile.cs:95
+msgid "Remove this docklet from the selected dock"
+msgstr "Выдаліць гэты даклет з абранай панэлі"
+
+#: ../Docky/Docky/Docky.cs:139
+msgid ""
+"Docky requires compositing to work properly. Certain options are disabled "
+"and themes/animations will look incorrect. "
+msgstr ""
+"Для правільнай працы Docky патрабуе кампазітнага рэжыму. Без яго некаторыя "
+"магчымасці будуць дэактываваныя, а тэмы і анімацыі выглядаць няправільна. "
+
+#: ../Docky/Docky/HelperTile.cs:42
+msgid "Status"
+msgstr "Стан"
+
+#: ../Docky/Docky/HelperTile.cs:59
+msgid "Uninstall"
+msgstr "Выдаліць"
+
+#: ../Docky/Docky/HelperTile.cs:71
+msgid "About this helper"
+msgstr "Аб дадатку"
+
+#: ../Docky/Docky/HelperTile.cs:72
+msgid "Enable this helper"
+msgstr "Уключыць гэты дадатак"
+
+#: ../Docky/Docky/HelperTile.cs:73
+msgid "Disable this helper"
+msgstr "Адключыць гэты дадатак"
+
+#: ../Docky/Docky/HelperTile.cs:90
+msgid "Running"
+msgstr "Выконваецца"
+
+#: ../Docky/Docky/HelperTile.cs:90
+msgid "Stopped"
+msgstr "Спынена"
+
+#: ../Docky/Docky/Interface/DockPreferences.cs:345
+msgid ""
+"When set, windows which do not already have launchers on a dock will be "
+"added to this dock."
+msgstr ""
+"Калі пазначана, вокны, якія яшчэ не маюць піктаграм запуску на панэлі, "
+"будуць дададзеныя да панэлі."
+
+#: ../Docky/Docky/Interface/DockPreferences.cs:727
+msgid "<i>Never hides; maximized windows do not overlap the dock.</i>"
+msgstr "<i>Не хаваць; максімізаваныя вокны не перакрываюць панэль.</i>"
+
+#: ../Docky/Docky/Interface/DockPreferences.cs:730
+msgid "<i>Hides whenever the mouse is not over it.</i>"
+msgstr "<i>Хаваць, калі паказальнік ледзь не над панэллю.</i>"
+
+#: ../Docky/Docky/Interface/DockPreferences.cs:733
+msgid "<i>Hides when dock obstructs the active application.</i>"
+msgstr "<i>Хаваць, калі панэль перашкаджае актыўнай праграме.</i>"
+
+#: ../Docky/Docky/Interface/DockPreferences.cs:736
+msgid "<i>Hides when dock obstructs any window.</i>"
+msgstr "<i>Хаваць, калі панэль перашкаджае вокнам.</i>"
+
+#: ../Docky/Docky/Interface/DockWindow.cs:380
+msgid "Drag to reposition"
+msgstr "Перацягніце, каб змяніць размяшчэнне"
+
+#: ../Docky/Docky/Interface/DockWindow.cs:392
+#: ../Docky/Docky/Interface/DockWindow.cs:406
+msgid "Drop to add to dock"
+msgstr "Перацягніце і кіньце, каб дадаць да панэлі"
+
+#: ../Docky/Docky/Items/DockyItem.cs:132
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:160
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:227
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:244
+msgid "_Settings"
+msgstr "_Наладкі"
+
+#: ../Docky/Docky/Items/DockyItem.cs:133
+msgid "_About"
+msgstr "_Аб праграме"
+
+#: ../Docky/Docky/Items/DockyItem.cs:134
+msgid "_Help"
+msgstr "_Дапамога"
+
+#: ../Docky/Docky/Items/DockyItem.cs:136
+msgid "_Quit Docky"
+msgstr "_Выйсці з Docky"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:96
+msgid "Docky Settings"
+msgstr "Наладкі Docky"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:141
+msgid "_Start When User Logs In"
+msgstr "_Запускаць пры ўваходзе ў сістэму"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:157
+msgid "_Theme:"
+msgstr "_Тэма:"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:188
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:344
+msgid "_Install"
+msgstr "_Усталяваць"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:207
+msgid "<b>General Options</b>"
+msgstr "<b>Агульныя опцыі</b>"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:227
+msgid "<b>Dock Configuration</b>"
+msgstr "<b>Налада панэлі</b>"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:241
+msgid "Docks"
+msgstr "Панэлі"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:262
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:320
+msgid "All"
+msgstr "Усе"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:263
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:318
+msgid "Enabled"
+msgstr "Уключаны"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:264
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:319
+msgid "Disabled"
+msgstr "Выключаны"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:296
+msgid "Docklets"
+msgstr "Даклеты"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:317
+msgid "Usable"
+msgstr "Прыняты"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:375
+msgid "Helpers"
+msgstr "Дадаткі"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:430
+msgid "_New Dock"
+msgstr "_Новая панэль"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:58
+msgid "None"
+msgstr "Нічога"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:59
+msgid "Autohide"
+msgstr "Аўтаматычнае ўтойванне"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:60
+msgid "Intellihide"
+msgstr "«Разумнае» ўтойванне"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:61
+msgid "Window Dodge"
+msgstr "Пазбягаць вокнаў"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:75
+msgid "_Fade On Hide"
+msgstr "_Згасаць пры ўтойванні"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:119
+msgid "_Icon Size:"
+msgstr "Па_мер значак:"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:132
+msgid "_Hiding:"
+msgstr "Утойванне:"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:142
+msgid "_Panel Mode"
+msgstr "Рэжым _панэлі"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:156
+msgid "3D Back_ground"
+msgstr "Аб'ёмнае тло"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:170
+msgid "_Manage Windows Without Launcher"
+msgstr "_Упарадкаваць вокны без піктаграмаў запуску"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:185
+msgid "_Zoom:"
+msgstr "_Маштаб:"
+
+#: ../Docky.Items/Docky.Items/AbstractDockItem.cs:120
+#, csharp-format
+msgid "Drop to open with {0}"
+msgstr "Адпусціце, каб адкрыць у {0}"
+
+#: ../Docky.Items/Docky.Items/ApplicationDockItem.cs:180
+msgid "New _Window"
+msgstr "Стварыць акно"
+
+#: ../Docky.Items/Docky.Items/ApplicationDockItem.cs:182
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:267
+#: ../StandardPlugins/Mounter/src/MountItem.cs:108
+msgid "_Open"
+msgstr "_Адчыніць"
+
+#: ../Docky.Items/Docky.Items/ColoredIconDockItem.cs:70
+msgid "_Reset Color"
+msgstr "Скінуць колер"
+
+#: ../Docky.Items/Docky.Items/FileApplicationProvider.cs:482
+msgid "_Pin to Dock"
+msgstr "_Замацаваць на панэлі"
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:83
+#, csharp-format
+msgid "Drop to move to {0}"
+msgstr "Адпусціце, каб перасунуць да {0}"
+
+#. until we use a new version of GTK# which supports getting the GLib.Error code
+#. this is about the best we can do.
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:197
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:242
+msgid "Error performing drop action"
+msgstr "Не атрымалася апрацаваць водпуск"
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:197
+msgid "Not enough free space on destination."
+msgstr "Мала вольнага месца."
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:214
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:217
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:249
+msgid "Complete"
+msgstr "Скончана"
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:227
+msgid "Moving"
+msgstr "Перамяшчэнне"
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:233
+msgid "Copying"
+msgstr "Капіраванне"
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:268
+msgid "Open Containing _Folder"
+msgstr "Адкрыць папку, якая _змяшчае аб'ект"
+
+#: ../Docky.Items/Docky.Items/WnckDockItem.cs:264
+msgid "Unma_ximize"
+msgstr "Аднавіць _папярэдні памер"
+
+#: ../Docky.Items/Docky.Items/WnckDockItem.cs:267
+msgid "Ma_ximize"
+msgstr "Ма_ксімалізаваць"
+
+#: ../Docky.Items/Docky.Items/WnckDockItem.cs:271
+msgid "_Restore"
+msgstr "_Аднавіць"
+
+#: ../Docky.Items/Docky.Items/WnckDockItem.cs:274
+msgid "Mi_nimize"
+msgstr "_Мінімалізаваць"
+
+#: ../Docky.Items/Docky.Items/WnckDockItem.cs:277
+msgid "_Close All"
+msgstr "За_крыць усё"
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:43
+#, csharp-format
+msgid "Sign up for {0}"
+msgstr "Зарэгістравацца ў {0}"
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:44
+msgid "Validating..."
+msgstr "Праверка..."
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:45
+#, csharp-format
+msgid "Don't have {0}?"
+msgstr "Не маеце {0}?"
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:46
+msgid "Account validation failed!"
+msgstr "Праверка рахунка не атрымалася!"
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:47
+msgid "Verify and save account information"
+msgstr "Праверыць і захаваць дадзеныя ўліковага запісу"
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:48
+msgid "Account validation succeeded!"
+msgstr "Праверка рахунка атрымалася!"
+
+#: ../Docky.Widgets/gtk-gui/Docky.Widgets.AbstractLoginWidget.cs:87
+msgid "Password"
+msgstr "Пароль"
+
+#: ../Docky.Widgets/gtk-gui/Docky.Widgets.AbstractLoginWidget.cs:108
+msgid "Username"
+msgstr "Імя карыстача:"
+
+#: ../Docky.Widgets/gtk-gui/Docky.Widgets.AbstractLoginWidget.cs:121
+msgid "<i>Verify and save account information</i>"
+msgstr "<i>Праверыць і захаваць звесткі да уліковага запісу</i>"
+
+#: ../Docky.Widgets/gtk-gui/Docky.Widgets.AbstractLoginWidget.cs:178
+msgid "Don't have an account?"
+msgstr "Няма рахунку?"
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:98
+msgid "No Battery Found"
+msgstr "Няма батарэі"
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:111
+#, csharp-format
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] "{0} гадзіна"
+msgstr[1] "{0} гадзіны"
+msgstr[2] "{0} гадзінаў"
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:113
+#, csharp-format
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] "{0} хвіліна"
+msgstr[1] "{0} хвіліны"
+msgstr[2] "{0} хвілін"
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:115
+msgid "until charged "
+msgstr "да поўнай зарадкі "
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:117
+msgid "remaining "
+msgstr "засталося "
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:154
+msgid "_Statistics"
+msgstr "_Статыстыка"
+
+#: ../StandardPlugins/Bookmarks/src/BookmarksItemProvider.cs:85
+msgid "Computer"
+msgstr "Кампутар"
+
+#: ../StandardPlugins/Clippy/src/ClippyItem.cs:88
+msgid "Clipboard is currently empty."
+msgstr "Буфер абмену пусты."
+
+#: ../StandardPlugins/Clock/src/ClockDockItem.cs:431
+msgid "Di_gital Clock"
+msgstr "Лічбавы гадзіннік"
+
+#: ../StandardPlugins/Clock/src/ClockDockItem.cs:437
+msgid "24-Hour _Clock"
+msgstr "24-гадзінны рэжым"
+
+#: ../StandardPlugins/Clock/src/ClockDockItem.cs:443
+msgid "Show _Date"
+msgstr "Паказваць дату"
+
+#: ../StandardPlugins/Clock/src/ClockDockItem.cs:449
+msgid "Select _Theme"
+msgstr "Выбраць _тэму"
+
+#: ../StandardPlugins/Clock/src/ClockThemeSelector.cs:54
+msgid "Themes"
+msgstr "Тэмы"
+
+#: ../StandardPlugins/Clock/src/ClockThemeSelector.cs:62
+msgid "Theme"
+msgstr "Тэма"
+
+#: ../StandardPlugins/Desktop/src/DesktopActionsProvider.cs:57
+msgid "_Undo"
+msgstr "Скасаваць"
+
+#: ../StandardPlugins/Desktop/src/ShowDesktopItem.cs:37
+msgid "_Show Desktop"
+msgstr "_Паказаць стальніцу"
+
+#: ../StandardPlugins/Desktop/src/TileDesktopItem.cs:38
+msgid "_Tile Desktop"
+msgstr "_Размясціць стальніцы побач"
+
+#: ../StandardPlugins/Desktop/src/CascadeDesktopItem.cs:38
+msgid "_Cascade Desktop"
+msgstr "Размясціць стальніцы _каскадна"
+
+#: ../StandardPlugins/GMail/gtk-gui/GMail.GMailLabelConfig.cs:74
+msgid "_Add Label"
+msgstr "_Дадаць метку"
+
+#: ../StandardPlugins/GMail/gtk-gui/GMail.GMailLabelConfig.cs:113
+msgid "Check e_very:"
+msgstr "Правяраць к_ожныя:"
+
+#: ../StandardPlugins/GMail/gtk-gui/GMail.GMailLabelConfig.cs:123
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:186
+msgid "minutes"
+msgstr "хв."
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:189
+msgid "Click to set username and password."
+msgstr "Пстрыкніце, каб задаць імя карыстальніка і пароль"
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:246
+msgid "(no subject)"
+msgstr "(без тэмы)"
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:260
+#, csharp-format
+msgid "You have {0} new, unread messages"
+msgstr "У вас {0} новых непрачытаных ліст (оў)"
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:264
+#, csharp-format
+msgid "From: {0}"
+msgstr "Ад: {0}"
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:278
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:281
+msgid "Feed Error"
+msgstr "Памылка ў стужцы"
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:285
+msgid "Invalid Username"
+msgstr "Няправільнае імя карыстальніка"
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:287
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:292
+#: ../StandardPlugins/Weather/src/Sources/AbstractWeatherSource.cs:173
+msgid "Network Error"
+msgstr "Памылка сеткі"
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:296
+msgid "General Error"
+msgstr "Агульная памылка"
+
+#: ../StandardPlugins/GMail/src/GMailConfigDialog.cs:30
+msgid "Gmail Configuration"
+msgstr "Налады Gmail"
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:95
+msgid "No unread mail"
+msgstr "Няма непрачытаных лістоў"
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:98
+#, csharp-format
+msgid "{0} unread message"
+msgid_plural "{0} unread messages"
+msgstr[0] "{0} непрачытаны ліст"
+msgstr[1] "{0} непрачытаныя лісты"
+msgstr[2] "{0} непрачытаных лістоў"
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:119
+msgid "Checking mail..."
+msgstr "Праверка пошты..."
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:201
+msgid "_View "
+msgstr "_Прагляд "
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:206
+msgid "_Compose Mail"
+msgstr "_Напісаць ліст"
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:211
+msgid "View C_ontacts"
+msgstr "Агледзець _кантакты"
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:218
+msgid "New Mail"
+msgstr "Новая пошта"
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:236
+msgid "Check _Mail"
+msgstr "Праверыць пошту"
+
+#: ../StandardPlugins/GMail/src/GMailLabelConfig.cs:36
+msgid "Labels"
+msgstr "Цэтлікі"
+
+#: ../StandardPlugins/GMail/src/GMailLoginConfig.cs:37
+msgid "Gmail"
+msgstr "Gmail"
+
+#: ../StandardPlugins/GMail/src/GMailLoginConfig.cs:41
+msgid "Login"
+msgstr "Увайсці"
+
+#: ../StandardPlugins/GMail/src/GMailMenuItem.cs:31
+msgid "From: "
+msgstr "Ад: "
+
+#: ../StandardPlugins/Mounter/src/MountItem.cs:111
+msgid "_Eject"
+msgstr "_Вызваліць"
+
+#: ../StandardPlugins/Mounter/src/MountItem.cs:111
+msgid "_Unmount"
+msgstr "_Адмацаваць"
+
+#: ../StandardPlugins/NetworkManager/src/NetworkManagerDocklet.cs:53
+msgid "Network Manager"
+msgstr "Кіраўнік сеткі"
+
+#: ../StandardPlugins/NetworkManager/src/NetworkManagerDocklet.cs:92
+msgid "Connecting..."
+msgstr "Злучэнне..."
+
+#: ../StandardPlugins/NetworkManager/src/NetworkManagerDocklet.cs:101
+#: ../StandardPlugins/NetworkManager/src/NetworkManagerDocklet.cs:166
+msgid "Disconnected"
+msgstr "Адлучана"
+
+#: ../StandardPlugins/NetworkManager/src/NetworkManagerDocklet.cs:110
+#, csharp-format
+msgid "Connected: {0}"
+msgstr "Злучаны: {0}"
+
+#: ../StandardPlugins/NetworkMonitor/src/NetworkMonitorDockItem.cs:61
+msgid "No network connection available"
+msgstr "Няма злучэння з сеткай"
+
+#: ../StandardPlugins/NPR/gtk-gui/NPR.StationSearchWidget.cs:47
+msgid "My _Stations"
+msgstr "Мае _станцыі"
+
+#: ../StandardPlugins/NPR/gtk-gui/NPR.StationSearchWidget.cs:78
+msgid "S_earch"
+msgstr "По_шук"
+
+#: ../StandardPlugins/NPR/src/Station.cs:72
+msgid "No stations found."
+msgstr "Станцыі не знойдзеныя."
+
+#: ../StandardPlugins/NPR/src/Station.cs:73
+#: ../StandardPlugins/Weather/src/WeatherConfig.cs:90
+msgid "Please try your search again."
+msgstr "Паспрабуйце пашукаць зноў."
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:46
+msgid "Fetching Information..."
+msgstr "Атрыманне дадзеных ..."
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:72
+msgid "Click to add NPR stations."
+msgstr "Націсніце, каб дадаць NPR станцыі."
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:111
+msgid "Home Page"
+msgstr "Хатняя старонка"
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:118
+msgid "Program Schedule"
+msgstr "Праграма перадач"
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:125
+msgid "Donate"
+msgstr "Ахвяраваць грошы"
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:132
+msgid "Live Streams"
+msgstr "«Жывыя» патокі"
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:170
+msgid "Settings"
+msgstr "Наладкі"
+
+#: ../StandardPlugins/RecentDocuments/src/RecentFilesProvider.cs:84
+msgid "_Clear Recent Documents..."
+msgstr "Ачысціць спіс нядаўніх дакументаў"
+
+#: ../StandardPlugins/RecentDocuments/src/RecentFilesProvider.cs:95
+msgid "Clear the Recent Documents list?"
+msgstr "Ачысціць спіс нядаўніх дакументаў?"
+
+#: ../StandardPlugins/RecentDocuments/src/RecentFilesProvider.cs:97
+msgid "Clear Recent Documents"
+msgstr "Ачышчэнне спіса нядаўніх дакументаў"
+
+#: ../StandardPlugins/RecentDocuments/src/RecentFilesProvider.cs:99
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+"Калі вы ачышчаеце спіс нядаўніх дакументаў, вы ачышчаеце:\n"
+"• Усе элементы ў меню Месцы → Нядаўнія дакументы.\n"
+"• Усе элементы са спіса нядаўніх дакументаў ва ўсіх праграмах."
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:76
+msgid "L_ock Screen"
+msgstr "За_блакаваць экран"
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:80
+msgid "_Log Out..."
+msgstr "_Выйсці з сесіі..."
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:81
+msgid "Log Out"
+msgstr "Выйсці з сесіі"
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:82
+msgid ""
+"Are you sure you want to close all programs and log out of the computer?"
+msgstr "Ці вы хочаце зачыніць усе праграмы і выйсці?"
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:87
+msgid "_Suspend"
+msgstr "_Прыпыніць"
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:92
+msgid "_Hibernate"
+msgstr "_Гібернацыя"
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:97
+msgid "_Restart..."
+msgstr "_Перазапуск..."
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:98
+msgid "Restart"
+msgstr "Перазапуск"
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:99
+msgid "Are you sure you want to close all programs and restart the computer?"
+msgstr "Ці вы хочаце зачыніць усе праграмы і перазапусьціць кампутар?"
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:104
+msgid "Shut _Down..."
+msgstr "_Выключыць..."
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:105
+msgid "Shut Down"
+msgstr "Выключыць"
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:106
+msgid ""
+"Are you sure you want to close all programs and shut down the computer?"
+msgstr "Ці вы хочаце зачыніць усе праграмы і выключыць кампутар?"
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:86
+#, csharp-format
+msgid "A timer set for {0} has expired."
+msgstr "Тэрмін таймера, усталяванага на {0}, завяршыўся."
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:242
+msgid "Time remaining:"
+msgstr "Часу засталося:"
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:244
+msgid "Timer paused, time remaining:"
+msgstr "Таймер спынены, часу засталося:"
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:255
+msgid "Set the timer's label to:"
+msgstr "Усталяваць метку таймера на:"
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:261
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:299
+msgid "_Set Label"
+msgstr "Усталяваць метку"
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:286
+msgid "_Pause Timer"
+msgstr "_Прыпыніць таймер"
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:286
+msgid "_Start Timer"
+msgstr "_Запусціць таймер"
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:290
+msgid "R_eset Timer"
+msgstr "Скінуць _таймер"
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:294
+msgid "_Remove Timer"
+msgstr "_Выдаліць таймер"
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:57
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "гадзіна"
+msgstr[1] "гадзіны"
+msgstr[2] "гадзінаў"
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:61
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "хвіліна"
+msgstr[1] "хвіліны"
+msgstr[2] "хвілінаў"
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:66
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "сэкунда"
+msgstr[1] "сэкунды"
+msgstr[2] "сэкундаў"
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:145
+#, csharp-format
+msgid "Click to create a timer for {0}."
+msgstr "Націсніце, каб усталяваць таймер на {0}."
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:162
+msgid "Automatically _Start Timers"
+msgstr "Аўтаматычна _запускаць таймеры"
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:166
+msgid "Automatically _Dismiss Timers"
+msgstr "Аўтаматычна спыняць таймеры"
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:55
+msgid "Drop to move to Trash"
+msgstr "Скіньце, каб перамясціць у сметніцу"
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:82
+msgid "No items in Trash"
+msgstr "Сметніца пустая"
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:84
+#, csharp-format
+msgid "{0} item in Trash"
+msgid_plural "{0} items in Trash"
+msgstr[0] "{0} элемент у сметніцы"
+msgstr[1] "{0} элементы ў сметніцы"
+msgstr[2] "{0} элементаў у сметніцы"
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:169
+msgid "Restore Files"
+msgstr "Аднавіць файлы"
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:201
+msgid "_Open Trash"
+msgstr "Адчыніць сметніцу"
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:203
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:234
+msgid "Empty _Trash"
+msgstr "Спустошыць _сметніцу"
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:226
+msgid "Empty all of the items from the trash?"
+msgstr "Спустошыць сметніцу?"
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:228
+msgid ""
+"If you choose to empty the trash, all items in it\n"
+"will be permanently lost. Please note that you\n"
+"can also delete them separately."
+msgstr ""
+"Калі вы ачысціце сметніцу, усе элементы ў ім\n"
+"будуць страчаныя назаўжды. Уважце, што вы таксама\n"
+"можаце выдаліць іх па адным."
+
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:65
+msgid "_Weather Provider:"
+msgstr "_Служба надвор'я:"
+
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:105
+msgid "My _Locations"
+msgstr "Мае _адрасы"
+
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:136
+msgid "_Search"
+msgstr "_Пошук"
+
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:176
+msgid "Automatically Update _Every"
+msgstr "Аўтаматычна абнаўляць _кожныя"
+
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:220
+msgid "Use _Metric Units"
+msgstr "Выкарыстоўваць _метрычныя адзінкі"
+
+#: ../StandardPlugins/Weather/src/Sources/AbstractWeatherSource.cs:170
+msgid "Invalid Weather Location"
+msgstr "Няправільны адрас"
+
+#: ../StandardPlugins/Weather/src/Sources/GoogleWeatherSource.cs:55
+msgid ""
+"Weather data provided by Google.  This source requires locations to be "
+"specified as US Zip Code or 'City, Country'."
+msgstr ""
+"Прагноз надвор'я прадстаўляецца Google. Адрасы трэба паказваць як US Zip "
+"Code ці як «горад, краіна»."
+
+#: ../StandardPlugins/Weather/src/Sources/WeatherChannelWeatherSource.cs:60
+msgid ""
+"Weather data provided by and copyright The Weather Channel.  This source "
+"requires locations to be specified as US Zip Code or a unique code from the "
+"website.  To find your code, look up your forecast on their site and the "
+"code is in the URL after '/local/' and looks like AAXX0000."
+msgstr ""
+"Дадзеныя прагнозу надвор'я прадастаўляюцца The Weather Channel і абаронены "
+"аўтарскім правам. Адрасы трэба паказваць як US Zip Code або як унікальны код "
+"з гэтага вэб-сайта. Свой код можаце знайсці на старонцы прагнозу надвор'я "
+"для вашага рэгіёну ў URL пасля слова '/ local /' у выглядзе AAXX0000."
+
+#: ../StandardPlugins/Weather/src/Sources/WunderWeatherSource.cs:56
+msgid ""
+"Weather data provided by and copyright Weather Underground.  This source "
+"requires locations to be specified as US Zip Code or 'City, Country'."
+msgstr ""
+"Дадзеныя прагнозу надвор'я прадстаўляюцца Weather Underground і абароненыя "
+"аўтарскім правам. Адрасы трэба паказваць як US Zip Code ці як «горад, "
+"краіна»."
+
+#: ../StandardPlugins/Weather/src/WeatherConfig.cs:90
+msgid "No results found."
+msgstr "Вынікаў не знойдзена"
+
+#: ../StandardPlugins/Weather/src/WeatherConfigDialog.cs:34
+msgid "Weather Configuration"
+msgstr "Налады надвор'я"
+
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:80
+msgid "Click to add a location."
+msgstr "Націсніце, каб дадаць адрас."
+
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:90
+msgid "Fetching data..."
+msgstr "Атрыманне дадзеных..."
+
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:231
+msgid "Radar _Map"
+msgstr "Радарная _мапа"
+
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:236
+msgid "Forecasts"
+msgstr "Прагнозы"
+
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:252
+msgid "Check _Weather"
+msgstr "Праверыць надвор'е"
+
+#: ../StandardPlugins/Weather/src/WeatherForecast.cs:108
+msgid "_Today"
+msgstr "_Сёння"
+
+#: ../StandardPlugins/Weather/src/WeatherForecast.cs:111
+msgid "T_omorrow"
+msgstr "Заўтра"
+
+#. draw humidity
+#: ../StandardPlugins/Weather/src/WeatherPainter.cs:410
+#: ../StandardPlugins/Weather/src/WeatherPainter.cs:496
+#, csharp-format
+msgid "{0} humidity"
+msgstr "Вільготнасць {0}"
+
+#: ../StandardPlugins/WorkspaceSwitcher/src/WorkspaceSwitcherDockItem.cs:71
+#: ../StandardPlugins/WorkspaceSwitcher/src/WorkspaceSwitcherDockItem.cs:221
+msgid "Switch Desks"
+msgstr "Пераключыць сталы"
+
+#: ../StandardPlugins/WorkspaceSwitcher/src/WorkspaceSwitcherDockItem.cs:172
+msgid "Desk"
+msgstr "Стол"
+
+#: ../StandardPlugins/WorkspaceSwitcher/src/WorkspaceSwitcherDockItem.cs:174
+msgid "Virtual Desk"
+msgstr "Віртуальны стол"

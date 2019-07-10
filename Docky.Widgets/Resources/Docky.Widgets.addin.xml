@@ -1,0 +1,9 @@
+<Addin id="Widgets" namespace="Docky" version="1.0" isroot="true">
+	<Runtime>
+		<Import assembly="Docky.Widgets.dll"/>
+	</Runtime>
+
+	<ExtensionPoint path="/Docky/Configuration">
+		<ExtensionNode name="Configuration" objectType="Docky.Widgets.ConfigDialog"/>
+	</ExtensionPoint>
+</Addin>

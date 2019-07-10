@@ -1,0 +1,5 @@
+Name: Docky.Items
+Description: Docky Items.
+Version: @ABI_VERSION@
+
+Libs: -r:@expanded_libdir@/@PACKAGE@/Docky.Items.dll
