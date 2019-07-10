@@ -71,7 +71,7 @@ namespace Bookmarks
 		File BookmarksFile {
 			get {
 				if (bookmarks_file == null)
-					bookmarks_file = FileFactory.NewForPath (Environment.GetFolderPath (Environment.SpecialFolder.Personal)).GetChild (".gtk-bookmarks");
+					bookmarks_file = FileFactory.NewForPath (Environment.GetFolderPath (Environment.SpecialFolder.Personal)).GetChild (".config/gtk-3.0/bookmarks");
 				return bookmarks_file;
 			}
 		}
