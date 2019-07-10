@@ -1,0 +1,25 @@
+<Addin 
+	id="Timer"
+	namespace="Docky"
+	version="1.0"
+	isroot="false"
+	defaultEnabled="false"
+	name="Timer"
+	description="Create visual timers and reminders."
+	author="Robert Dyer"
+	icon="timer.svg@"
+>
+ 
+ 	<Dependencies>
+		<Addin id="Items" version="1.0" />
+	</Dependencies>
+ 
+	<Runtime>
+		<Import assembly="Timer.dll"/>
+	</Runtime>
+	
+	<Extension path="/Docky/ItemProvider">
+		<ItemProvider type="Timer.TimerItemProvider" />	
+	</Extension>	
+
+</Addin>

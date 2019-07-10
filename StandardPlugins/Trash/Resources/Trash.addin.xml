@@ -1,0 +1,25 @@
+<Addin 
+	id="Trash"
+	namespace="Docky"
+	version="1.0"
+	isroot="false"
+	defaultEnabled="true"
+	name="Trash"
+	description="Have a look at your trash!"
+	author="Chris Szikszoy, Robert Dyer"
+	icon="trashcan_full"
+>
+ 
+ 	<Dependencies>
+		<Addin id="Items" version="1.0" />
+	</Dependencies>
+ 
+	<Runtime>
+		<Import assembly="Trash.dll"/>
+	</Runtime>
+	
+	<Extension path="/Docky/ItemProvider">
+		<ItemProvider type="Trash.TrashItemProvider" />	
+	</Extension>	
+
+</Addin>

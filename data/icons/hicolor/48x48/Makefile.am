@@ -1,0 +1,4 @@
+SUBDIRS= \
+	apps \
+	mimetypes 
+

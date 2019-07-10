@@ -1,0 +1,25 @@
+<Addin 
+	id="SessionManager"
+	namespace="Docky"
+	version="1.0"
+	isroot="false"
+	defaultEnabled="false"
+	name="Session Manager"
+	description="Manage your session"
+	author="Claudio Melis"
+	icon="session-properties"
+>
+ 
+ 	<Dependencies>
+		<Addin id="Items" version="1.0" />
+	</Dependencies>
+ 
+	<Runtime>
+		<Import assembly="SessionManager.dll"/>
+	</Runtime>
+	
+	<Extension path="/Docky/ItemProvider">
+		<ItemProvider type="SessionManager.SessionManagerItemProvider" />	
+	</Extension>	
+
+</Addin>

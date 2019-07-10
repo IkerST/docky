@@ -1,0 +1,30 @@
+<Addin 
+	id="NPR"
+	namespace="Docky"
+	version="1.0"
+	isroot="false"
+	defaultEnabled="false"
+	name="NPR"
+	description="Listen to NPR streaming radio"
+	author="Chris Szikszoy"
+	icon="nprlogo.gif@"
+>
+
+ 	<Dependencies>
+		<Addin id="Items" version="1.0" />
+		<Addin id="Widgets" version="1.0" />
+	</Dependencies>
+ 
+	<Runtime>
+		<Import assembly="NPR.dll"/>
+	</Runtime>
+	
+	<Extension path="/Docky/ItemProvider">
+		<ItemProvider type="NPR.NPRItemProvider" />
+	</Extension>
+
+	<Extension path="/Docky/Configuration">
+		<Configuration type="NPR.NPRConfigDialog" />
+	</Extension>
+
+</Addin>

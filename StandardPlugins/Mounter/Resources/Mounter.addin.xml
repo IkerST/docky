@@ -1,0 +1,25 @@
+<Addin 
+	id="Mounter"
+	namespace="Docky"
+	version="1.0"
+	isroot="false"
+	defaultEnabled="false"
+	name="Mounter"
+	description="Access to mounted volumes"
+	author="Chris Szikszoy"
+	icon="drive-removable-media-usb;;drive-removable-media"
+>
+ 
+ 	<Dependencies>
+		<Addin id="Items" version="1.0" />
+	</Dependencies>
+ 
+	<Runtime>
+		<Import assembly="Mounter.dll"/>
+	</Runtime>
+	
+	<Extension path="/Docky/ItemProvider">
+		<ItemProvider type="Mounter.MountProvider" />
+	</Extension>	
+
+</Addin>

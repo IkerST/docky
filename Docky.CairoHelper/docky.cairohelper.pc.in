@@ -1,0 +1,5 @@
+Name: Docky.CairoHelper
+Description: Docky Cairo helper.
+Version: @ABI_VERSION@
+
+Libs: -r:@expanded_libdir@/@PACKAGE@/Docky.CairoHelper.dll

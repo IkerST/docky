@@ -1,0 +1,1485 @@
+# Uzbek translation for docky
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the docky package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: docky\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-06-17 13:49+0200\n"
+"PO-Revision-Date: 2015-02-18 07:46+0000\n"
+"Last-Translator: Shukrullo Turgunov <shukrullo@umail.uz>\n"
+"Language-Team: Uzbek <uz@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2015-09-02 08:48+0000\n"
+"X-Generator: Launchpad (build 17706)\n"
+
+#: ../data/docky.desktop.in.h:1
+msgid "The finest dock no money can buy."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:1
+msgid "A list of plugins that are active on this dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:2
+msgid "Analog clock theme"
+msgstr "Analog soat mavzusi"
+
+#: ../data/docky.schemas.in.h:3
+msgid "Clear finished timers"
+msgstr "Tugallangan taymerlarni tozalash"
+
+#: ../data/docky.schemas.in.h:4
+msgid "Currently selected item"
+msgstr "Joriy tanlangan"
+
+#: ../data/docky.schemas.in.h:5
+msgid "Dismiss a stopped timer when clicked"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:6
+msgid "Do not change this!"
+msgstr "Buni o'zgartirmang!"
+
+#: ../data/docky.schemas.in.h:7
+msgid "Dock icon size"
+msgstr "Dokdagi ikonkalar hajmi"
+
+#: ../data/docky.schemas.in.h:8
+msgid "Dock is 3d"
+msgstr "3D Dok"
+
+#: ../data/docky.schemas.in.h:9
+msgid "Dock manages all windows"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:10
+msgid "Dock zooms"
+msgstr "Dok kattalshtigichlari"
+
+#: ../data/docky.schemas.in.h:11
+msgid "Dock's hiding mode"
+msgstr "Dokning yashirin turi"
+
+#: ../data/docky.schemas.in.h:12
+msgid "Docky item command to execute"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:13
+msgid "Docky item hover text"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:14
+msgid "Docky item hue"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:15
+msgid "Enable checks for compositing"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:16
+msgid "Fade when hiding"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:17
+msgid "GMail labels to check"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:18
+msgid "GMail username"
+msgstr "GMail foydalanuvchi ismi"
+
+#: ../data/docky.schemas.in.h:19
+msgid "Hot-area padding"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:20
+msgid ""
+"How long the urgent indicator glow animation is (in seconds), 0 to disable, "
+"or -1 for infinite."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:21
+msgid "How long to wait (ms) before unhiding"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:22
+msgid "How long to wait (ms) to update after a window switch"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:23
+msgid "How many recent clipboard selections to show."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:24
+msgid ""
+"How much to shift the color of the urgent indicator. The value can be from -"
+"180 to 180."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:25
+msgid "How often (in mins) to check for new mail."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:26
+msgid "How often to check"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:27
+msgid "How often to check for new weather information."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:28
+msgid "How often to poll (in ms) for new clipboard data."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:29
+msgid ""
+"If fading when hiding, this is the opacity the dock fades to. 1 is solid, 0 "
+"is invisible."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:30
+msgid ""
+"If false, Docky will not show hover texts for launchers (but still show for "
+"plugins)."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:31
+msgid "If false, finished timers will reset instead of dismiss."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:32
+msgid ""
+"If false, prevents dropping items onto the dock to add them to the dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:33
+msgid "If scrolling wraps"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:34
+msgid ""
+"If the 'Pin to Dock' option should show in the menu of items, allowing you "
+"to add it permanently to the dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:35
+msgid "If the dock is a panel"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:36
+msgid ""
+"If true, Docky will check for compositing and warn if it is not available."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:37
+msgid ""
+"If true, Docky will only show windows on the currently active desktop."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:38
+msgid "If true, all new timers will automatically start."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:39
+msgid ""
+"If true, any windows without launchers will show on this dock. Exactly 1 "
+"dock must have this set to true."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:40
+msgid ""
+"If true, items with more than one window have two indicator dots instead of "
+"just one dot."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:41
+msgid "If true, locks all items on all docks so they can't be dragged."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:42
+msgid ""
+"If true, output from the helpers will be redirected to show in Docky's "
+"output."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:43
+msgid "If true, scrolling one direction through all workspaces is possible."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:44
+msgid "If true, show the digital clock otherwise show the analog clock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:45
+msgid "If true, shows a notify message for new unread mail."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:46
+msgid "If true, shows the Docky item on the dock managing windows."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:47
+msgid "If true, shows time in 24-hr format."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:48
+msgid "If true, the Docky item popup menu shows the Quit option."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:49
+msgid "If true, the Docky item popup menu shows the Settings option."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:50
+msgid "If true, the date should show on the digital clock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:51
+msgid "If true, the dock is drawn as a 3d dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:52
+msgid ""
+"If true, the dock is in panel mode and will extend to fill the entire screen "
+"edge."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:53
+msgid "If true, the dock will zoom when hovered."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:54
+msgid ""
+"If true, this is the first time Docky has run. Internal use only - Do not "
+"change!"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:55
+msgid "If true, timers will disappear when they time out."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:56
+msgid ""
+"If true, tracks the mouse selection clipboard. If false, tracks the "
+"secondary clipboard."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:57
+msgid "If true, use metric units when showing weather."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:58
+msgid ""
+"If true, when the dock hides it will fade away instead of sliding off screen."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:59
+msgid ""
+"If true, when there is new unread mail Docky will show the indicator dot."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:60
+msgid "If true, will try to show the most recent document on the dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:61
+msgid "Indicate when items have more than one window"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:62
+msgid "Last time checked"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:63
+msgid "Left click command"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:64
+msgid "List of NPR stations to display."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:65
+msgid "List of active docks"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:66
+msgid "List of custom GMail labels to check in addition to the inbox."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:67
+msgid "List of launchers"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:68
+msgid "Max Entries"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:69
+msgid "NPR stations"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:70
+msgid "New timer length"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:71
+msgid "Number of recent docs"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:72
+msgid "Opacity to fade to"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:73
+msgid "Plugins on this dock"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:74
+msgid "Prevent adding items by drops"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:75
+msgid "Redirect helper output to Docky's output"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:76
+msgid "Set the color of the Docky icon. 0 means use the GTK+ theme color."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:77
+msgid "Show 'Pin to Dock' for items"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:78
+msgid "Show Quit in Docky item menu"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:79
+msgid "Show Settings in Docky item menu"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:80
+msgid "Show a notify for unread mail"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:81
+msgid "Show date"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:82
+msgid "Show hover text labels for launchers"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:83
+msgid "Show indicator dot for unread mail"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:84
+msgid "Show most recent doc"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:85
+msgid "Show the Docky item"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:86
+msgid "Show the digital clock"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:87
+msgid "Show windows from only current desktop"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:88
+msgid "Sorts the items on the dock"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:89
+msgid "Start all new timers"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:90
+msgid "Stop items from dragging"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:91
+msgid "The GMail username to check."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:92
+msgid ""
+"The command to execute when left-clicking the Docky item or \"\" for default "
+"behavior (which opens the configuration dialog)."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:93
+msgid "The current theme"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:94
+msgid "The currently selected item in the session manager menu."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:95
+msgid "The default time (in secs) for any new timers."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:96
+msgid ""
+"The dock's hide mode. Possible values are: None, Autohide, Intellihide, "
+"UniversalIntellihide"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:97
+msgid "The dock's position"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:98
+msgid ""
+"The dock's position on the screen. Possible values are: Bottom, Top, Left, "
+"Right"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:99
+msgid "The dock's zoom size (if enabled), as a percent."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:100
+msgid "The last time Docky checked GMail for messages."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:101
+msgid "The list of weather locations to check."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:102
+msgid "The name of the current Docky theme."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:103
+msgid "The name of the weather source to get weather information from."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:104
+msgid ""
+"The number of extra pixels to pad the hover area on the top of the dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:105
+msgid "The number of most recent documents to show."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:106
+msgid "The size of icons on the dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:107
+msgid "The text to show when hovering the Docky item."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:108
+msgid "The theme for the analog clock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:109
+msgid "The weather source"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:110
+msgid ""
+"This is the command to execute when left clicking on the CPU docklet item."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:111
+msgid "This is the list of all the launchers on this dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:112
+msgid "This is the monitor the dock exists on."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:113
+msgid ""
+"This is the time (in milliseconds) to wait before unhiding a hidden dock "
+"when the cursor moves over it."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:114
+msgid ""
+"This is the time (in milliseconds) to wait to determine if a window switch "
+"causes a (un)hide."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:115
+msgid "This lists all the currently active (displayed) docks, by name."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:116
+msgid "Timer Delay"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:117
+msgid "Track Mouse Selections"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:118
+msgid "Urgent indicator color shift"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:119
+msgid "Urgent indicator glow animation time (in seconds)"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:120
+msgid "Use 24-hr time"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:121
+msgid "Use metric units"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:122
+msgid "Used to sort the items on the dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:123
+msgid "Weather locations"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:124
+msgid "Which monitor the dock is on"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:125
+msgid "Zoom size"
+msgstr ""
+
+#: ../Docky/Docky/ConfigurationWindow.cs:270
+msgid "Search Docklets..."
+msgstr ""
+
+#: ../Docky/Docky/ConfigurationWindow.cs:287
+msgid "Search Helpers..."
+msgstr ""
+
+#: ../Docky/Docky/ConfigurationWindow.cs:364
+msgid "Click on any dock to configure."
+msgstr ""
+
+#: ../Docky/Docky/ConfigurationWindow.cs:365
+msgid "Drag any dock to reposition."
+msgstr ""
+
+#: ../Docky/Docky/ConfigurationWindow.cs:386
+msgid "Helpers require DockManager be installed."
+msgstr ""
+
+#: ../Docky/Docky/ConfigurationWindow.cs:458
+msgid "Delete the currently selected dock?"
+msgstr ""
+
+#: ../Docky/Docky/ConfigurationWindow.cs:460
+msgid ""
+"If you choose to delete the dock, all settings\n"
+"for the deleted dock will be permanently lost."
+msgstr ""
+
+#: ../Docky/Docky/ConfigurationWindow.cs:467
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:457
+msgid "_Delete Dock"
+msgstr ""
+
+#: ../Docky/Docky/ConfigurationWindow.cs:583
+#: ../Docky/Docky/ConfigurationWindow.cs:603
+msgid "_Select"
+msgstr ""
+
+#: ../Docky/Docky/ConfigurationWindow.cs:586
+#: ../Docky/Docky/ConfigurationWindow.cs:606
+msgid ".tar Archives"
+msgstr ""
+
+#: ../Docky/Docky/DockletTile.cs:49
+msgid "Author"
+msgstr ""
+
+#: ../Docky/Docky/DockletTile.cs:84
+msgid "Move this docklet up on the selected dock"
+msgstr ""
+
+#: ../Docky/Docky/DockletTile.cs:85
+msgid "Move this docklet down on the selected dock"
+msgstr ""
+
+#: ../Docky/Docky/DockletTile.cs:89
+msgid "Move this docklet left on the selected dock"
+msgstr ""
+
+#: ../Docky/Docky/DockletTile.cs:90
+msgid "Move this docklet right on the selected dock"
+msgstr ""
+
+#: ../Docky/Docky/DockletTile.cs:92
+msgid "Configure this docklet"
+msgstr ""
+
+#: ../Docky/Docky/DockletTile.cs:93
+msgid "About this docklet"
+msgstr ""
+
+#: ../Docky/Docky/DockletTile.cs:94
+msgid "Add this docklet to the selected dock"
+msgstr ""
+
+#: ../Docky/Docky/DockletTile.cs:95
+msgid "Remove this docklet from the selected dock"
+msgstr ""
+
+#: ../Docky/Docky/Docky.cs:139
+msgid ""
+"Docky requires compositing to work properly. Certain options are disabled "
+"and themes/animations will look incorrect. "
+msgstr ""
+
+#: ../Docky/Docky/HelperTile.cs:42
+msgid "Status"
+msgstr ""
+
+#: ../Docky/Docky/HelperTile.cs:59
+msgid "Uninstall"
+msgstr ""
+
+#: ../Docky/Docky/HelperTile.cs:71
+msgid "About this helper"
+msgstr ""
+
+#: ../Docky/Docky/HelperTile.cs:72
+msgid "Enable this helper"
+msgstr ""
+
+#: ../Docky/Docky/HelperTile.cs:73
+msgid "Disable this helper"
+msgstr ""
+
+#: ../Docky/Docky/HelperTile.cs:90
+msgid "Running"
+msgstr ""
+
+#: ../Docky/Docky/HelperTile.cs:90
+msgid "Stopped"
+msgstr ""
+
+#: ../Docky/Docky/Interface/DockPreferences.cs:345
+msgid ""
+"When set, windows which do not already have launchers on a dock will be "
+"added to this dock."
+msgstr ""
+
+#: ../Docky/Docky/Interface/DockPreferences.cs:727
+msgid "<i>Never hides; maximized windows do not overlap the dock.</i>"
+msgstr ""
+
+#: ../Docky/Docky/Interface/DockPreferences.cs:730
+msgid "<i>Hides whenever the mouse is not over it.</i>"
+msgstr ""
+
+#: ../Docky/Docky/Interface/DockPreferences.cs:733
+msgid "<i>Hides when dock obstructs the active application.</i>"
+msgstr ""
+
+#: ../Docky/Docky/Interface/DockPreferences.cs:736
+msgid "<i>Hides when dock obstructs any window.</i>"
+msgstr ""
+
+#: ../Docky/Docky/Interface/DockWindow.cs:380
+msgid "Drag to reposition"
+msgstr ""
+
+#: ../Docky/Docky/Interface/DockWindow.cs:392
+#: ../Docky/Docky/Interface/DockWindow.cs:406
+msgid "Drop to add to dock"
+msgstr ""
+
+#: ../Docky/Docky/Items/DockyItem.cs:132
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:160
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:227
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:244
+msgid "_Settings"
+msgstr ""
+
+#: ../Docky/Docky/Items/DockyItem.cs:133
+msgid "_About"
+msgstr ""
+
+#: ../Docky/Docky/Items/DockyItem.cs:134
+msgid "_Help"
+msgstr ""
+
+#: ../Docky/Docky/Items/DockyItem.cs:136
+msgid "_Quit Docky"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:96
+msgid "Docky Settings"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:141
+msgid "_Start When User Logs In"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:157
+msgid "_Theme:"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:188
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:344
+msgid "_Install"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:207
+msgid "<b>General Options</b>"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:227
+msgid "<b>Dock Configuration</b>"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:241
+msgid "Docks"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:262
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:320
+msgid "All"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:263
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:318
+msgid "Enabled"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:264
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:319
+msgid "Disabled"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:296
+msgid "Docklets"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:317
+msgid "Usable"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:375
+msgid "Helpers"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:430
+msgid "_New Dock"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:58
+msgid "None"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:59
+msgid "Autohide"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:60
+msgid "Intellihide"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:61
+msgid "Window Dodge"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:75
+msgid "_Fade On Hide"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:119
+msgid "_Icon Size:"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:132
+msgid "_Hiding:"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:142
+msgid "_Panel Mode"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:156
+msgid "3D Back_ground"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:170
+msgid "_Manage Windows Without Launcher"
+msgstr ""
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:185
+msgid "_Zoom:"
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/AbstractDockItem.cs:120
+#, csharp-format
+msgid "Drop to open with {0}"
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/ApplicationDockItem.cs:180
+msgid "New _Window"
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/ApplicationDockItem.cs:182
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:267
+#: ../StandardPlugins/Mounter/src/MountItem.cs:108
+msgid "_Open"
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/ColoredIconDockItem.cs:70
+msgid "_Reset Color"
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/FileApplicationProvider.cs:482
+msgid "_Pin to Dock"
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:83
+#, csharp-format
+msgid "Drop to move to {0}"
+msgstr ""
+
+#. until we use a new version of GTK# which supports getting the GLib.Error code
+#. this is about the best we can do.
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:197
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:242
+msgid "Error performing drop action"
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:197
+msgid "Not enough free space on destination."
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:214
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:217
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:249
+msgid "Complete"
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:227
+msgid "Moving"
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:233
+msgid "Copying"
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:268
+msgid "Open Containing _Folder"
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/WnckDockItem.cs:264
+msgid "Unma_ximize"
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/WnckDockItem.cs:267
+msgid "Ma_ximize"
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/WnckDockItem.cs:271
+msgid "_Restore"
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/WnckDockItem.cs:274
+msgid "Mi_nimize"
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/WnckDockItem.cs:277
+msgid "_Close All"
+msgstr ""
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:43
+#, csharp-format
+msgid "Sign up for {0}"
+msgstr ""
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:44
+msgid "Validating..."
+msgstr ""
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:45
+#, csharp-format
+msgid "Don't have {0}?"
+msgstr ""
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:46
+msgid "Account validation failed!"
+msgstr ""
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:47
+msgid "Verify and save account information"
+msgstr ""
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:48
+msgid "Account validation succeeded!"
+msgstr ""
+
+#: ../Docky.Widgets/gtk-gui/Docky.Widgets.AbstractLoginWidget.cs:87
+msgid "Password"
+msgstr ""
+
+#: ../Docky.Widgets/gtk-gui/Docky.Widgets.AbstractLoginWidget.cs:108
+msgid "Username"
+msgstr ""
+
+#: ../Docky.Widgets/gtk-gui/Docky.Widgets.AbstractLoginWidget.cs:121
+msgid "<i>Verify and save account information</i>"
+msgstr ""
+
+#: ../Docky.Widgets/gtk-gui/Docky.Widgets.AbstractLoginWidget.cs:178
+msgid "Don't have an account?"
+msgstr ""
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:98
+msgid "No Battery Found"
+msgstr ""
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:111
+#, csharp-format
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:113
+#, csharp-format
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:115
+msgid "until charged "
+msgstr ""
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:117
+msgid "remaining "
+msgstr ""
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:154
+msgid "_Statistics"
+msgstr ""
+
+#: ../StandardPlugins/Bookmarks/src/BookmarksItemProvider.cs:85
+msgid "Computer"
+msgstr ""
+
+#: ../StandardPlugins/Clippy/src/ClippyItem.cs:88
+msgid "Clipboard is currently empty."
+msgstr ""
+
+#: ../StandardPlugins/Clock/src/ClockDockItem.cs:431
+msgid "Di_gital Clock"
+msgstr ""
+
+#: ../StandardPlugins/Clock/src/ClockDockItem.cs:437
+msgid "24-Hour _Clock"
+msgstr ""
+
+#: ../StandardPlugins/Clock/src/ClockDockItem.cs:443
+msgid "Show _Date"
+msgstr ""
+
+#: ../StandardPlugins/Clock/src/ClockDockItem.cs:449
+msgid "Select _Theme"
+msgstr ""
+
+#: ../StandardPlugins/Clock/src/ClockThemeSelector.cs:54
+msgid "Themes"
+msgstr ""
+
+#: ../StandardPlugins/Clock/src/ClockThemeSelector.cs:62
+msgid "Theme"
+msgstr ""
+
+#: ../StandardPlugins/Desktop/src/DesktopActionsProvider.cs:57
+msgid "_Undo"
+msgstr ""
+
+#: ../StandardPlugins/Desktop/src/ShowDesktopItem.cs:37
+msgid "_Show Desktop"
+msgstr ""
+
+#: ../StandardPlugins/Desktop/src/TileDesktopItem.cs:38
+msgid "_Tile Desktop"
+msgstr ""
+
+#: ../StandardPlugins/Desktop/src/CascadeDesktopItem.cs:38
+msgid "_Cascade Desktop"
+msgstr ""
+
+#: ../StandardPlugins/GMail/gtk-gui/GMail.GMailLabelConfig.cs:74
+msgid "_Add Label"
+msgstr ""
+
+#: ../StandardPlugins/GMail/gtk-gui/GMail.GMailLabelConfig.cs:113
+msgid "Check e_very:"
+msgstr ""
+
+#: ../StandardPlugins/GMail/gtk-gui/GMail.GMailLabelConfig.cs:123
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:186
+msgid "minutes"
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:189
+msgid "Click to set username and password."
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:246
+msgid "(no subject)"
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:260
+#, csharp-format
+msgid "You have {0} new, unread messages"
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:264
+#, csharp-format
+msgid "From: {0}"
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:278
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:281
+msgid "Feed Error"
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:285
+msgid "Invalid Username"
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:287
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:292
+#: ../StandardPlugins/Weather/src/Sources/AbstractWeatherSource.cs:173
+msgid "Network Error"
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:296
+msgid "General Error"
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailConfigDialog.cs:30
+msgid "Gmail Configuration"
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:95
+msgid "No unread mail"
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:98
+#, csharp-format
+msgid "{0} unread message"
+msgid_plural "{0} unread messages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:119
+msgid "Checking mail..."
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:201
+msgid "_View "
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:206
+msgid "_Compose Mail"
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:211
+msgid "View C_ontacts"
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:218
+msgid "New Mail"
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:236
+msgid "Check _Mail"
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailLabelConfig.cs:36
+msgid "Labels"
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailLoginConfig.cs:37
+msgid "Gmail"
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailLoginConfig.cs:41
+msgid "Login"
+msgstr ""
+
+#: ../StandardPlugins/GMail/src/GMailMenuItem.cs:31
+msgid "From: "
+msgstr ""
+
+#: ../StandardPlugins/Mounter/src/MountItem.cs:111
+msgid "_Eject"
+msgstr ""
+
+#: ../StandardPlugins/Mounter/src/MountItem.cs:111
+msgid "_Unmount"
+msgstr ""
+
+#: ../StandardPlugins/NetworkManager/src/NetworkManagerDocklet.cs:53
+msgid "Network Manager"
+msgstr ""
+
+#: ../StandardPlugins/NetworkManager/src/NetworkManagerDocklet.cs:92
+msgid "Connecting..."
+msgstr ""
+
+#: ../StandardPlugins/NetworkManager/src/NetworkManagerDocklet.cs:101
+#: ../StandardPlugins/NetworkManager/src/NetworkManagerDocklet.cs:166
+msgid "Disconnected"
+msgstr ""
+
+#: ../StandardPlugins/NetworkManager/src/NetworkManagerDocklet.cs:110
+#, csharp-format
+msgid "Connected: {0}"
+msgstr ""
+
+#: ../StandardPlugins/NetworkMonitor/src/NetworkMonitorDockItem.cs:61
+msgid "No network connection available"
+msgstr ""
+
+#: ../StandardPlugins/NPR/gtk-gui/NPR.StationSearchWidget.cs:47
+msgid "My _Stations"
+msgstr ""
+
+#: ../StandardPlugins/NPR/gtk-gui/NPR.StationSearchWidget.cs:78
+msgid "S_earch"
+msgstr ""
+
+#: ../StandardPlugins/NPR/src/Station.cs:72
+msgid "No stations found."
+msgstr ""
+
+#: ../StandardPlugins/NPR/src/Station.cs:73
+#: ../StandardPlugins/Weather/src/WeatherConfig.cs:90
+msgid "Please try your search again."
+msgstr ""
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:46
+msgid "Fetching Information..."
+msgstr ""
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:72
+msgid "Click to add NPR stations."
+msgstr ""
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:111
+msgid "Home Page"
+msgstr ""
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:118
+msgid "Program Schedule"
+msgstr ""
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:125
+msgid "Donate"
+msgstr ""
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:132
+msgid "Live Streams"
+msgstr ""
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:170
+msgid "Settings"
+msgstr ""
+
+#: ../StandardPlugins/RecentDocuments/src/RecentFilesProvider.cs:84
+msgid "_Clear Recent Documents..."
+msgstr ""
+
+#: ../StandardPlugins/RecentDocuments/src/RecentFilesProvider.cs:95
+msgid "Clear the Recent Documents list?"
+msgstr ""
+
+#: ../StandardPlugins/RecentDocuments/src/RecentFilesProvider.cs:97
+msgid "Clear Recent Documents"
+msgstr ""
+
+#: ../StandardPlugins/RecentDocuments/src/RecentFilesProvider.cs:99
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:76
+msgid "L_ock Screen"
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:80
+msgid "_Log Out..."
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:81
+msgid "Log Out"
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:82
+msgid ""
+"Are you sure you want to close all programs and log out of the computer?"
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:87
+msgid "_Suspend"
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:92
+msgid "_Hibernate"
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:97
+msgid "_Restart..."
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:98
+msgid "Restart"
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:99
+msgid "Are you sure you want to close all programs and restart the computer?"
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:104
+msgid "Shut _Down..."
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:105
+msgid "Shut Down"
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:106
+msgid ""
+"Are you sure you want to close all programs and shut down the computer?"
+msgstr ""
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:86
+#, csharp-format
+msgid "A timer set for {0} has expired."
+msgstr ""
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:242
+msgid "Time remaining:"
+msgstr ""
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:244
+msgid "Timer paused, time remaining:"
+msgstr ""
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:255
+msgid "Set the timer's label to:"
+msgstr ""
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:261
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:299
+msgid "_Set Label"
+msgstr ""
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:286
+msgid "_Pause Timer"
+msgstr ""
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:286
+msgid "_Start Timer"
+msgstr ""
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:290
+msgid "R_eset Timer"
+msgstr ""
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:294
+msgid "_Remove Timer"
+msgstr ""
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:57
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:61
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:66
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:145
+#, csharp-format
+msgid "Click to create a timer for {0}."
+msgstr ""
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:162
+msgid "Automatically _Start Timers"
+msgstr ""
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:166
+msgid "Automatically _Dismiss Timers"
+msgstr ""
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:55
+msgid "Drop to move to Trash"
+msgstr ""
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:82
+msgid "No items in Trash"
+msgstr ""
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:84
+#, csharp-format
+msgid "{0} item in Trash"
+msgid_plural "{0} items in Trash"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:169
+msgid "Restore Files"
+msgstr ""
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:201
+msgid "_Open Trash"
+msgstr ""
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:203
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:234
+msgid "Empty _Trash"
+msgstr ""
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:226
+msgid "Empty all of the items from the trash?"
+msgstr ""
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:228
+msgid ""
+"If you choose to empty the trash, all items in it\n"
+"will be permanently lost. Please note that you\n"
+"can also delete them separately."
+msgstr ""
+
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:65
+msgid "_Weather Provider:"
+msgstr ""
+
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:105
+msgid "My _Locations"
+msgstr ""
+
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:136
+msgid "_Search"
+msgstr ""
+
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:176
+msgid "Automatically Update _Every"
+msgstr ""
+
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:220
+msgid "Use _Metric Units"
+msgstr ""
+
+#: ../StandardPlugins/Weather/src/Sources/AbstractWeatherSource.cs:170
+msgid "Invalid Weather Location"
+msgstr ""
+
+#: ../StandardPlugins/Weather/src/Sources/GoogleWeatherSource.cs:55
+msgid ""
+"Weather data provided by Google.  This source requires locations to be "
+"specified as US Zip Code or 'City, Country'."
+msgstr ""
+
+#: ../StandardPlugins/Weather/src/Sources/WeatherChannelWeatherSource.cs:60
+msgid ""
+"Weather data provided by and copyright The Weather Channel.  This source "
+"requires locations to be specified as US Zip Code or a unique code from the "
+"website.  To find your code, look up your forecast on their site and the "
+"code is in the URL after '/local/' and looks like AAXX0000."
+msgstr ""
+
+#: ../StandardPlugins/Weather/src/Sources/WunderWeatherSource.cs:56
+msgid ""
+"Weather data provided by and copyright Weather Underground.  This source "
+"requires locations to be specified as US Zip Code or 'City, Country'."
+msgstr ""
+
+#: ../StandardPlugins/Weather/src/WeatherConfig.cs:90
+msgid "No results found."
+msgstr ""
+
+#: ../StandardPlugins/Weather/src/WeatherConfigDialog.cs:34
+msgid "Weather Configuration"
+msgstr ""
+
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:80
+msgid "Click to add a location."
+msgstr ""
+
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:90
+msgid "Fetching data..."
+msgstr ""
+
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:231
+msgid "Radar _Map"
+msgstr ""
+
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:236
+msgid "Forecasts"
+msgstr ""
+
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:252
+msgid "Check _Weather"
+msgstr ""
+
+#: ../StandardPlugins/Weather/src/WeatherForecast.cs:108
+msgid "_Today"
+msgstr ""
+
+#: ../StandardPlugins/Weather/src/WeatherForecast.cs:111
+msgid "T_omorrow"
+msgstr ""
+
+#. draw humidity
+#: ../StandardPlugins/Weather/src/WeatherPainter.cs:410
+#: ../StandardPlugins/Weather/src/WeatherPainter.cs:496
+#, csharp-format
+msgid "{0} humidity"
+msgstr ""
+
+#: ../StandardPlugins/WorkspaceSwitcher/src/WorkspaceSwitcherDockItem.cs:71
+#: ../StandardPlugins/WorkspaceSwitcher/src/WorkspaceSwitcherDockItem.cs:221
+msgid "Switch Desks"
+msgstr ""
+
+#: ../StandardPlugins/WorkspaceSwitcher/src/WorkspaceSwitcherDockItem.cs:172
+msgid "Desk"
+msgstr ""
+
+#: ../StandardPlugins/WorkspaceSwitcher/src/WorkspaceSwitcherDockItem.cs:174
+msgid "Virtual Desk"
+msgstr ""

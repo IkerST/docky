@@ -1,0 +1,25 @@
+<Addin 
+	id="Bookmarks"
+	namespace="Docky"
+	version="1.0"
+	isroot="false"
+	defaultEnabled="false"
+	name="Bookmarks"
+	description="Manage bookmarks"
+	author="Chris Szikszoy"
+	icon="folder-home;;user-home"
+>
+ 
+ 	<Dependencies>
+		<Addin id="Items" version="1.0" />
+	</Dependencies>
+ 
+	<Runtime>
+		<Import assembly="Bookmarks.dll"/>
+	</Runtime>
+	
+	<Extension path="/Docky/ItemProvider">
+		<ItemProvider type="Bookmarks.BookmarksItemProvider" />
+	</Extension>	
+
+</Addin>

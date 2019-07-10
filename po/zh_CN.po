@@ -1,0 +1,1557 @@
+# Chinese (Simplified) translation for docky
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the docky package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: docky\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-06-17 13:49+0200\n"
+"PO-Revision-Date: 2010-10-09 20:58+0000\n"
+"Last-Translator: Rico Tzschichholz <Unknown>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2015-09-02 08:48+0000\n"
+"X-Generator: Launchpad (build 17706)\n"
+
+#: ../data/docky.desktop.in.h:1
+msgid "The finest dock no money can buy."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:1
+msgid "A list of plugins that are active on this dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:2
+msgid "Analog clock theme"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:3
+msgid "Clear finished timers"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:4
+msgid "Currently selected item"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:5
+msgid "Dismiss a stopped timer when clicked"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:6
+msgid "Do not change this!"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:7
+msgid "Dock icon size"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:8
+msgid "Dock is 3d"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:9
+msgid "Dock manages all windows"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:10
+msgid "Dock zooms"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:11
+msgid "Dock's hiding mode"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:12
+msgid "Docky item command to execute"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:13
+msgid "Docky item hover text"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:14
+msgid "Docky item hue"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:15
+msgid "Enable checks for compositing"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:16
+msgid "Fade when hiding"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:17
+msgid "GMail labels to check"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:18
+msgid "GMail username"
+msgstr "GMail 用户名"
+
+#: ../data/docky.schemas.in.h:19
+msgid "Hot-area padding"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:20
+msgid ""
+"How long the urgent indicator glow animation is (in seconds), 0 to disable, "
+"or -1 for infinite."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:21
+msgid "How long to wait (ms) before unhiding"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:22
+msgid "How long to wait (ms) to update after a window switch"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:23
+msgid "How many recent clipboard selections to show."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:24
+msgid ""
+"How much to shift the color of the urgent indicator. The value can be from -"
+"180 to 180."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:25
+msgid "How often (in mins) to check for new mail."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:26
+msgid "How often to check"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:27
+msgid "How often to check for new weather information."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:28
+msgid "How often to poll (in ms) for new clipboard data."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:29
+msgid ""
+"If fading when hiding, this is the opacity the dock fades to. 1 is solid, 0 "
+"is invisible."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:30
+msgid ""
+"If false, Docky will not show hover texts for launchers (but still show for "
+"plugins)."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:31
+msgid "If false, finished timers will reset instead of dismiss."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:32
+msgid ""
+"If false, prevents dropping items onto the dock to add them to the dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:33
+msgid "If scrolling wraps"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:34
+msgid ""
+"If the 'Pin to Dock' option should show in the menu of items, allowing you "
+"to add it permanently to the dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:35
+msgid "If the dock is a panel"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:36
+msgid ""
+"If true, Docky will check for compositing and warn if it is not available."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:37
+msgid ""
+"If true, Docky will only show windows on the currently active desktop."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:38
+msgid "If true, all new timers will automatically start."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:39
+msgid ""
+"If true, any windows without launchers will show on this dock. Exactly 1 "
+"dock must have this set to true."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:40
+msgid ""
+"If true, items with more than one window have two indicator dots instead of "
+"just one dot."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:41
+msgid "If true, locks all items on all docks so they can't be dragged."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:42
+msgid ""
+"If true, output from the helpers will be redirected to show in Docky's "
+"output."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:43
+msgid "If true, scrolling one direction through all workspaces is possible."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:44
+msgid "If true, show the digital clock otherwise show the analog clock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:45
+msgid "If true, shows a notify message for new unread mail."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:46
+msgid "If true, shows the Docky item on the dock managing windows."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:47
+msgid "If true, shows time in 24-hr format."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:48
+msgid "If true, the Docky item popup menu shows the Quit option."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:49
+msgid "If true, the Docky item popup menu shows the Settings option."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:50
+msgid "If true, the date should show on the digital clock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:51
+msgid "If true, the dock is drawn as a 3d dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:52
+msgid ""
+"If true, the dock is in panel mode and will extend to fill the entire screen "
+"edge."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:53
+msgid "If true, the dock will zoom when hovered."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:54
+msgid ""
+"If true, this is the first time Docky has run. Internal use only - Do not "
+"change!"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:55
+msgid "If true, timers will disappear when they time out."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:56
+msgid ""
+"If true, tracks the mouse selection clipboard. If false, tracks the "
+"secondary clipboard."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:57
+msgid "If true, use metric units when showing weather."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:58
+msgid ""
+"If true, when the dock hides it will fade away instead of sliding off screen."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:59
+msgid ""
+"If true, when there is new unread mail Docky will show the indicator dot."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:60
+msgid "If true, will try to show the most recent document on the dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:61
+msgid "Indicate when items have more than one window"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:62
+msgid "Last time checked"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:63
+msgid "Left click command"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:64
+msgid "List of NPR stations to display."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:65
+msgid "List of active docks"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:66
+msgid "List of custom GMail labels to check in addition to the inbox."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:67
+msgid "List of launchers"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:68
+msgid "Max Entries"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:69
+msgid "NPR stations"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:70
+msgid "New timer length"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:71
+msgid "Number of recent docs"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:72
+msgid "Opacity to fade to"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:73
+msgid "Plugins on this dock"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:74
+msgid "Prevent adding items by drops"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:75
+msgid "Redirect helper output to Docky's output"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:76
+msgid "Set the color of the Docky icon. 0 means use the GTK+ theme color."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:77
+msgid "Show 'Pin to Dock' for items"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:78
+msgid "Show Quit in Docky item menu"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:79
+msgid "Show Settings in Docky item menu"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:80
+msgid "Show a notify for unread mail"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:81
+msgid "Show date"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:82
+msgid "Show hover text labels for launchers"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:83
+msgid "Show indicator dot for unread mail"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:84
+msgid "Show most recent doc"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:85
+msgid "Show the Docky item"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:86
+msgid "Show the digital clock"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:87
+msgid "Show windows from only current desktop"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:88
+msgid "Sorts the items on the dock"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:89
+msgid "Start all new timers"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:90
+msgid "Stop items from dragging"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:91
+msgid "The GMail username to check."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:92
+msgid ""
+"The command to execute when left-clicking the Docky item or \"\" for default "
+"behavior (which opens the configuration dialog)."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:93
+msgid "The current theme"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:94
+msgid "The currently selected item in the session manager menu."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:95
+msgid "The default time (in secs) for any new timers."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:96
+msgid ""
+"The dock's hide mode. Possible values are: None, Autohide, Intellihide, "
+"UniversalIntellihide"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:97
+msgid "The dock's position"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:98
+msgid ""
+"The dock's position on the screen. Possible values are: Bottom, Top, Left, "
+"Right"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:99
+msgid "The dock's zoom size (if enabled), as a percent."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:100
+msgid "The last time Docky checked GMail for messages."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:101
+msgid "The list of weather locations to check."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:102
+msgid "The name of the current Docky theme."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:103
+msgid "The name of the weather source to get weather information from."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:104
+msgid ""
+"The number of extra pixels to pad the hover area on the top of the dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:105
+msgid "The number of most recent documents to show."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:106
+msgid "The size of icons on the dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:107
+msgid "The text to show when hovering the Docky item."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:108
+msgid "The theme for the analog clock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:109
+msgid "The weather source"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:110
+msgid ""
+"This is the command to execute when left clicking on the CPU docklet item."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:111
+msgid "This is the list of all the launchers on this dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:112
+msgid "This is the monitor the dock exists on."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:113
+msgid ""
+"This is the time (in milliseconds) to wait before unhiding a hidden dock "
+"when the cursor moves over it."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:114
+msgid ""
+"This is the time (in milliseconds) to wait to determine if a window switch "
+"causes a (un)hide."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:115
+msgid "This lists all the currently active (displayed) docks, by name."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:116
+msgid "Timer Delay"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:117
+msgid "Track Mouse Selections"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:118
+msgid "Urgent indicator color shift"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:119
+msgid "Urgent indicator glow animation time (in seconds)"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:120
+msgid "Use 24-hr time"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:121
+msgid "Use metric units"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:122
+msgid "Used to sort the items on the dock."
+msgstr ""
+
+#: ../data/docky.schemas.in.h:123
+msgid "Weather locations"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:124
+msgid "Which monitor the dock is on"
+msgstr ""
+
+#: ../data/docky.schemas.in.h:125
+msgid "Zoom size"
+msgstr ""
+
+#: ../Docky/Docky/ConfigurationWindow.cs:270
+msgid "Search Docklets..."
+msgstr "搜索小部件..."
+
+#: ../Docky/Docky/ConfigurationWindow.cs:287
+msgid "Search Helpers..."
+msgstr "搜索辅助组件 ..."
+
+#: ../Docky/Docky/ConfigurationWindow.cs:364
+msgid "Click on any dock to configure."
+msgstr "点击任一面板进行设置"
+
+#: ../Docky/Docky/ConfigurationWindow.cs:365
+msgid "Drag any dock to reposition."
+msgstr "用拖拽移动位置。"
+
+#: ../Docky/Docky/ConfigurationWindow.cs:386
+msgid "Helpers require DockManager be installed."
+msgstr ""
+
+#: ../Docky/Docky/ConfigurationWindow.cs:458
+msgid "Delete the currently selected dock?"
+msgstr "删除当前选中的面板?"
+
+#: ../Docky/Docky/ConfigurationWindow.cs:460
+msgid ""
+"If you choose to delete the dock, all settings\n"
+"for the deleted dock will be permanently lost."
+msgstr ""
+"如果您选择删除面板，那么该面板的所有配置将\n"
+"会永久消失。"
+
+#: ../Docky/Docky/ConfigurationWindow.cs:467
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:457
+msgid "_Delete Dock"
+msgstr "删除面板(_D)"
+
+#: ../Docky/Docky/ConfigurationWindow.cs:583
+#: ../Docky/Docky/ConfigurationWindow.cs:603
+msgid "_Select"
+msgstr "选择(_S)"
+
+#: ../Docky/Docky/ConfigurationWindow.cs:586
+#: ../Docky/Docky/ConfigurationWindow.cs:606
+msgid ".tar Archives"
+msgstr ".tar 格式的归档文件"
+
+#: ../Docky/Docky/DockletTile.cs:49
+msgid "Author"
+msgstr "作者"
+
+#: ../Docky/Docky/DockletTile.cs:84
+msgid "Move this docklet up on the selected dock"
+msgstr "在选中的面板中向上移动此小部件"
+
+#: ../Docky/Docky/DockletTile.cs:85
+msgid "Move this docklet down on the selected dock"
+msgstr "在选中的面板中向下移动此小部件"
+
+#: ../Docky/Docky/DockletTile.cs:89
+msgid "Move this docklet left on the selected dock"
+msgstr "在选中的面板中向左移动此小部件"
+
+#: ../Docky/Docky/DockletTile.cs:90
+msgid "Move this docklet right on the selected dock"
+msgstr "在选中的面板中向右移动此小部件"
+
+#: ../Docky/Docky/DockletTile.cs:92
+msgid "Configure this docklet"
+msgstr "调整小部件设置"
+
+#: ../Docky/Docky/DockletTile.cs:93
+msgid "About this docklet"
+msgstr "关于这个小部件"
+
+#: ../Docky/Docky/DockletTile.cs:94
+msgid "Add this docklet to the selected dock"
+msgstr "在选中的Dock中添加该小部件"
+
+#: ../Docky/Docky/DockletTile.cs:95
+msgid "Remove this docklet from the selected dock"
+msgstr "将该小部件从选中的Dock中移除"
+
+#: ../Docky/Docky/Docky.cs:139
+msgid ""
+"Docky requires compositing to work properly. Certain options are disabled "
+"and themes/animations will look incorrect. "
+msgstr "Docky 需要桌面开启混合特效才能正常工作，否则，某些选项将被禁用，主题和动画特效无法正常工作。 "
+
+#: ../Docky/Docky/HelperTile.cs:42
+msgid "Status"
+msgstr "状态"
+
+#: ../Docky/Docky/HelperTile.cs:59
+msgid "Uninstall"
+msgstr "卸载"
+
+#: ../Docky/Docky/HelperTile.cs:71
+msgid "About this helper"
+msgstr "关于这个辅助部件"
+
+#: ../Docky/Docky/HelperTile.cs:72
+msgid "Enable this helper"
+msgstr "启用这个辅助部件"
+
+#: ../Docky/Docky/HelperTile.cs:73
+msgid "Disable this helper"
+msgstr "禁用这个辅助部件"
+
+#: ../Docky/Docky/HelperTile.cs:90
+msgid "Running"
+msgstr "正在运行"
+
+#: ../Docky/Docky/HelperTile.cs:90
+msgid "Stopped"
+msgstr "已停止"
+
+#: ../Docky/Docky/Interface/DockPreferences.cs:345
+msgid ""
+"When set, windows which do not already have launchers on a dock will be "
+"added to this dock."
+msgstr "如果选中此项，没有启动器的窗口将会被显示在这个 dock 上。"
+
+#: ../Docky/Docky/Interface/DockPreferences.cs:727
+msgid "<i>Never hides; maximized windows do not overlap the dock.</i>"
+msgstr "<i>从不隐藏；最大化的窗口将不会覆盖在 Dock 上。</i>"
+
+#: ../Docky/Docky/Interface/DockPreferences.cs:730
+msgid "<i>Hides whenever the mouse is not over it.</i>"
+msgstr "<i>鼠标移开后自动隐藏。</i>"
+
+#: ../Docky/Docky/Interface/DockPreferences.cs:733
+msgid "<i>Hides when dock obstructs the active application.</i>"
+msgstr "<i>当 dock 阻挡了当前的程序时将会隐藏。</i>"
+
+#: ../Docky/Docky/Interface/DockPreferences.cs:736
+msgid "<i>Hides when dock obstructs any window.</i>"
+msgstr "<i>当 dock 阻挡了任何窗口时，将会隐藏。</i>"
+
+#: ../Docky/Docky/Interface/DockWindow.cs:380
+msgid "Drag to reposition"
+msgstr "通过拖动改变位置"
+
+#: ../Docky/Docky/Interface/DockWindow.cs:392
+#: ../Docky/Docky/Interface/DockWindow.cs:406
+msgid "Drop to add to dock"
+msgstr "拖动添加到 dock 上"
+
+#: ../Docky/Docky/Items/DockyItem.cs:132
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:160
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:227
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:244
+msgid "_Settings"
+msgstr "设置(_S)"
+
+#: ../Docky/Docky/Items/DockyItem.cs:133
+msgid "_About"
+msgstr "关于(_A)"
+
+#: ../Docky/Docky/Items/DockyItem.cs:134
+msgid "_Help"
+msgstr "帮助(_H)"
+
+#: ../Docky/Docky/Items/DockyItem.cs:136
+msgid "_Quit Docky"
+msgstr "退出 Docky (_Q)"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:96
+msgid "Docky Settings"
+msgstr "Docky 设置"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:141
+msgid "_Start When User Logs In"
+msgstr "登录时自动启动(_S)"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:157
+msgid "_Theme:"
+msgstr "主题(_T)："
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:188
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:344
+msgid "_Install"
+msgstr "安装(_I)"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:207
+msgid "<b>General Options</b>"
+msgstr "<b>常规选项</b>"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:227
+msgid "<b>Dock Configuration</b>"
+msgstr "<b>Dock 设置</b>"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:241
+msgid "Docks"
+msgstr "Docks"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:262
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:320
+msgid "All"
+msgstr "全部"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:263
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:318
+msgid "Enabled"
+msgstr "已启用"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:264
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:319
+msgid "Disabled"
+msgstr "已禁用"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:296
+msgid "Docklets"
+msgstr "Docklets"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:317
+msgid "Usable"
+msgstr "可用"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:375
+msgid "Helpers"
+msgstr "辅助组件"
+
+#: ../Docky/gtk-gui/Docky.ConfigurationWindow.cs:430
+msgid "_New Dock"
+msgstr "新建 Dock(_N)"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:58
+msgid "None"
+msgstr "无"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:59
+msgid "Autohide"
+msgstr "自动隐藏"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:60
+msgid "Intellihide"
+msgstr "智能隐藏"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:61
+msgid "Window Dodge"
+msgstr "窗口闪避"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:75
+msgid "_Fade On Hide"
+msgstr "淡出式隐藏(_F)"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:119
+msgid "_Icon Size:"
+msgstr "图标大小(_I)："
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:132
+msgid "_Hiding:"
+msgstr "隐藏(_H)："
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:142
+msgid "_Panel Mode"
+msgstr "面板模式(_P)"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:156
+msgid "3D Back_ground"
+msgstr "三维背景(_G)"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:170
+msgid "_Manage Windows Without Launcher"
+msgstr "管理没有启动器的窗口(_M)"
+
+#: ../Docky/gtk-gui/Docky.Interface.DockPreferences.cs:185
+msgid "_Zoom:"
+msgstr "缩放(_Z)："
+
+#: ../Docky.Items/Docky.Items/AbstractDockItem.cs:120
+#, csharp-format
+msgid "Drop to open with {0}"
+msgstr "拖放以用 {0} 打开"
+
+#: ../Docky.Items/Docky.Items/ApplicationDockItem.cs:180
+msgid "New _Window"
+msgstr "新建窗口(_W)"
+
+#: ../Docky.Items/Docky.Items/ApplicationDockItem.cs:182
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:267
+#: ../StandardPlugins/Mounter/src/MountItem.cs:108
+msgid "_Open"
+msgstr "打开(_O)"
+
+#: ../Docky.Items/Docky.Items/ColoredIconDockItem.cs:70
+msgid "_Reset Color"
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/FileApplicationProvider.cs:482
+msgid "_Pin to Dock"
+msgstr "锁定到 Dock (_P)"
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:83
+#, csharp-format
+msgid "Drop to move to {0}"
+msgstr "拖放移动到 {0}"
+
+#. until we use a new version of GTK# which supports getting the GLib.Error code
+#. this is about the best we can do.
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:197
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:242
+msgid "Error performing drop action"
+msgstr "执行拖放动作出错"
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:197
+msgid "Not enough free space on destination."
+msgstr "目标处没有足够的空余空间。"
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:214
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:217
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:249
+msgid "Complete"
+msgstr "完成"
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:227
+msgid "Moving"
+msgstr "正在移动"
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:233
+msgid "Copying"
+msgstr "正在复制"
+
+#: ../Docky.Items/Docky.Items/FileDockItem.cs:268
+msgid "Open Containing _Folder"
+msgstr ""
+
+#: ../Docky.Items/Docky.Items/WnckDockItem.cs:264
+msgid "Unma_ximize"
+msgstr "取消最大化(_X)"
+
+#: ../Docky.Items/Docky.Items/WnckDockItem.cs:267
+msgid "Ma_ximize"
+msgstr "最大化(_X)"
+
+#: ../Docky.Items/Docky.Items/WnckDockItem.cs:271
+msgid "_Restore"
+msgstr "还原(_R)"
+
+#: ../Docky.Items/Docky.Items/WnckDockItem.cs:274
+msgid "Mi_nimize"
+msgstr "最小化(_N)"
+
+#: ../Docky.Items/Docky.Items/WnckDockItem.cs:277
+msgid "_Close All"
+msgstr "全部关闭(_C)"
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:43
+#, csharp-format
+msgid "Sign up for {0}"
+msgstr "注册 {0}"
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:44
+msgid "Validating..."
+msgstr "验证中..."
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:45
+#, csharp-format
+msgid "Don't have {0}?"
+msgstr "没有 {0}？"
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:46
+msgid "Account validation failed!"
+msgstr "账户验证失败！"
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:47
+msgid "Verify and save account information"
+msgstr "验证并保存账户信息"
+
+#: ../Docky.Widgets/Docky.Widgets/AbstractLoginWidget.cs:48
+msgid "Account validation succeeded!"
+msgstr "账户验证成功！"
+
+#: ../Docky.Widgets/gtk-gui/Docky.Widgets.AbstractLoginWidget.cs:87
+msgid "Password"
+msgstr "密码"
+
+#: ../Docky.Widgets/gtk-gui/Docky.Widgets.AbstractLoginWidget.cs:108
+msgid "Username"
+msgstr "用户名"
+
+#: ../Docky.Widgets/gtk-gui/Docky.Widgets.AbstractLoginWidget.cs:121
+msgid "<i>Verify and save account information</i>"
+msgstr "<i>验证并保存帐户信息</i>"
+
+#: ../Docky.Widgets/gtk-gui/Docky.Widgets.AbstractLoginWidget.cs:178
+msgid "Don't have an account?"
+msgstr "还没有账号？"
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:98
+msgid "No Battery Found"
+msgstr "未找到电池"
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:111
+#, csharp-format
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] "{0} 个小时"
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:113
+#, csharp-format
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] "{0} 分钟"
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:115
+msgid "until charged "
+msgstr "直到充电完成 "
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:117
+msgid "remaining "
+msgstr "剩余 "
+
+#: ../StandardPlugins/BatteryMonitor/src/BatteryMonitorAbstractItem.cs:154
+msgid "_Statistics"
+msgstr ""
+
+#: ../StandardPlugins/Bookmarks/src/BookmarksItemProvider.cs:85
+msgid "Computer"
+msgstr "计算机"
+
+#: ../StandardPlugins/Clippy/src/ClippyItem.cs:88
+msgid "Clipboard is currently empty."
+msgstr ""
+
+#: ../StandardPlugins/Clock/src/ClockDockItem.cs:431
+msgid "Di_gital Clock"
+msgstr "数字时钟 (_G)"
+
+#: ../StandardPlugins/Clock/src/ClockDockItem.cs:437
+msgid "24-Hour _Clock"
+msgstr "24小时时钟(_C)"
+
+#: ../StandardPlugins/Clock/src/ClockDockItem.cs:443
+msgid "Show _Date"
+msgstr "显示日期(_D)"
+
+#: ../StandardPlugins/Clock/src/ClockDockItem.cs:449
+msgid "Select _Theme"
+msgstr "选择主题(_T)"
+
+#: ../StandardPlugins/Clock/src/ClockThemeSelector.cs:54
+msgid "Themes"
+msgstr "主题"
+
+#: ../StandardPlugins/Clock/src/ClockThemeSelector.cs:62
+msgid "Theme"
+msgstr "主题"
+
+#: ../StandardPlugins/Desktop/src/DesktopActionsProvider.cs:57
+msgid "_Undo"
+msgstr ""
+
+#: ../StandardPlugins/Desktop/src/ShowDesktopItem.cs:37
+msgid "_Show Desktop"
+msgstr ""
+
+#: ../StandardPlugins/Desktop/src/TileDesktopItem.cs:38
+msgid "_Tile Desktop"
+msgstr ""
+
+#: ../StandardPlugins/Desktop/src/CascadeDesktopItem.cs:38
+msgid "_Cascade Desktop"
+msgstr ""
+
+#: ../StandardPlugins/GMail/gtk-gui/GMail.GMailLabelConfig.cs:74
+msgid "_Add Label"
+msgstr "添加标签(_A)"
+
+#: ../StandardPlugins/GMail/gtk-gui/GMail.GMailLabelConfig.cs:113
+msgid "Check e_very:"
+msgstr "全部检查(_v)"
+
+#: ../StandardPlugins/GMail/gtk-gui/GMail.GMailLabelConfig.cs:123
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:186
+msgid "minutes"
+msgstr "分钟"
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:189
+msgid "Click to set username and password."
+msgstr "点击以设置用户名和密码"
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:246
+msgid "(no subject)"
+msgstr "(无主题)"
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:260
+#, csharp-format
+msgid "You have {0} new, unread messages"
+msgstr "你有 {0} 个未读，新消息"
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:264
+#, csharp-format
+msgid "From: {0}"
+msgstr "来自:{0}"
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:278
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:281
+msgid "Feed Error"
+msgstr "Feed 错误"
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:285
+msgid "Invalid Username"
+msgstr "用户名无效"
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:287
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:292
+#: ../StandardPlugins/Weather/src/Sources/AbstractWeatherSource.cs:173
+msgid "Network Error"
+msgstr "网络错误"
+
+#: ../StandardPlugins/GMail/src/GMailAtom.cs:296
+msgid "General Error"
+msgstr "一般错误"
+
+#: ../StandardPlugins/GMail/src/GMailConfigDialog.cs:30
+msgid "Gmail Configuration"
+msgstr "Gmail 配置"
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:95
+msgid "No unread mail"
+msgstr "无未读邮件"
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:98
+#, csharp-format
+msgid "{0} unread message"
+msgid_plural "{0} unread messages"
+msgstr[0] "{0} 封未读邮件"
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:119
+msgid "Checking mail..."
+msgstr "正在检查邮件 ..."
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:201
+msgid "_View "
+msgstr "查看(_V) "
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:206
+msgid "_Compose Mail"
+msgstr "写邮件(_C)"
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:211
+msgid "View C_ontacts"
+msgstr "查看通讯录(_O)"
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:218
+msgid "New Mail"
+msgstr "新邮件"
+
+#: ../StandardPlugins/GMail/src/GMailDockItem.cs:236
+msgid "Check _Mail"
+msgstr "检查邮件(_M)"
+
+#: ../StandardPlugins/GMail/src/GMailLabelConfig.cs:36
+msgid "Labels"
+msgstr "标签"
+
+#: ../StandardPlugins/GMail/src/GMailLoginConfig.cs:37
+msgid "Gmail"
+msgstr "Gmail"
+
+#: ../StandardPlugins/GMail/src/GMailLoginConfig.cs:41
+msgid "Login"
+msgstr "登录"
+
+#: ../StandardPlugins/GMail/src/GMailMenuItem.cs:31
+msgid "From: "
+msgstr "来自： "
+
+#: ../StandardPlugins/Mounter/src/MountItem.cs:111
+msgid "_Eject"
+msgstr "弹出(_E)"
+
+#: ../StandardPlugins/Mounter/src/MountItem.cs:111
+msgid "_Unmount"
+msgstr "卸载(_U)"
+
+#: ../StandardPlugins/NetworkManager/src/NetworkManagerDocklet.cs:53
+msgid "Network Manager"
+msgstr "网络管理器"
+
+#: ../StandardPlugins/NetworkManager/src/NetworkManagerDocklet.cs:92
+msgid "Connecting..."
+msgstr "正在连接..."
+
+#: ../StandardPlugins/NetworkManager/src/NetworkManagerDocklet.cs:101
+#: ../StandardPlugins/NetworkManager/src/NetworkManagerDocklet.cs:166
+msgid "Disconnected"
+msgstr "连接已断开"
+
+#: ../StandardPlugins/NetworkManager/src/NetworkManagerDocklet.cs:110
+#, csharp-format
+msgid "Connected: {0}"
+msgstr "已连接: {0}"
+
+#: ../StandardPlugins/NetworkMonitor/src/NetworkMonitorDockItem.cs:61
+msgid "No network connection available"
+msgstr ""
+
+#: ../StandardPlugins/NPR/gtk-gui/NPR.StationSearchWidget.cs:47
+msgid "My _Stations"
+msgstr "我的电台(_S)"
+
+#: ../StandardPlugins/NPR/gtk-gui/NPR.StationSearchWidget.cs:78
+msgid "S_earch"
+msgstr "搜索(_E)"
+
+#: ../StandardPlugins/NPR/src/Station.cs:72
+msgid "No stations found."
+msgstr "没有找到电台。"
+
+#: ../StandardPlugins/NPR/src/Station.cs:73
+#: ../StandardPlugins/Weather/src/WeatherConfig.cs:90
+msgid "Please try your search again."
+msgstr "请尝试重新搜索。"
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:46
+msgid "Fetching Information..."
+msgstr "获取信息..."
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:72
+msgid "Click to add NPR stations."
+msgstr "点击添加 NPR 电台。"
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:111
+msgid "Home Page"
+msgstr "主页"
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:118
+msgid "Program Schedule"
+msgstr "程序调度"
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:125
+msgid "Donate"
+msgstr "捐赠"
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:132
+msgid "Live Streams"
+msgstr "实时流媒体"
+
+#: ../StandardPlugins/NPR/src/StationDockItem.cs:170
+msgid "Settings"
+msgstr "设置"
+
+#: ../StandardPlugins/RecentDocuments/src/RecentFilesProvider.cs:84
+msgid "_Clear Recent Documents..."
+msgstr "清除最近的文档列表(_C)..."
+
+#: ../StandardPlugins/RecentDocuments/src/RecentFilesProvider.cs:95
+msgid "Clear the Recent Documents list?"
+msgstr "清除文档历史？"
+
+#: ../StandardPlugins/RecentDocuments/src/RecentFilesProvider.cs:97
+msgid "Clear Recent Documents"
+msgstr "清除最近文档历史"
+
+#: ../StandardPlugins/RecentDocuments/src/RecentFilesProvider.cs:99
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+"如果您清除最近的文档列表，您将清除下列内容：\n"
+"\n"
+"• 位置 -> 最近文档菜单项中的全部项目。\n"
+"• 全部应用程序的最近文档列表中的全部项目。"
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:76
+msgid "L_ock Screen"
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:80
+msgid "_Log Out..."
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:81
+msgid "Log Out"
+msgstr "注销"
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:82
+msgid ""
+"Are you sure you want to close all programs and log out of the computer?"
+msgstr "您确定要关闭所有程序并注销？"
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:87
+msgid "_Suspend"
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:92
+msgid "_Hibernate"
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:97
+msgid "_Restart..."
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:98
+msgid "Restart"
+msgstr "重启"
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:99
+msgid "Are you sure you want to close all programs and restart the computer?"
+msgstr "您确定要关闭所有程序并重新启动计算机？"
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:104
+msgid "Shut _Down..."
+msgstr ""
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:105
+msgid "Shut Down"
+msgstr "关机"
+
+#: ../StandardPlugins/SessionManager/src/SessionActionsProvider.cs:106
+msgid ""
+"Are you sure you want to close all programs and shut down the computer?"
+msgstr "您确定要关闭所有程序并关闭计算机？"
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:86
+#, csharp-format
+msgid "A timer set for {0} has expired."
+msgstr "{0} 的计时器设置已过期"
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:242
+msgid "Time remaining:"
+msgstr "剩余时间："
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:244
+msgid "Timer paused, time remaining:"
+msgstr "计时暂停，剩余时间："
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:255
+msgid "Set the timer's label to:"
+msgstr "将计时器的标签设置为："
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:261
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:299
+msgid "_Set Label"
+msgstr "设置标签(_S)"
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:286
+msgid "_Pause Timer"
+msgstr "暂停计时器(_P)"
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:286
+msgid "_Start Timer"
+msgstr "启动计时器(_S)"
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:290
+msgid "R_eset Timer"
+msgstr ""
+
+#: ../StandardPlugins/Timer/src/TimerDockItem.cs:294
+msgid "_Remove Timer"
+msgstr "移除计时器(_R)"
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:57
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "小时"
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:61
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "分钟"
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:66
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "秒"
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:145
+#, csharp-format
+msgid "Click to create a timer for {0}."
+msgstr "单击创建一个 {0} 的计时器。"
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:162
+msgid "Automatically _Start Timers"
+msgstr "自动启动计时器(_S)"
+
+#: ../StandardPlugins/Timer/src/TimerMainDockItem.cs:166
+msgid "Automatically _Dismiss Timers"
+msgstr "计时完成后自动移除计时器(_D)"
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:55
+msgid "Drop to move to Trash"
+msgstr "拖放至回收站"
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:82
+msgid "No items in Trash"
+msgstr "回收站中没有项目"
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:84
+#, csharp-format
+msgid "{0} item in Trash"
+msgid_plural "{0} items in Trash"
+msgstr[0] "回收站中有 {0} 个项目"
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:169
+msgid "Restore Files"
+msgstr "撤销删除"
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:201
+msgid "_Open Trash"
+msgstr "打开回收站(_O)"
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:203
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:234
+msgid "Empty _Trash"
+msgstr "清空回收站(_T)"
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:226
+msgid "Empty all of the items from the trash?"
+msgstr "删除回收站里的所有项目？"
+
+#: ../StandardPlugins/Trash/src/TrashDockItem.cs:228
+msgid ""
+"If you choose to empty the trash, all items in it\n"
+"will be permanently lost. Please note that you\n"
+"can also delete them separately."
+msgstr ""
+"如果您选择清空回收站，所有的项目都将会被永久的删除。\n"
+"请注意您也可以单独的删除其中的特定项目。"
+
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:65
+msgid "_Weather Provider:"
+msgstr "天气信息提供者(_W)："
+
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:105
+msgid "My _Locations"
+msgstr "我的位置(_L) :"
+
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:136
+msgid "_Search"
+msgstr "查找(_S)"
+
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:176
+msgid "Automatically Update _Every"
+msgstr "自动更新间隔(_E)"
+
+#: ../StandardPlugins/Weather/gtk-gui/WeatherDocklet.WeatherConfig.cs:220
+msgid "Use _Metric Units"
+msgstr "使用公制单位(_M)"
+
+#: ../StandardPlugins/Weather/src/Sources/AbstractWeatherSource.cs:170
+msgid "Invalid Weather Location"
+msgstr "无效的位置"
+
+#: ../StandardPlugins/Weather/src/Sources/GoogleWeatherSource.cs:55
+msgid ""
+"Weather data provided by Google.  This source requires locations to be "
+"specified as US Zip Code or 'City, Country'."
+msgstr "由 Google 提供天气信息。这个来源要求位置信息表示为美国区号或者英文的“城市, 国家”。"
+
+#: ../StandardPlugins/Weather/src/Sources/WeatherChannelWeatherSource.cs:60
+msgid ""
+"Weather data provided by and copyright The Weather Channel.  This source "
+"requires locations to be specified as US Zip Code or a unique code from the "
+"website.  To find your code, look up your forecast on their site and the "
+"code is in the URL after '/local/' and looks like AAXX0000."
+msgstr ""
+"由 The Weather Channel "
+"提供天气信息，并保留所有权利。这个来源要求位置信息表示为美国区号或者从网站上获取的唯一编号。在它们的网站上查询您当地的天气信息，URL地址中“/local"
+"/”后面的部分就是您的地址代码。例如 AAXX0000 。"
+
+#: ../StandardPlugins/Weather/src/Sources/WunderWeatherSource.cs:56
+msgid ""
+"Weather data provided by and copyright Weather Underground.  This source "
+"requires locations to be specified as US Zip Code or 'City, Country'."
+msgstr ""
+"由  Weather Underground 提供天气信息，并保留所有权利。这个来源要求位置信息表示为美国区号或者英文的“城市, 国家”。"
+
+#: ../StandardPlugins/Weather/src/WeatherConfig.cs:90
+msgid "No results found."
+msgstr "无搜索结果。"
+
+#: ../StandardPlugins/Weather/src/WeatherConfigDialog.cs:34
+msgid "Weather Configuration"
+msgstr "天气配置"
+
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:80
+msgid "Click to add a location."
+msgstr "点击以添加位置"
+
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:90
+msgid "Fetching data..."
+msgstr "正在更新数据..."
+
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:231
+msgid "Radar _Map"
+msgstr "雷达图(_M)"
+
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:236
+msgid "Forecasts"
+msgstr "预报"
+
+#: ../StandardPlugins/Weather/src/WeatherDocklet.cs:252
+msgid "Check _Weather"
+msgstr "检查天气(_W)"
+
+#: ../StandardPlugins/Weather/src/WeatherForecast.cs:108
+msgid "_Today"
+msgstr "今天(_T)"
+
+#: ../StandardPlugins/Weather/src/WeatherForecast.cs:111
+msgid "T_omorrow"
+msgstr "明天(_O)"
+
+#. draw humidity
+#: ../StandardPlugins/Weather/src/WeatherPainter.cs:410
+#: ../StandardPlugins/Weather/src/WeatherPainter.cs:496
+#, csharp-format
+msgid "{0} humidity"
+msgstr "{0} 湿度"
+
+#: ../StandardPlugins/WorkspaceSwitcher/src/WorkspaceSwitcherDockItem.cs:71
+#: ../StandardPlugins/WorkspaceSwitcher/src/WorkspaceSwitcherDockItem.cs:221
+msgid "Switch Desks"
+msgstr "切换桌面"
+
+#: ../StandardPlugins/WorkspaceSwitcher/src/WorkspaceSwitcherDockItem.cs:172
+msgid "Desk"
+msgstr "桌面"
+
+#: ../StandardPlugins/WorkspaceSwitcher/src/WorkspaceSwitcherDockItem.cs:174
+msgid "Virtual Desk"
+msgstr "虚拟桌面"
+
+#~ msgid ""
+#~ "Causes launchers which currently manage more than one window to have an "
+#~ "extra indicator under it."
+#~ msgstr "对于拥有多个窗口的启动器，在其下方做出额外的标记。"
+
+#~ msgid "Docky Configuration"
+#~ msgstr "Docky 设置"
+
+#~ msgid "Reset Color"
+#~ msgstr "重置颜色"
+
+#~ msgid "Open Containing Folder"
+#~ msgstr "打开其所在的文件夹"
+
+#~ msgid "Open"
+#~ msgstr "打开"
+
+#~ msgid "_Add"
+#~ msgstr "添加(_A)"
+
+#~ msgid "Username or Password not set"
+#~ msgstr "用户名或密码未设置"
+
+#~ msgid "Network Error: "
+#~ msgstr "网络错误： "
+
+#~ msgid "Temp"
+#~ msgstr "温度"
+
+#~ msgid "Humidity"
+#~ msgstr "湿度"
+
+#~ msgid "Wind"
+#~ msgstr "风速"
+
+#~ msgid "Sunrise"
+#~ msgstr "日出"
+
+#~ msgid "Sunset"
+#~ msgstr "日落"
+
+#~ msgid "Direction"
+#~ msgstr "风向"
+
+#~ msgid "_Disable"
+#~ msgstr "禁用(_D)"
+
+#~ msgid ""
+#~ "Docky requires compositing to work properly. Please enable compositing and "
+#~ "restart docky."
+#~ msgstr "Docky 需要混合窗口管理器才能工作。请启用混合窗口管理器后重新启动 Docky。"
+
+#~ msgid "_Enable"
+#~ msgstr "启用(_E)"
+
+#~ msgid "_Start When Computer Starts"
+#~ msgstr "开机时自动启动(_S)"
+
+#~ msgid "Feels Like"
+#~ msgstr "体感温度"
+
+#~ msgid "_Remove"
+#~ msgstr "删除(_R)"
+
+#~ msgid "Indicat_e Multiple Windows"
+#~ msgstr "表示多重窗口(_E)"

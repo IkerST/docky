@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<metadata>
+  <attr path="/api/namespace/class[@cname='WnckGlobal']/method[@name='GtkWindowSetDockType']" name="hidden">1</attr>
+  <attr path="/api/namespace/class[@cname='WnckGlobal']/method[@name='PidReadResourceUsage']/*/*[@name='usage']" name="pass_as">out</attr>
+  <attr path="/api/namespace/class[@cname='WnckGlobal']/method[@name='XidReadResourceUsage']/*/*[@name='usage']" name="pass_as">out</attr>
+  <attr path="/api/namespace/enum[@cname='_WnckLayoutCorner']" name="hidden">1</attr>
+  <attr path="/api/namespace/object[@cname='WnckApplication']/method[@name='GetWindows']/return-type" name="element_type">WnckWindow*</attr>
+  <attr path="/api/namespace/object[@cname='WnckClassGroup']/method[@name='GetWindows']/return-type" name="element_type">WnckWindow*</attr>
+  <attr path="/api/namespace/object[@cname='WnckPager']/method[@name='SetScreen']" name="hidden">1</attr>
+  <attr path="/api/namespace/object[@cname='WnckPager']/method[@name='SetShowAll']" name="name">SetShowAllWorkspaces</attr>
+  <attr path="/api/namespace/object[@cname='WnckScreen']/method[@name='CalcWorkspaceLayout']" name="hidden">1</attr>
+  <attr path="/api/namespace/object[@cname='WnckScreen']/method[@name='FreeWorkspaceLayout']" name="hidden">1</attr>
+  <attr path="/api/namespace/object[@cname='WnckScreen']/method[@name='GetWindows']/return-type" name="element_type">WnckWindow*</attr>
+  <attr path="/api/namespace/object[@cname='WnckScreen']/method[@name='GetWindowsStacked']/return-type" name="element_type">WnckWindow*</attr>
+  <attr path="/api/namespace/object[@cname='WnckScreen']/method[@name='GetWorkspaces']/return-type" name="element_type">WnckWorkspace*</attr>
+  <attr path="/api/namespace/object[@cname='WnckScreen']/method[@name='GetWorkspaceIndex']" name="hidden">1</attr>
+  <attr path="/api/namespace/object[@cname='WnckScreen']/method[@name='GetWorkspaceNeighbor']" name="hidden">1</attr>
+  <attr path="/api/namespace/object[@cname='WnckTasklist']/method[@name='GetMinimumHeight']" name="hidden">1</attr>
+  <attr path="/api/namespace/object[@cname='WnckTasklist']/method[@name='GetMinimumWidth']" name="hidden">1</attr>
+  <attr path="/api/namespace/object[@cname='WnckTasklist']/method[@name='GetSizeHintList']" name="hidden">1</attr>
+  <attr path="/api/namespace/object[@cname='WnckTasklist']/method[@name='SetScreen']" name="hidden">1</attr>
+  <attr path="/api/namespace/object[@cname='WnckTasklist']/method[@name='SetMinimumHeight']" name="hidden">1</attr>
+  <attr path="/api/namespace/object[@cname='WnckTasklist']/method[@name='SetMinimumWidth']" name="hidden">1</attr>
+  <attr path="/api/namespace/object[@cname='WnckWindow']/method[@name='IsFullscreen']" name="name">GetIsFullscreen</attr>
+  <attr path="/api/namespace/object[@cname='WnckWindow']/method[@name='IsSkipPager']" name="name">GetIsSkipPager</attr>
+  <attr path="/api/namespace/object[@cname='WnckWindow']/method[@name='IsSkipTasklist']" name="name">GetIsSkipTasklist</attr>
+  <attr path="/api/namespace/object" name="disable_gtype_ctor">true</attr>
+  <attr path="/api/namespace/struct[@cname='WnckWorkspaceLayout']" name="hidden">1</attr>
+  <attr path="/api/namespace/struct[@cname='WnckResourceUsage']" name="hidden">1</attr>
+</metadata>

@@ -1,0 +1,803 @@
+<gconfschemafile>
+	<schemalist>
+		<schema>
+			<key>/schemas/apps/docky-2/Clippy/ClippyItem/MaxEntries</key>
+			<applyto>/apps/docky-2/Clippy/ClippyItem/MaxEntries</applyto>
+			<owner>docky</owner>
+			<type>int</type>
+			<default>15</default>
+			<locale name="C">
+				<short>Max Entries</short>
+				<long>How many recent clipboard selections to show.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Clippy/ClippyItem/TimerDelay</key>
+			<applyto>/apps/docky-2/Clippy/ClippyItem/TimerDelay</applyto>
+			<owner>docky</owner>
+			<type>int</type>
+			<default>500</default>
+			<locale name="C">
+				<short>Timer Delay</short>
+				<long>How often to poll (in ms) for new clipboard data.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Clippy/ClippyItem/TrackMouseSelections</key>
+			<applyto>/apps/docky-2/Clippy/ClippyItem/TrackMouseSelections</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Track Mouse Selections</short>
+				<long>If true, tracks the mouse selection clipboard. If false, tracks the secondary clipboard.</long>
+			</locale>
+		</schema>
+
+		<schema>
+			<key>/schemas/apps/docky-2/Clock/ClockDockItem/ClockTheme</key>
+			<applyto>/apps/docky-2/Clock/ClockDockItem/ClockTheme</applyto>
+			<owner>docky</owner>
+			<type>string</type>
+			<default>default</default>
+			<locale name="C">
+				<short>Analog clock theme</short>
+				<long>The theme for the analog clock.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Clock/ClockDockItem/ShowDate</key>
+			<applyto>/apps/docky-2/Clock/ClockDockItem/ShowDate</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Show date</short>
+				<long>If true, the date should show on the digital clock.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Clock/ClockDockItem/ShowDigital</key>
+			<applyto>/apps/docky-2/Clock/ClockDockItem/ShowDigital</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Show the digital clock</short>
+				<long>If true, show the digital clock otherwise show the analog clock.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Clock/ClockDockItem/ShowMilitary</key>
+			<applyto>/apps/docky-2/Clock/ClockDockItem/ShowMilitary</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Use 24-hr time</short>
+				<long>If true, shows time in 24-hr format.</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/CPUMonitor/CPUMonitorDockItem/ClickCommand</key>
+			<applyto>/apps/docky-2/CPUMonitor/CPUMonitorDockItem/ClickCommand</applyto>
+			<owner>docky</owner>
+			<type>string</type>
+			<default>gnome-system-monitor</default>
+			<locale name="C">
+				<short>Left click command</short>
+				<long>This is the command to execute when left clicking on the CPU docklet item.</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/DockController/ActiveDocks</key>
+			<applyto>/apps/docky-2/Docky/DockController/ActiveDocks</applyto>
+			<owner>docky</owner>
+			<type>list</type>
+			<list_type>string</list_type>
+			<default>[Dock1]</default>
+			<locale name="C">
+				<short>List of active docks</short>
+				<long>This lists all the currently active (displayed) docks, by name.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/DockController/CompositeCheckEnabled</key>
+			<applyto>/apps/docky-2/Docky/DockController/CompositeCheckEnabled</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short>Enable checks for compositing</short>
+				<long>If true, Docky will check for compositing and warn if it is not available.</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/AutohideManager/UnhideDelay</key>
+			<applyto>/apps/docky-2/Docky/Interface/AutohideManager/UnhideDelay</applyto>
+			<owner>docky</owner>
+			<type>int</type>
+			<default>0</default>
+			<locale name="C">
+				<short>How long to wait (ms) before unhiding</short>
+				<long>This is the time (in milliseconds) to wait before unhiding a hidden dock when the cursor moves over it.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/AutohideManager/UpdateDelay</key>
+			<applyto>/apps/docky-2/Docky/Interface/AutohideManager/UpdateDelay</applyto>
+			<owner>docky</owner>
+			<type>int</type>
+			<default>200</default>
+			<locale name="C">
+				<short>How long to wait (ms) to update after a window switch</short>
+				<long>This is the time (in milliseconds) to wait to determine if a window switch causes a (un)hide.</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockDragTracker/LockDrags</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockDragTracker/LockDrags</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Stop items from dragging</short>
+				<long>If true, locks all items on all docks so they can't be dragged.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockDragTracker/ProvidersAcceptDrops</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockDragTracker/ProvidersAcceptDrops</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short>Prevent adding items by drops</short>
+				<long>If false, prevents dropping items onto the dock to add them to the dock.</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/FirstRun</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/FirstRun</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short>Do not change this!</short>
+				<long>If true, this is the first time Docky has run.  Internal use only - Do not change!</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/Autohide</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock1/Autohide</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock2/Autohide</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock3/Autohide</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock4/Autohide</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock5/Autohide</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock6/Autohide</applyto>
+			<owner>docky</owner>
+			<type>string</type>
+			<default>None</default>
+			<locale name="C">
+				<short>Dock's hiding mode</short>
+				<long>The dock's hide mode.  Possible values are: None, Autohide, Intellihide, UniversalIntellihide</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/FadeOnHide</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock1/FadeOnHide</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock2/FadeOnHide</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock3/FadeOnHide</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock4/FadeOnHide</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock5/FadeOnHide</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock6/FadeOnHide</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Fade when hiding</short>
+				<long>If true, when the dock hides it will fade away instead of sliding off screen.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/FadeOpacity</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock1/FadeOpacity</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock2/FadeOpacity</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock3/FadeOpacity</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock4/FadeOpacity</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock5/FadeOpacity</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock6/FadeOpacity</applyto>
+			<owner>docky</owner>
+			<type>float</type>
+			<default>0</default>
+			<locale name="C">
+				<short>Opacity to fade to</short>
+				<long>If fading when hiding, this is the opacity the dock fades to. 1 is solid, 0 is invisible.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/HotAreaPadding</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock1/HotAreaPadding</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock2/HotAreaPadding</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock3/HotAreaPadding</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock4/HotAreaPadding</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock5/HotAreaPadding</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock6/HotAreaPadding</applyto>
+			<owner>docky</owner>
+			<type>int</type>
+			<default>24</default>
+			<locale name="C">
+				<short>Hot-area padding</short>
+				<long>The number of extra pixels to pad the hover area on the top of the dock.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/IconSize</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock1/IconSize</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock2/IconSize</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock3/IconSize</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock4/IconSize</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock5/IconSize</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock6/IconSize</applyto>
+			<owner>docky</owner>
+			<type>int</type>
+			<default>48</default>
+			<locale name="C">
+				<short>Dock icon size</short>
+				<long>The size of icons on the dock.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/IndicateMultipleWindows</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock1/IndicateMultipleWindows</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock2/IndicateMultipleWindows</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock3/IndicateMultipleWindows</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock4/IndicateMultipleWindows</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock5/IndicateMultipleWindows</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock6/IndicateMultipleWindows</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short>Indicate when items have more than one window</short>
+				<long>If true, items with more than one window have two indicator dots instead of just one dot.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/Launchers</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock1/Launchers</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock2/Launchers</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock3/Launchers</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock4/Launchers</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock5/Launchers</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock6/Launchers</applyto>
+			<owner>docky</owner>
+			<type>list</type>
+			<list_type>string</list_type>
+			<default>[]</default>
+			<locale name="C">
+				<short>List of launchers</short>
+				<long>This is the list of all the launchers on this dock.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/MonitorNumber</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock1/MonitorNumber</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock2/MonitorNumber</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock3/MonitorNumber</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock4/MonitorNumber</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock5/MonitorNumber</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock6/MonitorNumber</applyto>
+			<owner>docky</owner>
+			<type>int</type>
+			<default>0</default>
+			<locale name="C">
+				<short>Which monitor the dock is on</short>
+				<long>This is the monitor the dock exists on.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/PanelMode</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock1/PanelMode</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock2/PanelMode</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock3/PanelMode</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock4/PanelMode</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock5/PanelMode</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock6/PanelMode</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>If the dock is a panel</short>
+				<long>If true, the dock is in panel mode and will extend to fill the entire screen edge.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/Plugins</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock1/Plugins</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock2/Plugins</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock3/Plugins</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock4/Plugins</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock5/Plugins</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock6/Plugins</applyto>
+			<owner>docky</owner>
+			<type>list</type>
+			<list_type>string</list_type>
+			<default>[]</default>
+			<locale name="C">
+				<short>Plugins on this dock</short>
+				<long>A list of plugins that are active on this dock.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/Position</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock1/Position</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock2/Position</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock3/Position</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock4/Position</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock5/Position</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock6/Position</applyto>
+			<owner>docky</owner>
+			<type>string</type>
+			<default>Bottom</default>
+			<locale name="C">
+				<short>The dock's position</short>
+				<long>The dock's position on the screen. Possible values are: Bottom, Top, Left, Right</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/SortList</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock1/SortList</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock2/SortList</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock3/SortList</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock4/SortList</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock5/SortList</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock6/SortList</applyto>
+			<owner>docky</owner>
+			<type>list</type>
+			<list_type>string</list_type>
+			<default>[]</default>
+			<locale name="C">
+				<short>Sorts the items on the dock</short>
+				<long>Used to sort the items on the dock.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/ThreeDimensional</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock1/ThreeDimensional</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock2/ThreeDimensional</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock3/ThreeDimensional</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock4/ThreeDimensional</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock5/ThreeDimensional</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock6/ThreeDimensional</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Dock is 3d</short>
+				<long>If true, the dock is drawn as a 3d dock.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/WindowManager</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock1/WindowManager</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock2/WindowManager</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock3/WindowManager</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock4/WindowManager</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock5/WindowManager</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock6/WindowManager</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short>Dock manages all windows</short>
+				<long>If true, any windows without launchers will show on this dock. Exactly 1 dock must have this set to true.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/ZoomEnabled</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock1/ZoomEnabled</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock2/ZoomEnabled</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock3/ZoomEnabled</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock4/ZoomEnabled</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock5/ZoomEnabled</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock6/ZoomEnabled</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short>Dock zooms</short>
+				<long>If true, the dock will zoom when hovered.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/ZoomPercent</key>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock1/ZoomPercent</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock2/ZoomPercent</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock3/ZoomPercent</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock4/ZoomPercent</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock5/ZoomPercent</applyto>
+			<applyto>/apps/docky-2/Docky/Interface/DockPreferences/Dock6/ZoomPercent</applyto>
+			<owner>docky</owner>
+			<type>float</type>
+			<default>2.0</default>
+			<locale name="C">
+				<short>Zoom size</short>
+				<long>The dock's zoom size (if enabled), as a percent.</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Items/DockyItem/DockyItemCommand</key>
+			<applyto>/apps/docky-2/Docky/Items/DockyItem/DockyItemCommand</applyto>
+			<owner>docky</owner>
+			<type>string</type>
+			<default></default>
+			<locale name="C">
+				<short>Docky item command to execute</short>
+				<long>The command to execute when left-clicking the Docky item or "" for default behavior (which opens the configuration dialog).</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Items/DockyItem/HoverText</key>
+			<applyto>/apps/docky-2/Docky/Items/DockyItem/HoverText</applyto>
+			<owner>docky</owner>
+			<type>string</type>
+			<default>Docky</default>
+			<locale name="C">
+				<short>Docky item hover text</short>
+				<long>The text to show when hovering the Docky item.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Items/DockyItem/Hue</key>
+			<applyto>/apps/docky-2/Docky/Items/DockyItem/Hue</applyto>
+			<owner>docky</owner>
+			<type>int</type>
+			<default>0</default>
+			<locale name="C">
+				<short>Docky item hue</short>
+				<long>Set the color of the Docky icon. 0 means use the GTK+ theme color.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Items/DockyItem/ShowDockyItem</key>
+			<applyto>/apps/docky-2/Docky/Items/DockyItem/ShowDockyItem</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short>Show the Docky item</short>
+				<long>If true, shows the Docky item on the dock managing windows.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Items/DockyItem/ShowQuit</key>
+			<applyto>/apps/docky-2/Docky/Items/DockyItem/ShowQuit</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short>Show Quit in Docky item menu</short>
+				<long>If true, the Docky item popup menu shows the Quit option.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Items/DockyItem/ShowSettings</key>
+			<applyto>/apps/docky-2/Docky/Items/DockyItem/ShowSettings</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short>Show Settings in Docky item menu</short>
+				<long>If true, the Docky item popup menu shows the Settings option.</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Items/FileApplicationProvider/AllowPinToDock</key>
+			<applyto>/apps/docky-2/Docky/Items/FileApplicationProvider/AllowPinToDock</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short>Show 'Pin to Dock' for items</short>
+				<long>If the 'Pin to Dock' option should show in the menu of items, allowing you to add it permanently to the dock.</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Items/WnckDockItem/CurrentDesktopOnly</key>
+			<applyto>/apps/docky-2/Docky/Items/WnckDockItem/CurrentDesktopOnly</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Show windows from only current desktop</short>
+				<long>If true, Docky will only show windows on the currently active desktop.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Items/WnckDockItem/ShowHovers</key>
+			<applyto>/apps/docky-2/Docky/Items/WnckDockItem/ShowHovers</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short>Show hover text labels for launchers</short>
+				<long>If false, Docky will not show hover texts for launchers (but still show for plugins).</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Services/HelperService/ShowOutput</key>
+			<applyto>/apps/docky-2/Docky/Services/HelperService/ShowOutput</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short>Redirect helper output to Docky's output</short>
+				<long>If true, output from the helpers will be redirected to show in Docky's output.</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Services/ThemeService/GlowTime</key>
+			<applyto>/apps/docky-2/Docky/Services/ThemeService/GlowTime</applyto>
+			<owner>docky</owner>
+			<type>int</type>
+			<default>10</default>
+			<locale name="C">
+				<short>Urgent indicator glow animation time (in seconds)</short>
+				<long>How long the urgent indicator glow animation is (in seconds), 0 to disable, or -1 for infinite.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Services/ThemeService/Theme</key>
+			<applyto>/apps/docky-2/Docky/Services/ThemeService/Theme</applyto>
+			<owner>docky</owner>
+			<type>string</type>
+			<default>Classic</default>
+			<locale name="C">
+				<short>The current theme</short>
+				<long>The name of the current Docky theme.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Docky/Services/ThemeService/UrgentHue</key>
+			<applyto>/apps/docky-2/Docky/Services/ThemeService/UrgentHue</applyto>
+			<owner>docky</owner>
+			<type>int</type>
+			<default>150</default>
+			<locale name="C">
+				<short>Urgent indicator color shift</short>
+				<long>How much to shift the color of the urgent indicator. The value can be from -180 to 180.</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/GMail/GMailPreferences/Labels</key>
+			<applyto>/apps/docky-2/GMail/GMailPreferences/Labels</applyto>
+			<owner>docky</owner>
+			<type>list</type>
+			<list_type>string</list_type>
+			<default>[]</default>
+			<locale name="C">
+				<short>GMail labels to check</short>
+				<long>List of custom GMail labels to check in addition to the inbox.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/GMail/GMailPreferences/LastChecked</key>
+			<applyto>/apps/docky-2/GMail/GMailPreferences/LastChecked</applyto>
+			<owner>docky</owner>
+			<type>string</type>
+			<default></default>
+			<locale name="C">
+				<short>Last time checked</short>
+				<long>The last time Docky checked GMail for messages.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/GMail/GMailPreferences/NeedsAttention</key>
+			<applyto>/apps/docky-2/GMail/GMailPreferences/NeedsAttention</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short>Show indicator dot for unread mail</short>
+				<long>If true, when there is new unread mail Docky will show the indicator dot.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/GMail/GMailPreferences/Notify</key>
+			<applyto>/apps/docky-2/GMail/GMailPreferences/Notify</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short>Show a notify for unread mail</short>
+				<long>If true, shows a notify message for new unread mail.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/GMail/GMailPreferences/RefreshRate</key>
+			<applyto>/apps/docky-2/GMail/GMailPreferences/RefreshRate</applyto>
+			<owner>docky</owner>
+			<type>int</type>
+			<default>15</default>
+			<locale name="C">
+				<short>How often to check</short>
+				<long>How often (in mins) to check for new mail.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/GMail/GMailPreferences/User</key>
+			<applyto>/apps/docky-2/GMail/GMailPreferences/User</applyto>
+			<owner>docky</owner>
+			<type>string</type>
+			<default></default>
+			<locale name="C">
+				<short>GMail username</short>
+				<long>The GMail username to check.</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/NPR/NPR/MyStations</key>
+			<applyto>/apps/docky-2/NPR/NPR/MyStations</applyto>
+			<owner>docky</owner>
+			<type>list</type>
+			<list_type>int</list_type>
+			<default>[]</default>
+			<locale name="C">
+				<short>NPR stations</short>
+				<long>List of NPR stations to display.</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/RecentDocuments/RecentDocumentsItem/AlwaysShowRecent</key>
+			<applyto>/apps/docky-2/RecentDocuments/RecentDocumentsItem/AlwaysShowRecent</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Show most recent doc</short>
+				<long>If true, will try to show the most recent document on the dock.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/RecentDocuments/RecentDocumentsItem/NumRecentDocs</key>
+			<applyto>/apps/docky-2/RecentDocuments/RecentDocumentsItem/NumRecentDocs</applyto>
+			<owner>docky</owner>
+			<type>int</type>
+			<default>7</default>
+			<locale name="C">
+				<short>Number of recent docs</short>
+				<long>The number of most recent documents to show.</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/SessionManager/SessionManagerItem/CurrentIndex</key>
+			<applyto>/apps/docky-2/SessionManager/SessionManagerItem/CurrentIndex</applyto>
+			<owner>docky</owner>
+			<type>int</type>
+			<default>0</default>
+			<locale name="C">
+				<short>Currently selected item</short>
+				<long>The currently selected item in the session manager menu.</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/Timer/TimerMainDockItem/AutoDismissTimers</key>
+			<applyto>/apps/docky-2/Timer/TimerMainDockItem/AutoDismissTimers</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Clear finished timers</short>
+				<long>If true, timers will disappear when they time out.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Timer/TimerMainDockItem/AutoStartTimers</key>
+			<applyto>/apps/docky-2/Timer/TimerMainDockItem/AutoStartTimers</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Start all new timers</short>
+				<long>If true, all new timers will automatically start.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Timer/TimerMainDockItem/DefaultTimer</key>
+			<applyto>/apps/docky-2/Timer/TimerMainDockItem/DefaultTimer</applyto>
+			<owner>docky</owner>
+			<type>int</type>
+			<default>30</default>
+			<locale name="C">
+				<short>New timer length</short>
+				<long>The default time (in secs) for any new timers.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/Timer/TimerMainDockItem/DismissOnClick</key>
+			<applyto>/apps/docky-2/Timer/TimerMainDockItem/DismissOnClick</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short>Dismiss a stopped timer when clicked</short>
+				<long>If false, finished timers will reset instead of dismiss.</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/WeatherDocklet/WeatherPreferences/Location</key>
+			<applyto>/apps/docky-2/WeatherDocklet/WeatherPreferences/Location</applyto>
+			<owner>docky</owner>
+			<type>list</type>
+			<list_type>string</list_type>
+			<default>[]</default>
+			<locale name="C">
+				<short>Weather locations</short>
+				<long>The list of weather locations to check.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/WeatherDocklet/WeatherPreferences/Metric</key>
+			<applyto>/apps/docky-2/WeatherDocklet/WeatherPreferences/Metric</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>false</default>
+			<locale name="C">
+				<short>Use metric units</short>
+				<long>If true, use metric units when showing weather.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/WeatherDocklet/WeatherPreferences/Source</key>
+			<applyto>/apps/docky-2/WeatherDocklet/WeatherPreferences/Source</applyto>
+			<owner>docky</owner>
+			<type>string</type>
+			<default>Weather Underground</default>
+			<locale name="C">
+				<short>The weather source</short>
+				<long>The name of the weather source to get weather information from.</long>
+			</locale>
+		</schema>
+		<schema>
+			<key>/schemas/apps/docky-2/WeatherDocklet/WeatherPreferences/Timeout</key>
+			<applyto>/apps/docky-2/WeatherDocklet/WeatherPreferences/Timeout</applyto>
+			<owner>docky</owner>
+			<type>int</type>
+			<default>30</default>
+			<locale name="C">
+				<short>How often to check</short>
+				<long>How often to check for new weather information.</long>
+			</locale>
+		</schema>
+		
+		<schema>
+			<key>/schemas/apps/docky-2/WorkspaceSwitcher/WorkspaceSwitcherDockItem/WrappedScrolling</key>
+			<applyto>/apps/docky-2/WorkspaceSwitcher/WorkspaceSwitcherDockItem/WrappedScrolling</applyto>
+			<owner>docky</owner>
+			<type>bool</type>
+			<default>true</default>
+			<locale name="C">
+				<short>If scrolling wraps</short>
+				<long>If true, scrolling one direction through all workspaces is possible.</long>
+			</locale>
+		</schema>
+	</schemalist>
+</gconfschemafile>
