@@ -5,7 +5,6 @@ SUBDIRS = \
 	Clock \
 	Desktop \
 	CPUMonitor \
-	GMail \
 	Mounter \
 	NetworkManager \
 	NetworkMonitor \
@@ -24,7 +23,6 @@ DIST_SUBDIRS = \
 	Clock \
 	Desktop \
 	CPUMonitor \
-	GMail \
 	Mounter \
 	NetworkManager \
 	NetworkMonitor \
