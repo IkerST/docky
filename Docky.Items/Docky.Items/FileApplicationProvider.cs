@@ -235,61 +235,63 @@ namespace Docky.Items
 		/// </summary>
 		public void UpdateTransientItems ()
 		{
-			// if we are not a window-manager-provider then remove transient items
-			if (!IsWindowManager) {
-				RemoveTransientItems (transient_items.ToList ());
-				return;
-			}
-
-			if (longMatchInProgress)
-				return;
-
-			// handle unmanaged windows
-			foreach (Wnck.Window window in UnmanagedWindows) {
-				if (transient_items.Where (adi => adi is WnckDockItem)
-					.Cast<WnckDockItem> ()
-					.SelectMany (wdi => wdi.Windows)
-					.Contains (window))
-					continue;
-				
-				DesktopItem desktopItem = DockServices.WindowMatcher.DesktopItemForWindow (window);
-				WnckDockItem item;
-				
-				if (desktopItem != null) {
-					// This fixes WindowMatching for OpenOffice which is a bit slow setting up its window title
-					// Check if an existing ApplicationDockItem already uses this DesktopItem
-					ApplicationDockItem appdi = InternalItems
-						.Where (adi => (adi is ApplicationDockItem && (adi as ApplicationDockItem).OwnedItem == desktopItem))
-						.Cast<ApplicationDockItem> ()
-						.FirstOrDefault ();
-					
-					// Try again to gain this missing window
-					if (appdi != null) {
-						appdi.RecollectWindows ();
-						continue;
-					}
-					
-					item = new ApplicationDockItem (desktopItem);
-				} else {
-					item = new WindowDockItem (window);
+			GLib.ExceptionManager.UnhandledException += (unhandledException) => {
+				// if we are not a window-manager-provider then remove transient items
+				if (!IsWindowManager) {
+					RemoveTransientItems (transient_items.ToList ());
+					return;
 				}
-				
-				transient_items.Add (item);
-				item.WindowsChanged += HandleTransientWindowsChanged;
-			}
-			
-			// remove old transient items
-			List<WnckDockItem> removed_transient_items = new List<WnckDockItem> ();
-			foreach (WnckDockItem wdi in transient_items.Where (adi => adi is WnckDockItem).Cast<WnckDockItem> ()) {
-				foreach (Wnck.Window window in ManagedWindows)
-					if (wdi.Windows.Contains (window)) {
-						removed_transient_items.Add (wdi);
+
+				if (longMatchInProgress)
+					return;
+
+				// handle unmanaged windows
+				foreach (Wnck.Window window in UnmanagedWindows) {
+					if (transient_items.Where (adi => adi is WnckDockItem)
+						.Cast<WnckDockItem> ()
+						.SelectMany (wdi => wdi.Windows)
+						.Contains (window))
 						continue;
+				
+					DesktopItem desktopItem = DockServices.WindowMatcher.DesktopItemForWindow (window);
+					WnckDockItem item;
+				
+					if (desktopItem != null) {
+						// This fixes WindowMatching for OpenOffice which is a bit slow setting up its window title
+						// Check if an existing ApplicationDockItem already uses this DesktopItem
+						ApplicationDockItem appdi = InternalItems
+							.Where (adi => (adi is ApplicationDockItem && (adi as ApplicationDockItem).OwnedItem == desktopItem))
+							.Cast<ApplicationDockItem> ()
+							.FirstOrDefault ();
+
+						// Try again to gain this missing window
+						if (appdi != null) {
+							appdi.RecollectWindows ();
+							continue;
+						}
+					
+						item = new ApplicationDockItem (desktopItem);
+					} else {
+						item = new WindowDockItem (window);
 					}
-				if (!wdi.ManagedWindows.Any ())
-					removed_transient_items.Add (wdi);
-			}
-			RemoveTransientItems (removed_transient_items);
+
+					transient_items.Add (item);
+					item.WindowsChanged += HandleTransientWindowsChanged;
+				}
+
+				// remove old transient items
+				List<WnckDockItem> removed_transient_items = new List<WnckDockItem> ();
+				foreach (WnckDockItem wdi in transient_items.Where (adi => adi is WnckDockItem).Cast<WnckDockItem> ()) {
+					foreach (Wnck.Window window in ManagedWindows)
+						if (wdi.Windows.Contains (window)) {
+							removed_transient_items.Add (wdi);
+							continue;
+						}
+					if (!wdi.ManagedWindows.Any ())
+						removed_transient_items.Add (wdi);
+				}
+				RemoveTransientItems (removed_transient_items);
+			};
 		}
 		
 		void RemoveTransientItems (IEnumerable<WnckDockItem> items)
