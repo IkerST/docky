@@ -52,7 +52,6 @@ namespace Docky.Services
 		
 		public static void Init (bool disableHelpers)
 		{
-			System.Initialize ();
 			if (!disableHelpers)
 				Helpers.Initialize ();
 			Theme.Initialize ();
