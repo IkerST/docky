@@ -152,7 +152,7 @@ namespace Docky.Services
 		
 		delegate void StateChangedHandler (uint state);
 		
-		public bool NetworkConnected { get; private set; }
+		public bool NetworkConnected = true;
 		
 		void OnConnectionStatusChanged (uint state)
 		{
