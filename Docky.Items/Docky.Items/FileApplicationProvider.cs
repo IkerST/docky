@@ -296,15 +296,17 @@ namespace Docky.Items
 		
 		void RemoveTransientItems (IEnumerable<WnckDockItem> items)
 		{
-			foreach (WnckDockItem adi in items) {
-				adi.WindowsChanged -= HandleTransientWindowsChanged;
-				transient_items.Remove (adi);
-			}
+			GLib.ExceptionManager.UnhandledException += (unhandledException) => {
+				foreach (WnckDockItem adi in items) {
+					adi.WindowsChanged -= HandleTransientWindowsChanged;
+					transient_items.Remove (adi);
+				}
 			
-			Items = InternalItems;
+				Items = InternalItems;
 			
-			foreach (AbstractDockItem adi in items)
-				adi.Dispose();
+				foreach (AbstractDockItem adi in items)
+					adi.Dispose();
+			};
 		}
 
 		void HandleTransientWindowsChanged (object sender, EventArgs e)
