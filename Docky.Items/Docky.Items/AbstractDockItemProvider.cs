@@ -57,7 +57,7 @@ namespace Docky.Items
 					item.Position = position;
 					position++;
 				}
-				
+				Console.WriteLine("Item IS: {0}", value.ToString ());
 				items = value.ToArray ();
 				foreach (AbstractDockItem item in items)
 					item.Owner = this;
