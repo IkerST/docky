@@ -63,4 +63,4 @@ REFERENCES =  \
 	$(WNCK_SHARP_10_LIBS) \
 	$(NOTIFY_SHARP_LIBS)
 
-MCS_FLAGS += -unsafe
+MCS_FLAGS += -unsafe -debug
